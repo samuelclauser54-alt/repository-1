@@ -243,7 +243,9 @@
     "id": "c02-float",
     "title": "Code 2: 0.1 + 0.2 and bfloat16",
     "video": "c02-float.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "18097900457135386",
+    "posted_at": "2026-11-01T18:26:10.949733+00:00"
   },
   {
     "id": "l03-matrix",
