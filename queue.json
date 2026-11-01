@@ -235,7 +235,9 @@
     "id": "s02-walk",
     "title": "Stochastic calculus 2: random walks and sqrt(t)",
     "video": "s02-walk.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "18120227542969909",
+    "posted_at": "2026-11-01T01:02:08.190488+00:00"
   },
   {
     "id": "c02-float",
