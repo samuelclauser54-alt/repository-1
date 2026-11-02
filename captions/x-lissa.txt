@@ -1,0 +1,10 @@
+What a chord looks like 🔊
+
+One note goes to the left speaker and the other to the right. Plot left against right and you get these Lissajous figures, which is exactly what an oscilloscope shows.
+
+• octave 2:1, fifth 3:2, fourth 4:3, major third 5:4: simple whole-number ratios, so the pattern closes into a loop and the chord sounds smooth
+• tritone ≈ √2:1: there's no simple ratio, so the curve never repeats. It fills the square, and the interval sounds tense
+
+Pythagoras noticed the ratio part 2,500 years ago with strings. (Pure ratios here. A piano's equal tuning is slightly off from them, which is why its figures slowly spin.)
+
+#music #math #physics #lissajous #musictheory

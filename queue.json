@@ -272,5 +272,41 @@
     "title": "The sound of a heart (sonified heart curves)",
     "video": "heart.mp4",
     "status": "queued"
+  },
+  {
+    "id": "x-dpend",
+    "title": "500 double pendulums (chaos)",
+    "video": "x-dpend.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-shapes",
+    "title": "What shapes sound like (Fourier harmonics)",
+    "video": "x-shapes.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-lissa",
+    "title": "What a chord looks like (Lissajous)",
+    "video": "x-lissa.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-pwave",
+    "title": "Pendulum wave (15 lengths, 24 s loop)",
+    "video": "x-pwave.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-lorenz",
+    "title": "Lorenz attractor: two paths a billionth apart",
+    "video": "x-lorenz.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-galton",
+    "title": "Galton board: 1500 balls make a bell curve",
+    "video": "x-galton.mp4",
+    "status": "queued"
   }
 ]

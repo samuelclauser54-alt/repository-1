@@ -1,0 +1,9 @@
+500 double pendulums. Each one starts a billionth of a degree away from the next.
+
+For 11 seconds they move as one. Then the gap, which doubles every 0.46 s, finally gets big enough to see, and they scatter.
+
+There's no randomness anywhere in this. I simulated every pendulum with the exact same equations of motion (RK4, 1 m arms, g = 9.81). A double pendulum is chaotic: tiny differences grow exponentially. It's the same reason weather forecasts give out after about two weeks.
+
+Sound: each pendulum plays a note set by its height. Together they play one melody, and then 500.
+
+#physics #chaostheory #doublependulum #simulation #math

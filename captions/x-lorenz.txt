@@ -1,0 +1,9 @@
+Two paths through the Lorenz equations, starting one billionth apart.
+
+For about 12 seconds they're indistinguishable. The gap grows roughly 2.5× per time unit, so after about 23 time units a billionth has become the size of the whole butterfly.
+
+Edward Lorenz found this in 1963 while running a 3-equation weather model. He re-entered a number rounded to 3 decimals instead of 6, and the forecast came out completely different. That's the butterfly effect, and it's the real reason weather forecasts stop working after about two weeks.
+
+Sound: each path plays a note whenever it switches wings (orange in your left ear, blue in your right). Listen for the moment they stop agreeing.
+
+#chaostheory #lorenzattractor #math #physics #butterflyeffect

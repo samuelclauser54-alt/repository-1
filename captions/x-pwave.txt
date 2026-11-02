@@ -1,0 +1,9 @@
+15 pendulums, each a slightly different length. Released together, they drift into snakes, then 4 groups, 3 groups, 2 groups … and after exactly 24 seconds, they're all back in sync. (So this video loops perfectly.)
+
+The trick is T = 2π√(L/g). Pendulum k is cut so it swings exactly 16 + k times in 24 s, which makes its length L = g·(24 s / 2π(16+k))². That works out to 55.9 cm for the longest and 15.9 cm for the shortest.
+
+At 12 s, every odd pendulum has done a half swing more than its neighbour, so you get two rows. At 8 s it's a third of a swing, so three groups. The patterns are fractions.
+
+Each pendulum rings its own note when it passes the middle.
+
+#physics #pendulumwave #satisfying #math #simulation

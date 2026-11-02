@@ -1,0 +1,9 @@
+1,500 balls. Every peg is a fair coin flip: left or right.
+
+No single ball is predictable, but the pile always comes out as a bell curve. A ball that ends in bin k went right exactly k times out of 12, and there are C(12, k) ways to do that, so P(k) = C(12, k)/2¹².
+
+The middle bin has 924 ways in, and the edge bins have 1. Add up enough independent random nudges and you get the normal distribution. That's the central limit theorem, and it's why heights, test scores and measurement errors all come out bell-shaped.
+
+(The red curve is the normal approximation from the formula, not fitted to the balls.)
+
+#math #statistics #probability #galtonboard #satisfying

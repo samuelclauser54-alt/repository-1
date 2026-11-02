@@ -1,0 +1,12 @@
+What shapes sound like 🔊
+
+A dot runs around each shape a hundred-plus times a second. Its x position drives the left speaker and its y position drives the right, so the shape literally is the sound wave.
+
+A circle is a single pure tone. Each corner adds overtones (the yellow bars, which are the shape's Fourier series):
+• triangle: overtones 2, 4, 5, 7, 8 … (every 3rd one is missing, and each is 1/n² as loud)
+• square: 3, 5, 7, 9 …
+• star: loud 4th and 6th overtones, so the brightest sound of the four
+
+Sharper corners mean more high harmonics, which means a brighter, buzzier sound. That's also why a square wave sounds harsher than a sine.
+
+#math #fourier #physics #soundwaves #oscilloscopemusic
