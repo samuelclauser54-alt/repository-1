@@ -1,13 +1,13 @@
 """Post the next queued reel to Instagram. Runs from GitHub Actions cron.
 
-Two slots a day (from 2026-10-27, user asked for 2/day): a random minute
-  10:30-1:00 and 5:30-7:30 pm Chicago time. GitHub cron is unreliable (runs come
+Three slots a day (from 2026-11-02, user asked for 3/day): a random minute
+  8:30-10:30 am, 1:30-3:00 pm and 6:30-8:00 pm Chicago time. GitHub cron is unreliable (runs come
   hours late or get dropped), so cron fires ~7 times per window and
   wait_for_slot() makes sure exactly one of them posts, catching up if late.
 
 Safety rules (to look like a normal creator, never like a bot):
-  * at most TWO posts per day, never two within 5 hours (3/day in Oct 2026
-    got two reels throttled to ~150 views)
+  * at most THREE posts per day, never two within 3 hours (3/day in Oct 2026
+    got the third reel throttled to ~150-300 views; spacing them out is the mitigation)
   * never re-post something whose caption is already on the account
   * caption must have <= 5 hashtags and <= 2200 chars
   * reels unticked in the "Upcoming posts" issue are skipped
@@ -30,11 +30,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE = os.path.join(ROOT, "queue.json")
 IG = "https://graph.instagram.com/v25.0"
 DRY = os.environ.get("DRY_RUN", "") in ("1", "true")
-MIN_GAP = timedelta(hours=5)
+MIN_GAP = timedelta(hours=3)
 CHI = ZoneInfo("America/Chicago")
 # local hours: start, aim-by, latest catch-up
 # windows run back to back so a late cron run (GitHub often drops most of them) still catches the slot
-WINDOWS = {"midday": (10.5, 13, 17), "evening": (17.5, 19.5, 23.5)}
+WINDOWS = {"morning": (8.5, 10.5, 13), "midday": (13.5, 15, 18), "evening": (18.5, 20, 23.5)}
 
 
 def windows(now):

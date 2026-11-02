@@ -266,5 +266,11 @@
     "title": "Stochastic calculus 3: (dW)^2 = dt",
     "video": "s03-qv.mp4",
     "status": "queued"
+  },
+  {
+    "id": "heart",
+    "title": "The sound of a heart (sonified heart curves)",
+    "video": "heart.mp4",
+    "status": "queued"
   }
 ]

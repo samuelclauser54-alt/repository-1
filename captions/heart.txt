@@ -1,0 +1,10 @@
+This is what a heart sounds like 🔊
+
+Every sound in this reel is the heart shape itself. A dot runs around the curve a few hundred times a second: its x position drives the left speaker, its y position drives the right. Change the equation and the sound changes with it.
+
+5 hearts, 5 ways to graph one:
+parametric, polar, implicit, two graphs, and one graph where k keeps rising until the wiggles fill the heart in.
+
+Even the heartbeat is the heart, traced fast and dropping in pitch.
+
+#math #manim #desmos #oscilloscopemusic #mathart
