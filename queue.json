@@ -362,5 +362,11 @@
     "title": "Why a drum doesn't play a note (Bessel modes)",
     "video": "x-drum.mp4",
     "status": "queued"
+  },
+  {
+    "id": "d05-basel",
+    "title": "Derivations 5: Basel problem, pi^2/6",
+    "video": "d05-basel.mp4",
+    "status": "queued"
   }
 ]

@@ -1,0 +1,16 @@
+1 + 1/4 + 1/9 + 1/16 + … = π²/6. So where's the circle?
+
+Computed partial sums: 10 terms 1.5498, 100 terms 1.6350, 1000 terms 1.6439. The limit is 1.6449.
+
+Euler's 1734 trick: sin(x)/x equals 1 at x = 0 and crosses zero at ±π, ±2π, ±3π, … A polynomial is pinned down by its roots, so he wrote it as a product:
+sin x / x = (1 − x²/π²)(1 − x²/4π²)(1 − x²/9π²)…
+
+Taylor series gives the same function as 1 − x²/6 + …
+
+Match the x² terms: −(1/π²)(1 + 1/4 + 1/9 + …) = −1/6, so the sum is π²/6. The π comes from sine's roots, which sit at every whole multiple of π.
+
+(Making the infinite product rigorous took another century: the Weierstrass factorization theorem.)
+
+Derivations, part 5.
+
+#math #calculus #derivation #euler #pi
