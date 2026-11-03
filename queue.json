@@ -350,5 +350,17 @@
     "title": "Why a drum doesn't play a note (Bessel modes)",
     "video": "x-drum.mp4",
     "status": "queued"
+  },
+  {
+    "id": "c03-memory",
+    "title": "Code 3: why a 70B model needs 140 GB",
+    "video": "c03-memory.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "p05-noether",
+    "title": "Physics 5: Noether, symmetry gives conservation",
+    "video": "p05-noether.mp4",
+    "status": "queued"
   }
 ]

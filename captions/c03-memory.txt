@@ -1,0 +1,14 @@
+Why a 70B model needs 140 GB, and how 4-bit gets it to ~37.
+
+All computed in PyTorch:
+• memory = elements × element size. One 8192×8192 bf16 layer is 67,108,864 numbers = 134 MB
+• Llama 3 70B (70.6B params): fp32 282 GB, bf16 141 GB, int8 71 GB, int4 35 GB (37.5 GB with the group scales)
+• int4 = 16 levels per weight, one scale per 64 weights. On my test matrix, that's 10.8% error per weight, and good 4-bit models still score within a few percent of the original
+
+The hidden bill is the KV cache: 80 layers × 8 KV heads × 128 dims × (K and V) × 2 bytes = 0.33 MB per token. 128k tokens of context = 43 GB, which is more than the 4-bit model.
+
+Training with Adam needs about 16 bytes per weight, so 1.13 TB.
+
+Code, part 3.
+
+#machinelearning #python #pytorch #llm #ai

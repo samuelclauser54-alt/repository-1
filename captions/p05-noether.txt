@@ -1,0 +1,17 @@
+Why is energy conserved at all?
+
+Emmy Noether (1918): if shifting something leaves the action unchanged, that's a symmetry, and every symmetry hands you a conserved quantity.
+
+• same laws at every time → energy
+• same at every place → momentum
+• same in every direction → angular momentum
+
+A pendulum's Lagrangian has no t in it, so E = θ̇ ∂L/∂θ̇ − L = KE + PE can't change. I simulated 100 swings and it stayed constant to 6×10⁻¹².
+
+Break the time symmetry by shortening the string twice per swing, like pumping a swing. In my sim it goes from 5° to 37° in 20 s, and the energy grows 35×.
+
+Kepler orbit (e = 0.6): every 1/8 of the period sweeps the same area, 0.3142. That's angular momentum, from rotational symmetry.
+
+Physics, part 5.
+
+#physics #noether #symmetry #math #classicalmechanics
