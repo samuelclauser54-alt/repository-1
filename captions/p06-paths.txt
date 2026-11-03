@@ -1,0 +1,14 @@
+How "the ball takes every path" turns back into "the ball takes one path".
+
+Feynman's rule: every path gets an arrow e^(iS/ħ). Same length, angle = action/ħ. Add all the arrows tip to tail, and the final arrow gives the probability of arriving.
+
+Computed for the throw from Physics 1, with 2,201 paths and a toy ħ = 0.5:
+• the 1,600 wild paths: arrows spin and cancel, total length 15 (under 1%)
+• the 9% of paths near the real arc: total length 144, i.e. the whole answer
+Near the true path the action is stationary (the first-order change is zero, from part 4), so those arrows line up. That curly shape is a Cornu spiral.
+
+With the real ħ = 1.05×10⁻³⁴ J·s, the arrows spin about 10³³× faster and only the classical path survives. Least action is what quantum mechanics looks like when ħ is tiny. Same reason mirrors reflect at equal angles.
+
+Physics, part 6.
+
+#physics #quantummechanics #feynman #math #science

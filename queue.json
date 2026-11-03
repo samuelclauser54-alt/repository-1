@@ -392,5 +392,11 @@
     "title": "ML models 2: curse of dimensionality + feature selection",
     "video": "m02-curse.mp4",
     "status": "queued"
+  },
+  {
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
+    "status": "queued"
   }
 ]
