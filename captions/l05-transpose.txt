@@ -1,0 +1,13 @@
+Backpropagation is just transposes, run in reverse.
+
+Forward: y = Wx. Backward: let g = ∂L/∂y. Input xⱼ fed every output through column j of W, so its share of the blame is that column dotted with g. Do that for every input and you get ∂L/∂x = Wᵀg.
+
+Checked numerically: W = [[2, −1], [0.5, 1.5], [−1, 0.5]], x = (1, 2) gives Wᵀg = (1.75, 5.25). Central finite differences give the same, to within 9×10⁻¹⁰.
+
+The weight gradient is ∂L/∂W = g xᵀ, a rank-1 matrix: for a 4096-wide layer, 16,777,216 numbers built from 8,192. (USAAIO Round 1 asks about exactly this kind of rank-1 structure.)
+
+Stacked layers: blame flows back through W₂ᵀ, then W₁ᵀ.
+
+Linear algebra for ML, part 5.
+
+#machinelearning #linearalgebra #backpropagation #math #ai

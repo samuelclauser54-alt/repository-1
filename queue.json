@@ -380,5 +380,11 @@
     "title": "Stochastic calculus 5: deriving Black-Scholes",
     "video": "s05-bs.mp4",
     "status": "queued"
+  },
+  {
+    "id": "l05-transpose",
+    "title": "Linear algebra for ML 5: backprop is the transpose",
+    "video": "l05-transpose.mp4",
+    "status": "queued"
   }
 ]
