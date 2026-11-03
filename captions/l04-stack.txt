@@ -1,0 +1,9 @@
+Stacking 10 matrices gives you exactly one matrix.
+
+W₂(W₁x) = (W₂W₁)x. Every linear layer keeps grid lines straight, parallel and evenly spaced, so any stack of them does too, and any map like that is a single matrix. I trained both on these two moons: 1 linear layer scored 91.3%, and 10 stacked linear layers scored 91.3%.
+
+The fix is one line: ReLU(x) = max(0, x). It folds space along the axes, and a fold isn't a matrix, so the layers can't collapse anymore. A 2 → 8 → 2 network with ReLU scored 100%. The orange lines are its 8 real learned creases (w·x + b = 0).
+
+Linear algebra for ML, part 4.
+
+#machinelearning #linearalgebra #neuralnetworks #math #ai

@@ -280,15 +280,39 @@
     "posted_at": "2026-11-03T01:17:09.139676+00:00"
   },
   {
+    "id": "p04-el",
+    "title": "Physics 4: Euler-Lagrange from least action",
+    "video": "p04-el.mp4",
+    "status": "queued"
+  },
+  {
     "id": "x-dpend",
     "title": "500 double pendulums (chaos)",
     "video": "x-dpend.mp4",
     "status": "queued"
   },
   {
+    "id": "l04-stack",
+    "title": "Linear algebra for ML 4: stacking matrices collapses; ReLU",
+    "video": "l04-stack.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "s04-gbm",
+    "title": "Stochastic calculus 4: Ito on a stock price",
+    "video": "s04-gbm.mp4",
+    "status": "queued"
+  },
+  {
     "id": "x-shapes",
     "title": "What shapes sound like (Fourier harmonics)",
     "video": "x-shapes.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "d04-euler",
+    "title": "Derivations 4: e^(i pi) = -1 as walking a circle",
+    "video": "d04-euler.mp4",
     "status": "queued"
   },
   {
@@ -313,6 +337,18 @@
     "id": "x-galton",
     "title": "Galton board: 1500 balls make a bell curve",
     "video": "x-galton.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-chladni",
+    "title": "Chladni plate: sand finds the nodal lines",
+    "video": "x-chladni.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-drum",
+    "title": "Why a drum doesn't play a note (Bessel modes)",
+    "video": "x-drum.mp4",
     "status": "queued"
   }
 ]

@@ -1,0 +1,14 @@
+e^(iπ) = −1 is a statement about walking in a circle.
+
+e^t is the function whose rate of change is itself. Put i in the exponent: d/dt e^(it) = i·e^(it). Multiplying by i turns a number 90°, so your velocity is always your position turned 90°, with length 1. Velocity perpendicular to position at speed 1 means you're walking around the unit circle at 1 radian per second.
+
+Walk for π seconds and you're halfway round, at −1.
+
+Check it with compound interest (computed): (1 + iπ/n)ⁿ
+n = 10 → −1.593 + 0.156i
+n = 100 → −1.051
+n = 1000 → −1.005
+
+Derivations, part 4.
+
+#math #calculus #euler #complexnumbers #derivation

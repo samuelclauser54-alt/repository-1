@@ -1,0 +1,14 @@
+How "least action" turns into an equation you can actually solve.
+
+Same throw as Physics 1, computed for real. Nudge the true path by 0.1 m and its action changes by just 0.0123. Nudge a wrong path the same way and it changes by 1.24. Shrink the nudge 10× and the true path's change drops 100×, because it goes like the nudge squared. The first-order change is exactly zero: that's what being at the bottom means.
+
+Write out that first-order change, integrate by parts, and you need ∫(∂L/∂y − d/dt ∂L/∂ẏ) η dt = 0 for every bump η. So the bracket itself is zero:
+
+d/dt (∂L/∂q̇) = ∂L/∂q. That's the Euler–Lagrange equation.
+
+Ball: L = ½mẏ² − mgy gives mÿ = −mg.
+Pendulum: L = ½mℓ²θ̇² + mgℓ cos θ gives θ̈ = −(g/ℓ) sin θ, with no string tension needed.
+
+Physics, part 4.
+
+#physics #lagrangian #calculus #math #classicalmechanics

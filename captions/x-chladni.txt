@@ -1,0 +1,9 @@
+Sand on a vibrating plate always ends up drawing the same patterns.
+
+Wherever the plate moves, the sand gets kicked. Where it doesn't move (the nodal lines), the sand stays put, so after a second every grain has wandered onto a line. Raise the note and the plate vibrates in a more complicated mode, which means more lines.
+
+The simulation: 9,000 grains, each kicked in proportion to how much the plate moves under it. The plate shape is the classic square-plate mode cos(nπx)cos(mπy) − cos(mπx)cos(nπy), with frequency ∝ n² + m².
+
+Ernst Chladni did this with a violin bow in 1787. Napoleon was so impressed he funded a prize to explain it.
+
+#physics #chladni #satisfying #math #soundwaves

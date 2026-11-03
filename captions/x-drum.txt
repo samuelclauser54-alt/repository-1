@@ -1,0 +1,9 @@
+Why a guitar plays a note and a drum just goes "thud".
+
+A string vibrates in modes at exactly 1, 2, 3, 4 … times its lowest frequency. Those overtones are evenly spaced, so your brain fuses them into a single pitch.
+
+A round drumhead's modes are set by the zeros of Bessel functions: 2.405, 3.832, 5.136, 5.520 … Divide by the first and you get 1, 1.59, 2.14, 2.30, 2.65 … They aren't whole-number multiples, so there's no single pitch to hear.
+
+(It's also why timpani are built with a kettle underneath. The air inside nudges those modes closer to a harmonic series.)
+
+#physics #music #math #soundwaves #acoustics

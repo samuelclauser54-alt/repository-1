@@ -1,0 +1,12 @@
+This stock averages +10% a year, and 44% of its paths still lost money over 10 years.
+
+The model is dS = μS dt + σS dW. Ordinary calculus would say log-growth is just μ. But (dW)² = dt, so Itô's lemma adds a second-order term:
+d ln S = (μ − ½σ²) dt + σ dW
+
+With μ = 10% and σ = 40%, the typical growth is 10% − 8% = 2% a year.
+
+I simulated 10,000 paths (daily steps, 10 years). The average ended at 2.72×, the median at 1.22×, and 74% of paths finished below the average. A −50% day needs a +100% day to recover, so volatility drags the typical path down while a few huge winners pull up the mean.
+
+Stochastic calculus, part 4.
+
+#stochasticcalculus #quant #math #finance #investing
