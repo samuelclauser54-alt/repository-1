@@ -291,7 +291,9 @@
     "id": "x-dpend",
     "title": "500 double pendulums (chaos)",
     "video": "x-dpend.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "17987809314088712",
+    "posted_at": "2026-11-03T19:42:04.864167+00:00"
   },
   {
     "id": "l04-stack",
