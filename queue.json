@@ -386,5 +386,11 @@
     "title": "Linear algebra for ML 5: backprop is the transpose",
     "video": "l05-transpose.mp4",
     "status": "queued"
+  },
+  {
+    "id": "m02-curse",
+    "title": "ML models 2: curse of dimensionality + feature selection",
+    "video": "m02-curse.mp4",
+    "status": "queued"
   }
 ]

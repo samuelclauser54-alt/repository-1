@@ -1,0 +1,18 @@
+More features can make a model worse. It's a geometry problem.
+
+Scatter 1,000 random points (computed):
+• 2 dimensions: the farthest point is 165× farther than the nearest
+• 1,000 dimensions: only 1.12× farther
+
+Each extra dimension adds its own random amount to every distance, so in high dimensions everything ends up about equally far away and "nearest neighbor" stops meaning much.
+
+On the Wine dataset (kNN, macro F1, same split as part 1):
+• 13 real features: 0.974
+• + 1,000 noise columns: 0.644, and the real features are now just 1.3% of each distance
+• keep the 13 columns that best separate the grapes (ANOVA F-test, fit on the training set only): 0.974. 12 of those 13 are the real features
+
+(I tried PCA too, and it doesn't fix this one: after scaling, the noise columns have just as much variance as the real ones.)
+
+ML models, part 2.
+
+#machinelearning #usaaio #datascience #python #ai
