@@ -1,0 +1,14 @@
+A whole ML model, start to finish, the way USAAIO Round 1 asks it (kNN on tabular data, scored with macro F1).
+
+Real run (scikit-learn, Wine dataset: 178 wines, 13 chemical features, 3 grapes, stratified 80/20 split):
+1. Lock away a test set (36 wines)
+2. k-nearest neighbors, k = 5, raw features → macro F1 0.582
+3. Proline runs 278–1680 while hue is 0.48–1.71, so 99.8% of every distance was proline
+4. Standardize: x' = (x − μ)/σ, fit on train only → 0.945
+5. Choose k by 5-fold cross-validation on the training set only (k = 25) → test 0.974
+
+The loop never changes: split, scale, model, score, tune. Only touch the test set once.
+
+ML models, part 1.
+
+#machinelearning #usaaio #datascience #python #ai

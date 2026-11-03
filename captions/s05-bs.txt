@@ -1,0 +1,18 @@
+The Black–Scholes equation comes from one trick: an option and its stock can cancel each other's randomness.
+
+Itô's lemma on the option value V(S, t) gives a random part of Δ·σS·dW, where Δ = ∂V/∂S. Hold the option and short Δ shares, and the stock's random part, also Δ·σS·dW, cancels it.
+
+I simulated it (1-yr at-the-money call, σ = 20%, 10,000 paths). The seller's profit spread:
+• do nothing: $18.98
+• hedge monthly: $1.86
+• weekly: $0.93
+• daily: $0.43
+
+A riskless portfolio has to earn the risk-free rate (or there's free money), and setting dΠ = rΠ dt gives
+∂V/∂t + ½σ²S² ∂²V/∂S² + rS ∂V/∂S − rV = 0
+
+μ, the stock's expected return, cancels out completely, which is why episode 1's price didn't depend on it.
+
+Stochastic calculus, part 5.
+
+#stochasticcalculus #blackscholes #quant #finance #math

@@ -368,5 +368,17 @@
     "title": "Derivations 5: Basel problem, pi^2/6",
     "video": "d05-basel.mp4",
     "status": "queued"
+  },
+  {
+    "id": "m01-pipeline",
+    "title": "ML models 1: kNN pipeline, macro F1 (USAAIO)",
+    "video": "m01-pipeline.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "s05-bs",
+    "title": "Stochastic calculus 5: deriving Black-Scholes",
+    "video": "s05-bs.mp4",
+    "status": "queued"
   }
 ]
