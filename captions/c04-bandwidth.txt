@@ -1,0 +1,14 @@
+Your GPU is mostly waiting on memory, not doing math.
+
+Measured on my laptop (Apple M4, NumPy, float32):
+• 4096×4096 matrix multiply: 1,217 GFLOP/s
+• adding two 50M-element arrays: 6.4 GFLOP/s (77 GB/s)
+Same chip, 190× apart.
+
+The difference is arithmetic intensity, operations per byte loaded: matmul reuses each number thousands of times (683 FLOP/byte here), while add uses each one once (0.08). Below the chip's own FLOPs-to-bandwidth ratio, you're memory-bound.
+
+LLM decoding reads every weight once per token and does about 2 operations with it, so its intensity is about 1. That makes it bandwidth-bound: a 37.5 GB 4-bit 70B model on a 1 TB/s GPU can do at most about 27 tokens/s. Batching 100 users shares each weight load and raises the intensity 100×.
+
+Code, part 4.
+
+#python #machinelearning #gpu #llm #programming
