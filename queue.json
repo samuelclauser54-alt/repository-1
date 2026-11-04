@@ -299,7 +299,9 @@
     "id": "l04-stack",
     "title": "Linear algebra for ML 4: stacking matrices collapses; ReLU",
     "video": "l04-stack.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "18121403219064866",
+    "posted_at": "2026-11-04T01:06:09.899131+00:00"
   },
   {
     "id": "s04-gbm",
