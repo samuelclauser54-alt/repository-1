@@ -315,7 +315,9 @@
     "id": "m01-pipeline",
     "title": "ML models 1: kNN pipeline, macro F1 (USAAIO)",
     "video": "m01-pipeline.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "18117434194827735",
+    "posted_at": "2026-11-04T20:01:56.766931+00:00"
   },
   {
     "id": "x-shapes",
