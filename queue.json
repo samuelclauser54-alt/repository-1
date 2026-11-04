@@ -307,7 +307,9 @@
     "id": "s04-gbm",
     "title": "Stochastic calculus 4: Ito on a stock price",
     "video": "s04-gbm.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "18098901302548777",
+    "posted_at": "2026-11-04T16:10:35.521435+00:00"
   },
   {
     "id": "m01-pipeline",
