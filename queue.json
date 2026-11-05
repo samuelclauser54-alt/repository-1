@@ -339,7 +339,9 @@
     "id": "c03-memory",
     "title": "Code 3: why a 70B model needs 140 GB",
     "video": "c03-memory.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "18077487719471815",
+    "posted_at": "2026-11-05T20:45:18.204904+00:00"
   },
   {
     "id": "x-lissa",
