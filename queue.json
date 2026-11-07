@@ -363,7 +363,9 @@
     "id": "l05-transpose",
     "title": "Linear algebra for ML 5: backprop is the transpose",
     "video": "l05-transpose.mp4",
-    "status": "queued"
+    "status": "posted",
+    "media_id": "18045426131833581",
+    "posted_at": "2026-11-07T01:35:55.902172+00:00"
   },
   {
     "id": "x-pwave",
