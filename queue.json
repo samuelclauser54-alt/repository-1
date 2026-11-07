@@ -378,8 +378,10 @@
     "id": "s05-bs",
     "title": "Stochastic calculus 5: deriving Black-Scholes",
     "video": "s05-bs.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "17999913984044968",
+    "posted_at": "2026-11-07T05:29:12.380003+00:00"
   },
   {
     "id": "x-ergodic",
