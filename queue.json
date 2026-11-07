@@ -416,11 +416,11 @@
     "thumb_ms": 6600
   },
   {
-    "id": "x-paint",
-    "title": "AI paints Mona Lisa",
-    "video": "x-paint.mp4",
+    "id": "x-lotto",
+    "title": "Lottery 50 years",
+    "video": "x-lotto.mp4",
     "status": "queued",
-    "thumb_ms": 9000
+    "thumb_ms": 17500
   },
   {
     "id": "x-traffic",
@@ -437,11 +437,39 @@
     "trial": false
   },
   {
+    "id": "x-early",
+    "title": "Save 18-30 vs 30-65",
+    "video": "x-early.mp4",
+    "status": "queued",
+    "thumb_ms": 14000
+  },
+  {
     "id": "x-monty",
     "title": "Monty Hall 900 games",
     "video": "x-monty.mp4",
     "status": "queued",
     "thumb_ms": 4000
+  },
+  {
+    "id": "x-bday",
+    "title": "Birthday problem",
+    "video": "x-bday.mp4",
+    "status": "queued",
+    "thumb_ms": 7400
+  },
+  {
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
+    "status": "queued",
+    "trial": false
+  },
+  {
+    "id": "x-descent",
+    "title": "1000 AIs gradient descent",
+    "video": "x-descent.mp4",
+    "status": "queued",
+    "thumb_ms": 12500
   },
   {
     "id": "x-3body",
@@ -451,16 +479,16 @@
     "thumb_ms": 11000
   },
   {
-    "id": "x-lotto",
-    "title": "Lottery 50 years",
-    "video": "x-lotto.mp4",
+    "id": "x-paint",
+    "title": "AI paints Mona Lisa",
+    "video": "x-paint.mp4",
     "status": "queued",
-    "thumb_ms": 17500
+    "thumb_ms": 9000
   },
   {
-    "id": "p06-paths",
-    "title": "Physics 6: Feynman's sum over paths",
-    "video": "p06-paths.mp4",
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
     "status": "queued",
     "trial": false
   },
@@ -472,32 +500,11 @@
     "thumb_ms": 9000
   },
   {
-    "id": "x-descent",
-    "title": "1000 AIs gradient descent",
-    "video": "x-descent.mp4",
+    "id": "x-martingale",
+    "title": "Martingale: double your bet after every loss",
+    "video": "x-martingale.mp4",
     "status": "queued",
-    "thumb_ms": 12500
-  },
-  {
-    "id": "x-bday",
-    "title": "Birthday problem",
-    "video": "x-bday.mp4",
-    "status": "queued",
-    "thumb_ms": 7400
-  },
-  {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
-    "status": "queued",
-    "trial": false
-  },
-  {
-    "id": "x-turing",
-    "title": "Turing patterns spots vs stripes",
-    "video": "x-turing.mp4",
-    "status": "queued",
-    "thumb_ms": 14000
+    "thumb_ms": 15500
   },
   {
     "id": "x-3pend",
@@ -507,18 +514,11 @@
     "thumb_ms": 12000
   },
   {
-    "id": "x-early",
-    "title": "Save 18-30 vs 30-65",
-    "video": "x-early.mp4",
+    "id": "x-turing",
+    "title": "Turing patterns spots vs stripes",
+    "video": "x-turing.mp4",
     "status": "queued",
     "thumb_ms": 14000
-  },
-  {
-    "id": "x-martingale",
-    "title": "Martingale: double your bet after every loss",
-    "video": "x-martingale.mp4",
-    "status": "queued",
-    "thumb_ms": 15500
   },
   {
     "id": "x-sand",
