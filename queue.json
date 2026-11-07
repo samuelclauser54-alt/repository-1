@@ -498,5 +498,23 @@
     "title": "Galton board: 1500 balls make a bell curve",
     "video": "x-galton.mp4",
     "status": "queued"
+  },
+  {
+    "id": "x-ant",
+    "title": "Langton's ant",
+    "video": "x-ant.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-paint",
+    "title": "AI paints Mona Lisa",
+    "video": "x-paint.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-sand",
+    "title": "Sandpile 200k grains",
+    "video": "x-sand.mp4",
+    "status": "queued"
   }
 ]

@@ -1,0 +1,13 @@
+I dropped 200,000 grains of sand on one square and got this. ⏳
+
+The only rule: when a square holds 4 grains, it topples and gives 1 grain to each of its 4 neighbors. That can push a neighbor to 4, which topples too, and so on: an avalanche. Drop the next grain, repeat.
+
+Colors show how many grains each square holds when everything settles: dark = 0, blue = 1, teal = 2, gold = 3.
+
+Nobody designed this pattern. The triangles, the fractal edges and the 8-sided outline all come from that one rule. The camera keeps zooming out so the pile fills the screen; it ends up about 330 squares wide.
+
+This is the Bak–Tang–Wiesenfeld sandpile (1987), the classic example of "self-organized criticality." Physicists use it to think about avalanches, earthquakes and forest fires: systems where one tiny push can set off an event of any size.
+
+What does it look like to you? 👇
+
+#math #fractal #physics #simulation #emergence

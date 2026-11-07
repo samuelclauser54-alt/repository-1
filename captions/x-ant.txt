@@ -1,0 +1,14 @@
+One ant, two rules, and 10,000 steps of chaos. Then, out of nowhere, it starts building a road. 🐜
+
+The rules (Langton's ant, 1986):
+• on a light square, turn right; on a dark square, turn left
+• flip the square's color and step forward
+That's the whole program.
+
+For about 10,000 steps it makes an unpredictable mess. Then at step 9,976 it falls into a 104-step cycle that repeats forever, and each lap moves it 2 squares diagonally: the "highway." Turn the sound on and you can hear it lock into the rhythm.
+
+The strange part: it seems to build a highway no matter what pattern you start it on, but nobody has ever proved that it always does. Two rules, and the question is still open.
+
+What would you have guessed it does? 👇
+
+#math #emergence #simulation #chaos #computerscience

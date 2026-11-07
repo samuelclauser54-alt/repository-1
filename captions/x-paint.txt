@@ -1,0 +1,11 @@
+This AI doesn't store a single pixel of the Mona Lisa. It learned one function: give it a point (x, y) and it returns a color. 🎨
+
+It starts as random static. Each training step it guesses colors for 4,096 random points, checks them against the painting, and nudges all 197,891 of its numbers to be a bit less wrong. The face shows up around step 50, and by step 100 it's clearly her.
+
+The painting you're looking at is the network's own output, drawn at 270×405, more pixels than it ever trained on (120×180). The in-between pixels are its own guesses.
+
+The technique is a "neural field" (Fourier features → two layers of 256 → RGB), the same idea behind NeRF, which builds 3D scenes from photos. I wrote it in plain NumPy with hand-written backprop.
+
+What should it paint next? 👇
+
+#ai #machinelearning #monalisa #art #python
