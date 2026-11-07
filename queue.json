@@ -410,10 +410,11 @@
     "trial": true
   },
   {
-    "id": "x-lorenz",
-    "title": "Lorenz attractor: two paths a billionth apart",
-    "video": "x-lorenz.mp4",
-    "status": "queued"
+    "id": "x-3pend",
+    "title": "500 triple pendulums (chaos, part 2)",
+    "video": "x-3pend.mp4",
+    "status": "queued",
+    "thumb_ms": 12000
   },
   {
     "id": "p06-paths",
@@ -423,9 +424,9 @@
     "trial": true
   },
   {
-    "id": "x-galton",
-    "title": "Galton board: 1500 balls make a bell curve",
-    "video": "x-galton.mp4",
+    "id": "x-lorenz",
+    "title": "Lorenz attractor: two paths a billionth apart",
+    "video": "x-lorenz.mp4",
     "status": "queued"
   },
   {
@@ -434,6 +435,12 @@
     "video": "c04-bandwidth.mp4",
     "status": "queued",
     "trial": true
+  },
+  {
+    "id": "x-galton",
+    "title": "Galton board: 1500 balls make a bell curve",
+    "video": "x-galton.mp4",
+    "status": "queued"
   },
   {
     "id": "x-chladni",

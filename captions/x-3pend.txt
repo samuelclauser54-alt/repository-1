@@ -1,0 +1,9 @@
+500 triple pendulums. All 500 start within 0.00000006° of each other.
+
+With three arms instead of two, chaos shows up even sooner: the spread grows about 700× every 2 seconds, so in under 10 seconds a gap you could never measure becomes a completely different swing.
+
+Same equations of motion for every pendulum (equal 1 kg masses, 1 m arms, RK4 in double precision). No randomness anywhere, just deterministic physics that's impossible to predict.
+
+Part 2 of the double pendulum reel. Should I do 4 arms next?
+
+#physics #chaostheory #triplependulum #simulation #math
