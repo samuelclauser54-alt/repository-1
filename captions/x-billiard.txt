@@ -1,0 +1,9 @@
+1,000 billiard balls, launched from the same spot, aimed 0.000006° apart. Same balls, two tables.
+
+On the circle they stay together forever: a circular table is "integrable", so the motion is perfectly predictable. On the stadium (a rectangle with round ends) the curved walls amplify every tiny difference, and within seconds the balls fill the whole table.
+
+This is the Bunimovich stadium, one of the classic examples of chaos (1979). All it takes is gluing two half-circles to a rectangle.
+
+Every ball is simulated with plain mirror reflections and no randomness. Each bounce plays a note.
+
+#physics #chaostheory #math #simulation #satisfying

@@ -368,10 +368,11 @@
     "posted_at": "2026-11-07T01:35:55.902172+00:00"
   },
   {
-    "id": "x-pwave",
-    "title": "Pendulum wave (15 lengths, 24 s loop)",
-    "video": "x-pwave.mp4",
-    "status": "queued"
+    "id": "x-dpfractal",
+    "title": "300,000 double pendulums, one per pixel",
+    "video": "x-dpfractal.mp4",
+    "status": "queued",
+    "thumb_ms": 6000
   },
   {
     "id": "s05-bs",
@@ -381,9 +382,30 @@
     "trial": true
   },
   {
+    "id": "x-ergodic",
+    "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
+    "video": "x-ergodic.mp4",
+    "status": "queued",
+    "thumb_ms": 15000
+  },
+  {
     "id": "m02-curse",
     "title": "ML models 2: curse of dimensionality + feature selection",
     "video": "m02-curse.mp4",
+    "status": "queued",
+    "trial": true
+  },
+  {
+    "id": "x-billiard",
+    "title": "1,000 balls: circle vs stadium (chaos)",
+    "video": "x-billiard.mp4",
+    "status": "queued",
+    "thumb_ms": 12000
+  },
+  {
+    "id": "d05-basel",
+    "title": "Derivations 5: Basel problem, pi^2/6",
+    "video": "d05-basel.mp4",
     "status": "queued",
     "trial": true
   },
@@ -392,13 +414,6 @@
     "title": "Lorenz attractor: two paths a billionth apart",
     "video": "x-lorenz.mp4",
     "status": "queued"
-  },
-  {
-    "id": "d05-basel",
-    "title": "Derivations 5: Basel problem, pi^2/6",
-    "video": "d05-basel.mp4",
-    "status": "queued",
-    "trial": true
   },
   {
     "id": "p06-paths",
@@ -424,6 +439,12 @@
     "id": "x-chladni",
     "title": "Chladni plate: sand finds the nodal lines",
     "video": "x-chladni.mp4",
+    "status": "queued"
+  },
+  {
+    "id": "x-pwave",
+    "title": "Pendulum wave (15 lengths, 24 s loop)",
+    "video": "x-pwave.mp4",
     "status": "queued"
   },
   {

@@ -1,0 +1,13 @@
+This bet makes you 5% richer on average. It will almost certainly make you poorer.
+
+Heads: +50%. Tails: −40%. The expected value is +5% per flip, so it looks like a great deal.
+
+I simulated 10,000 players, $100 each, 100 flips:
+• average player: $10,665
+• typical (median) player: $0.52
+• 86% lost money, 54% have under $1
+• one player has $46.9M, which is 44% of all the money
+
+The average is carried by a handful of lottery winners. What happens to you is multiplicative: one heads and one tails gives ×1.5 × 0.6 = ×0.9, so the typical path shrinks about 5% per flip. Economists call it ergodicity: the average over people isn't the average over time.
+
+#math #probability #investing #economics #simulation

@@ -1,0 +1,9 @@
+300,000 double pendulums, one per pixel.
+
+Each pixel is its own double pendulum. Its x position sets arm 1's starting angle and its y position sets arm 2's, so neighbors start a hair apart. The color shows both angles at each moment.
+
+Where the picture stays smooth, nearby starts stay close and the motion is predictable. Where it dissolves into static, the motion is chaotic: a tiny change in where you start gives a completely different swing. The calm island in the middle is the low-energy region, where the pendulum can't flip over.
+
+All 291,600 are simulated with the same equations (RK4, 1 m arms, g = 9.81). No randomness anywhere.
+
+#physics #chaostheory #doublependulum #fractal #simulation
