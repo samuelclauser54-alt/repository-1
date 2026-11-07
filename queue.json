@@ -505,6 +505,13 @@
     "thumb_ms": 12000
   },
   {
+    "id": "x-early",
+    "title": "Save 18-30 vs 30-65",
+    "video": "x-early.mp4",
+    "status": "queued",
+    "thumb_ms": 14000
+  },
+  {
     "id": "x-martingale",
     "title": "Martingale: double your bet after every loss",
     "video": "x-martingale.mp4",

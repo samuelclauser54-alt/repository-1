@@ -1,0 +1,16 @@
+Same $200 a month. One person saves from 18 to 30 and then stops for good. The other starts at 30 and keeps going until 65. Who has more at 65? 📈
+
+• early saver: puts in $28,800, typical balance at 65: $296,291
+• late saver: puts in $84,000, typical balance at 65: $270,153
+
+I didn't use a fixed 7% like the usual chart. I simulated 10,000 random stock markets (yearly returns averaging 7% after inflation, with real-world swings of ±17%). The early saver ends up ahead in 54% of them. So about 12 years starting at 18 is worth roughly the same as 35 years starting at 30.
+
+The thin lines are 150 of the simulated markets for each saver, and the thick lines are the typical (median) outcome. Balances are in today's dollars.
+
+The best plan is both: start early AND keep going.
+
+How old were you when you started? 👇
+
+Follow for a new simulation every day.
+
+#money #investing #compoundinterest #personalfinance #math
