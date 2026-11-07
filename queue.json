@@ -368,13 +368,6 @@
     "posted_at": "2026-11-07T01:35:55.902172+00:00"
   },
   {
-    "id": "x-dpfractal",
-    "title": "300,000 double pendulums, one per pixel",
-    "video": "x-dpfractal.mp4",
-    "status": "queued",
-    "thumb_ms": 6000
-  },
-  {
     "id": "s05-bs",
     "title": "Stochastic calculus 5: deriving Black-Scholes",
     "video": "s05-bs.mp4",
@@ -384,18 +377,18 @@
     "posted_at": "2026-11-07T05:29:12.380003+00:00"
   },
   {
+    "id": "x-dpfractal",
+    "title": "300,000 double pendulums, one per pixel",
+    "video": "x-dpfractal.mp4",
+    "status": "queued",
+    "thumb_ms": 6000
+  },
+  {
     "id": "x-ergodic",
     "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
     "video": "x-ergodic.mp4",
     "status": "queued",
     "thumb_ms": 15000
-  },
-  {
-    "id": "m02-curse",
-    "title": "ML models 2: curse of dimensionality + feature selection",
-    "video": "m02-curse.mp4",
-    "status": "queued",
-    "trial": true
   },
   {
     "id": "x-billiard",
@@ -405,11 +398,11 @@
     "thumb_ms": 12000
   },
   {
-    "id": "d05-basel",
-    "title": "Derivations 5: Basel problem, pi^2/6",
-    "video": "d05-basel.mp4",
+    "id": "m02-curse",
+    "title": "ML models 2: curse of dimensionality + feature selection",
+    "video": "m02-curse.mp4",
     "status": "queued",
-    "trial": true
+    "trial": false
   },
   {
     "id": "x-3pend",
@@ -419,13 +412,6 @@
     "thumb_ms": 12000
   },
   {
-    "id": "p06-paths",
-    "title": "Physics 6: Feynman's sum over paths",
-    "video": "p06-paths.mp4",
-    "status": "queued",
-    "trial": true
-  },
-  {
     "id": "x-martingale",
     "title": "Martingale: double your bet after every loss",
     "video": "x-martingale.mp4",
@@ -433,17 +419,17 @@
     "thumb_ms": 15500
   },
   {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
-    "status": "queued",
-    "trial": true
-  },
-  {
     "id": "x-lorenz",
     "title": "Lorenz attractor: two paths a billionth apart",
     "video": "x-lorenz.mp4",
     "status": "queued"
+  },
+  {
+    "id": "d05-basel",
+    "title": "Derivations 5: Basel problem, pi^2/6",
+    "video": "d05-basel.mp4",
+    "status": "queued",
+    "trial": false
   },
   {
     "id": "x-galton",
@@ -464,9 +450,23 @@
     "status": "queued"
   },
   {
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
+    "status": "queued",
+    "trial": false
+  },
+  {
     "id": "x-drum",
     "title": "Why a drum doesn't play a note (Bessel modes)",
     "video": "x-drum.mp4",
     "status": "queued"
+  },
+  {
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
+    "status": "queued",
+    "trial": false
   }
 ]
