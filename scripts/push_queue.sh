@@ -12,7 +12,8 @@ loc, rem = json.load(open(sys.argv[1])), json.load(open(sys.argv[2]))
 ids = {x["id"] for x in rem}
 order = [x["id"] for x in loc]                       # keep MY order for queued reels
 remd = {x["id"]: x for x in rem}
-merged = [remd.get(x["id"], x) for x in loc] + [x for x in rem if x["id"] not in {y["id"] for y in loc}]
+# remote wins once a reel is posted/failed (Actions wrote it); while still queued, local edits (order, trial flag) win
+merged = [remd[x["id"]] if x["id"] in remd and remd[x["id"]]["status"] != "queued" else x for x in loc] + [x for x in rem if x["id"] not in {y["id"] for y in loc}]
 posted = [x for x in merged if x["status"] != "queued"]
 queued = [x for x in merged if x["status"] == "queued"]
 json.dump(posted + queued, open("queue.json.merged", "w"), indent=2)

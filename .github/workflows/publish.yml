@@ -11,6 +11,8 @@ on:
     # midday slot (12:30-2 pm Chicago) on 3-a-day dates
     - cron: "37 17,18,19 * * *"
     - cron: "7 18,19,20,21 * * *"
+    # Trial Reels lane (11-13, 16-18, 21-23:30 Chicago); the night window needs 3-5 UTC
+    - cron: "7,37 3,4,5 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

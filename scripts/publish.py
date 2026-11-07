@@ -35,6 +35,12 @@ CHI = ZoneInfo("America/Chicago")
 # local hours: start, aim-by, latest catch-up
 # windows run back to back so a late cron run (GitHub often drops most of them) still catches the slot
 WINDOWS = {"morning": (8.5, 10.5, 13), "midday": (13.5, 15, 18), "evening": (18.5, 20, 23.5)}
+# Trial Reels lane (from 2026-11-06): entries with "trial": true go out as Instagram Trial Reels (shown to
+# non-followers first, auto-graduated to followers if they do well: graduation_strategy SS_PERFORMANCE).
+# Own windows and gaps, so they never displace a main post.
+TRIAL_WINDOWS = {"trial-late-morning": (11, 12, 13), "trial-afternoon": (16, 17, 18), "trial-night": (21, 22, 23.5)}
+TRIAL_GAP = timedelta(hours=2)
+ANY_GAP = timedelta(minutes=45)
 
 
 def windows(now):
@@ -47,13 +53,13 @@ def at_hour(now, h):
 SCHEDULED = os.environ.get("GITHUB_EVENT_NAME") == "schedule" or os.environ.get("SLOT_CHECK") == "true"
 
 
-def wait_for_slot(last):
+def wait_for_slot(last, wins=None):
     """Scheduled runs only. GitHub cron can fire hours late or not at all, so it
     fires many times per window and this decides: post once per slot, at a random
     minute between start and aim-by; a late run (cron delay) catches up right
     away, up to the latest hour. Runs outside every slot just exit."""
     now = datetime.now(CHI)
-    for name, (a, b, late) in windows(now).items():
+    for name, (a, b, late) in (wins or windows(now)).items():
         start = at_hour(now, a)
         if not start - timedelta(minutes=30) <= now < at_hour(now, late):
             continue
@@ -182,20 +188,34 @@ def main():
             q["status"] = "queued"
 
     posted = [q for q in queue if q["status"] == "posted"]
-    last = max((datetime.fromisoformat(q["posted_at"]) for q in posted), default=None)
-    nxt = next((q for q in queue if q["status"] == "queued"), None)
-    tried = datetime.fromisoformat(nxt["tried_at"]) if nxt and nxt.get("tried_at") else None
+    ts = lambda qs: max((datetime.fromisoformat(q["posted_at"]) for q in qs), default=None)
+    last = ts([q for q in posted if not q.get("trial")])
+    last_trial = ts([q for q in posted if q.get("trial")])
+    last_any = ts(posted)
+    nxt_main = next((q for q in queue if q["status"] == "queued" and not q.get("trial")), None)
+    nxt_trial = next((q for q in queue if q["status"] == "queued" and q.get("trial")), None)
+    tried = lambda q: datetime.fromisoformat(q["tried_at"]) if q and q.get("tried_at") else None
+    now_utc = datetime.now(timezone.utc)
 
     err = None
     note = refresh_token() if SCHEDULED else None
-    if nxt is None:
+    nxt = None
+    if nxt_main is None and nxt_trial is None:
         print("queue empty, nothing to post")
         note = note or "⚠️ **Queue is empty.** Approve next week's series so posting keeps going."
-    elif last and datetime.now(timezone.utc) - last < MIN_GAP:
-        print(f"last post was {last}, under 5 h ago: waiting for the next slot")
-    elif SCHEDULED and not wait_for_slot(max(filter(None, [last, tried]), default=None)):
-        pass
+    elif not SCHEDULED:
+        nxt = nxt_main or nxt_trial                      # manual run: post the next reel now
     else:
+        if nxt_main and not (last and now_utc - last < MIN_GAP) and \
+                wait_for_slot(max(filter(None, [last, tried(nxt_main)]), default=None)):
+            nxt = nxt_main
+        elif nxt_trial and not (last_trial and now_utc - last_trial < TRIAL_GAP) and \
+                not (last_any and now_utc - last_any < ANY_GAP) and \
+                wait_for_slot(max(filter(None, [last_trial, tried(nxt_trial)]), default=None), TRIAL_WINDOWS):
+            nxt = nxt_trial
+        else:
+            print("no lane due right now")
+    if nxt is not None:
         try:
             caption = open(os.path.join(ROOT, "captions", f"{nxt['id']}.txt")).read().strip()
             check_caption(caption)
@@ -210,8 +230,13 @@ def main():
                     print("already on the account: marking posted, not re-posting")
                     nxt.update(status="posted", posted_at=datetime.now(timezone.utc).isoformat())
                 else:
+                    extra = {}
+                    if nxt.get("trial"):
+                        extra["trial_params"] = json.dumps({"graduation_strategy": "SS_PERFORMANCE"})
+                    if nxt.get("thumb_ms") is not None:
+                        extra["thumb_offset"] = str(int(nxt["thumb_ms"]))
                     c = ig("POST", f"{uid}/media", media_type="REELS", video_url=url,
-                           caption=caption, share_to_feed="true")["id"]
+                           caption=caption, share_to_feed="true", **extra)["id"]
                     for _ in range(30):   # Instagram downloads + transcodes the video
                         time.sleep(20)
                         st = ig("GET", c, fields="status_code,status")

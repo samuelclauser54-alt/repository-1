@@ -377,13 +377,15 @@
     "id": "s05-bs",
     "title": "Stochastic calculus 5: deriving Black-Scholes",
     "video": "s05-bs.mp4",
-    "status": "queued"
+    "status": "queued",
+    "trial": true
   },
   {
     "id": "m02-curse",
     "title": "ML models 2: curse of dimensionality + feature selection",
     "video": "m02-curse.mp4",
-    "status": "queued"
+    "status": "queued",
+    "trial": true
   },
   {
     "id": "x-lorenz",
@@ -395,13 +397,15 @@
     "id": "d05-basel",
     "title": "Derivations 5: Basel problem, pi^2/6",
     "video": "d05-basel.mp4",
-    "status": "queued"
+    "status": "queued",
+    "trial": true
   },
   {
     "id": "p06-paths",
     "title": "Physics 6: Feynman's sum over paths",
     "video": "p06-paths.mp4",
-    "status": "queued"
+    "status": "queued",
+    "trial": true
   },
   {
     "id": "x-galton",
@@ -413,7 +417,8 @@
     "id": "c04-bandwidth",
     "title": "Code 4: memory bandwidth, not math",
     "video": "c04-bandwidth.mp4",
-    "status": "queued"
+    "status": "queued",
+    "trial": true
   },
   {
     "id": "x-chladni",
