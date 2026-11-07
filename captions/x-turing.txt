@@ -1,0 +1,13 @@
+Two chemicals, the same two equations. Change two numbers and leopard spots turn into zebra stripes. 🐆🦓
+
+Chemical V turns U into more V wherever they meet (U + 2V → 3V). U is constantly fed in and V is constantly removed, and both spread out, U twice as fast. That's it. Top: feed 0.037, kill 0.065. Bottom: feed 0.029, kill 0.057. Both start from 6 tiny seeds.
+
+The spots even split in two as they grow, like cells dividing.
+
+In 1952, Alan Turing (yes, the codebreaker) proposed that chemicals reacting and spreading like this could create the patterns on animals. It's now a leading explanation for some real ones: zebrafish stripes and the ridges in the roof of your mouth have been linked to Turing-style systems.
+
+The model here is Gray–Scott reaction–diffusion, about 24,000 steps on a 300×260 grid, simulated in NumPy.
+
+Which one would you want as a wallpaper, top or bottom? 👇
+
+#math #biology #turingpatterns #simulation #nature

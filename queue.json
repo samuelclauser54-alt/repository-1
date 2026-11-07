@@ -442,11 +442,39 @@
     "thumb_ms": 4000
   },
   {
-    "id": "x-3pend",
-    "title": "500 triple pendulums (chaos, part 2)",
-    "video": "x-3pend.mp4",
+    "id": "x-3body",
+    "title": "Three-body two universes",
+    "video": "x-3body.mp4",
     "status": "queued",
-    "thumb_ms": 12000
+    "thumb_ms": 11000
+  },
+  {
+    "id": "x-lotto",
+    "title": "Lottery 50 years",
+    "video": "x-lotto.mp4",
+    "status": "queued",
+    "thumb_ms": 17500
+  },
+  {
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
+    "status": "queued",
+    "trial": false
+  },
+  {
+    "id": "x-boids",
+    "title": "Boids 1500 birds + hawk",
+    "video": "x-boids.mp4",
+    "status": "queued",
+    "thumb_ms": 9000
+  },
+  {
+    "id": "x-descent",
+    "title": "1000 AIs gradient descent",
+    "video": "x-descent.mp4",
+    "status": "queued",
+    "thumb_ms": 12500
   },
   {
     "id": "x-bday",
@@ -456,11 +484,25 @@
     "thumb_ms": 7400
   },
   {
-    "id": "p06-paths",
-    "title": "Physics 6: Feynman's sum over paths",
-    "video": "p06-paths.mp4",
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
     "status": "queued",
     "trial": false
+  },
+  {
+    "id": "x-turing",
+    "title": "Turing patterns spots vs stripes",
+    "video": "x-turing.mp4",
+    "status": "queued",
+    "thumb_ms": 14000
+  },
+  {
+    "id": "x-3pend",
+    "title": "500 triple pendulums (chaos, part 2)",
+    "video": "x-3pend.mp4",
+    "status": "queued",
+    "thumb_ms": 12000
   },
   {
     "id": "x-martingale",
@@ -482,13 +524,6 @@
     "video": "x-ant.mp4",
     "status": "queued",
     "thumb_ms": 12500
-  },
-  {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
-    "status": "queued",
-    "trial": false
   },
   {
     "id": "x-ergodic",

@@ -1,0 +1,11 @@
+I dropped 1,000 AIs on a landscape and told them to find the lowest point. Each one only knows which way is downhill. 🏔️
+
+Round 1, just walk downhill: 21% reach the deepest valley (the gold ring). Everyone else gets stuck in the nearest dip and stays there forever, because from inside a valley every direction is uphill.
+
+Round 2, same 1,000 starting spots, but every step also gets a random shake that fades to zero: 66% reach the deepest valley. Early on the shaking knocks them out of shallow dips. By the time it stops, most have settled in the deep one.
+
+This is how AI models train: the "landscape" is the error, and gradient descent walks downhill on it. Real models have billions of dimensions, not 2, but the stuck-in-a-dip problem is real. Randomness (noisy mini-batch gradients, annealing) is part of the fix. Here it's simulated annealing, simulated in NumPy.
+
+Ever feel stuck in a local minimum? 👇
+
+#ai #machinelearning #math #optimization #simulation

@@ -1,0 +1,11 @@
+Three suns, two universes. The only difference is that one sun starts a millionth of a unit to the right. ☀️☀️☀️
+
+Solid suns = universe A. Rings = universe B. For the first ~40 time units they're indistinguishable. The difference grows from 0.000001 to 0.0007, then 0.2, then everything. In universe A, two suns pair up and fling the third into the void. In universe B, all three are still orbiting.
+
+This is the Pythagorean three-body problem (Burrau, 1913): masses 3, 4 and 5 start at rest on the corners of a 3-4-5 triangle. Newton's gravity, nothing else. I simulated it with a high-precision integrator (DOP853, tolerance 1e-13).
+
+Two bodies orbit forever in a perfect ellipse that you can write down. Add a third and there's no general formula, and the smallest change rewrites the future. That's why the problem has stayed famous since Newton.
+
+Would you rather live in A or B? 👇
+
+#physics #threebodyproblem #chaos #space #simulation

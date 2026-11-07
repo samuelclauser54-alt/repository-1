@@ -1,0 +1,14 @@
+1,500 birds and no leader. Each bird only looks at the birds right next to it. 🐦
+
+Each bird follows 3 rules:
+1. don't crash into your neighbors
+2. fly the same direction they're flying
+3. drift toward the middle of your neighbors
+
+Nobody sees the whole flock and nobody is in charge. They start out scattered in random directions. Within seconds they form flocks, and by the end 93% are flying the same way. Halfway through a hawk shows up: birds near it scatter, and the flock splits around it and re-forms. That's the same move you see in real starling murmurations.
+
+Colors show which direction each bird is heading. The model is "boids," written by Craig Reynolds in 1987 and used in movie animation (Batman Returns used it for bats). I simulated it in NumPy.
+
+What else works like this? 👇
+
+#nature #emergence #simulation #birds #math
