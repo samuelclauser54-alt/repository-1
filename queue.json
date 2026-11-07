@@ -380,8 +380,10 @@
     "id": "x-dpfractal",
     "title": "300,000 double pendulums, one per pixel",
     "video": "x-dpfractal.mp4",
-    "status": "queued",
-    "thumb_ms": 6000
+    "status": "posted",
+    "thumb_ms": 6000,
+    "media_id": "18440173102196603",
+    "posted_at": "2026-11-07T15:05:57.219740+00:00"
   },
   {
     "id": "x-yardtax",
