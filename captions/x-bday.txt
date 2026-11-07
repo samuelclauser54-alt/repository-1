@@ -1,0 +1,15 @@
+How many people need to be in a room before two of them probably share a birthday? Not 183. Just 23. 🎂
+
+I ran it: people walk into a room one at a time and land on their birthday. In this room, person 23 matched person 14.
+
+Then I simulated 10,000 rooms. In half of them, the first shared birthday showed up by person 23.
+• 23 people → 50.7%
+• 30 people → 70.6%
+• 50 people → 97%
+• 70 people → 99.9%
+
+Why it feels wrong: you picture YOUR birthday matching someone's, and that really is rare. But 23 people make 253 different pairs, and any one of them can match. 253 chances at a 1-in-365 shot add up fast.
+
+How many people are in your class? Check if two of you match 👇
+
+#math #probability #birthdayparadox #statistics #simulation

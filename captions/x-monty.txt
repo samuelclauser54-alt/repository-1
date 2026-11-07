@@ -1,0 +1,15 @@
+You pick door 1. The host, who knows where the car is, opens door 3: a goat. Do you switch? 🚪🐐
+
+I played it 900 times and scored both strategies on the same games:
+• stay: won 33%
+• switch: won 67%
+
+Why: your first pick is right 1 time in 3. The host opening a goat door doesn't change that, because he can always find a goat to show you. So the 2-in-3 chance that you picked wrong all moves to the one door left closed.
+
+If it still feels wrong, imagine 100 doors. You pick 1, and the host opens 98 goats. Would you stay?
+
+This is the Monty Hall problem. When Marilyn vos Savant published the right answer in 1990, around 10,000 readers wrote in to tell her she was wrong, about 1,000 of them with PhDs.
+
+Did you say stay or switch? Be honest 👇
+
+#math #probability #montyhall #puzzle #simulation

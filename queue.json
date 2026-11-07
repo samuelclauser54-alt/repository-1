@@ -414,11 +414,32 @@
     "thumb_ms": 6600
   },
   {
+    "id": "x-paint",
+    "title": "AI paints Mona Lisa",
+    "video": "x-paint.mp4",
+    "status": "queued",
+    "thumb_ms": 9000
+  },
+  {
     "id": "x-traffic",
     "title": "Phantom traffic jam",
     "video": "x-traffic.mp4",
     "status": "queued",
     "thumb_ms": 11500
+  },
+  {
+    "id": "d05-basel",
+    "title": "Derivations 5: Basel problem, pi^2/6",
+    "video": "d05-basel.mp4",
+    "status": "queued",
+    "trial": false
+  },
+  {
+    "id": "x-monty",
+    "title": "Monty Hall 900 games",
+    "video": "x-monty.mp4",
+    "status": "queued",
+    "thumb_ms": 4000
   },
   {
     "id": "x-3pend",
@@ -428,9 +449,16 @@
     "thumb_ms": 12000
   },
   {
-    "id": "d05-basel",
-    "title": "Derivations 5: Basel problem, pi^2/6",
-    "video": "d05-basel.mp4",
+    "id": "x-bday",
+    "title": "Birthday problem",
+    "video": "x-bday.mp4",
+    "status": "queued",
+    "thumb_ms": 7400
+  },
+  {
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
     "status": "queued",
     "trial": false
   },
@@ -442,11 +470,25 @@
     "thumb_ms": 15500
   },
   {
-    "id": "x-billiard",
-    "title": "1,000 balls: circle vs stadium (chaos)",
-    "video": "x-billiard.mp4",
+    "id": "x-sand",
+    "title": "Sandpile 200k grains",
+    "video": "x-sand.mp4",
     "status": "queued",
     "thumb_ms": 12000
+  },
+  {
+    "id": "x-ant",
+    "title": "Langton's ant",
+    "video": "x-ant.mp4",
+    "status": "queued",
+    "thumb_ms": 12500
+  },
+  {
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
+    "status": "queued",
+    "trial": false
   },
   {
     "id": "x-ergodic",
@@ -456,11 +498,11 @@
     "thumb_ms": 15000
   },
   {
-    "id": "p06-paths",
-    "title": "Physics 6: Feynman's sum over paths",
-    "video": "p06-paths.mp4",
+    "id": "x-billiard",
+    "title": "1,000 balls: circle vs stadium (chaos)",
+    "video": "x-billiard.mp4",
     "status": "queued",
-    "trial": false
+    "thumb_ms": 12000
   },
   {
     "id": "x-lorenz",
@@ -481,13 +523,6 @@
     "status": "queued"
   },
   {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
-    "status": "queued",
-    "trial": false
-  },
-  {
     "id": "x-drum",
     "title": "Why a drum doesn't play a note (Bessel modes)",
     "video": "x-drum.mp4",
@@ -497,24 +532,6 @@
     "id": "x-galton",
     "title": "Galton board: 1500 balls make a bell curve",
     "video": "x-galton.mp4",
-    "status": "queued"
-  },
-  {
-    "id": "x-ant",
-    "title": "Langton's ant",
-    "video": "x-ant.mp4",
-    "status": "queued"
-  },
-  {
-    "id": "x-paint",
-    "title": "AI paints Mona Lisa",
-    "video": "x-paint.mp4",
-    "status": "queued"
-  },
-  {
-    "id": "x-sand",
-    "title": "Sandpile 200k grains",
-    "video": "x-sand.mp4",
     "status": "queued"
   }
 ]
