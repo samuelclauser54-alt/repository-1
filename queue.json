@@ -389,8 +389,10 @@
     "id": "x-yardtax",
     "title": "Yard-sale model: no tax vs 0.1% tax",
     "video": "x-yardtax.mp4",
-    "status": "queued",
-    "thumb_ms": 15500
+    "status": "posted",
+    "thumb_ms": 15500,
+    "media_id": "17878018722582476",
+    "posted_at": "2026-11-07T19:47:07.607826+00:00"
   },
   {
     "id": "x-spiral",
