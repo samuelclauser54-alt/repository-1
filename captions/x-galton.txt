@@ -6,4 +6,6 @@ The middle bin has 924 ways in, and the edge bins have 1. Add up enough independ
 
 (The red curve is the normal approximation from the formula, not fitted to the balls.)
 
+Follow for a new simulation every day.
+
 #math #statistics #probability #galtonboard #satisfying

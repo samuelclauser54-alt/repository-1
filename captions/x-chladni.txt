@@ -6,4 +6,6 @@ The simulation: 9,000 grains, each kicked in proportion to how much the plate mo
 
 Ernst Chladni did this with a violin bow in 1787. Napoleon was so impressed he funded a prize to explain it.
 
+Follow for a new simulation every day.
+
 #physics #chladni #satisfying #math #soundwaves

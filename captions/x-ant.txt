@@ -11,4 +11,6 @@ The strange part: it seems to build a highway no matter what pattern you start i
 
 What would you have guessed it does? 👇
 
+Follow for a new simulation every day.
+
 #math #emergence #simulation #chaos #computerscience

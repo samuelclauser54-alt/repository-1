@@ -9,4 +9,6 @@
 
 Every win is small and every bust is huge. With $1,000, nine losses in a row ($1+$2+…+$256 = $511 gone, next bet $512) wipes you out. That streak has about a 1-in-400 chance each time it starts, and over 1,000 spins it hit about half the players. The house edge (1/37) never goes away, no matter how you size your bets.
 
+Follow for a new simulation every day.
+
 #math #probability #gambling #casino #simulation

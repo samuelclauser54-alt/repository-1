@@ -6,4 +6,6 @@ A round drumhead's modes are set by the zeros of Bessel functions: 2.405, 3.832,
 
 (It's also why timpani are built with a kettle underneath. The air inside nudges those modes closer to a harmonic series.)
 
+Follow for a new simulation every day.
+
 #physics #music #math #soundwaves #acoustics

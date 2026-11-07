@@ -6,4 +6,6 @@ At 12 s, every odd pendulum has done a half swing more than its neighbour, so yo
 
 Each pendulum rings its own note when it passes the middle.
 
+Follow for a new simulation every day.
+
 #physics #pendulumwave #satisfying #math #simulation

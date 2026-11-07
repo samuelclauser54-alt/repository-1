@@ -8,4 +8,6 @@ This is how AI models train: the "landscape" is the error, and gradient descent 
 
 Ever feel stuck in a local minimum? 👇
 
+Follow for a new simulation every day.
+
 #ai #machinelearning #math #optimization #simulation

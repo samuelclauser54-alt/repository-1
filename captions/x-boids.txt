@@ -11,4 +11,6 @@ Colors show which direction each bird is heading. The model is "boids," written 
 
 What else works like this? 👇
 
+Follow for a new simulation every day.
+
 #nature #emergence #simulation #birds #math

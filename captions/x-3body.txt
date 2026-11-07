@@ -8,4 +8,6 @@ Two bodies orbit forever in a perfect ellipse that you can write down. Add a thi
 
 Would you rather live in A or B? 👇
 
+Follow for a new simulation every day.
+
 #physics #threebodyproblem #chaos #space #simulation

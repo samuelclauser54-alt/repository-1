@@ -10,4 +10,6 @@ This is the Bak–Tang–Wiesenfeld sandpile (1987), the classic example of "sel
 
 What does it look like to you? 👇
 
+Follow for a new simulation every day.
+
 #math #fractal #physics #simulation #emergence

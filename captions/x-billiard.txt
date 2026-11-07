@@ -6,4 +6,6 @@ This is the Bunimovich stadium, one of the classic examples of chaos (1979). All
 
 Every ball is simulated with plain mirror reflections and no randomness. Each bounce plays a note.
 
+Follow for a new simulation every day.
+
 #physics #chaostheory #math #simulation #satisfying

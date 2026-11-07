@@ -6,4 +6,6 @@ Edward Lorenz found this in 1963 while running a 3-equation weather model. He re
 
 Sound: each path plays a note whenever it switches wings (orange in your left ear, blue in your right). Listen for the moment they stop agreeing.
 
+Follow for a new simulation every day.
+
 #chaostheory #lorenzattractor #math #physics #butterflyeffect

@@ -12,4 +12,6 @@ This is the Monty Hall problem. When Marilyn vos Savant published the right answ
 
 Did you say stay or switch? Be honest 👇
 
+Follow for a new simulation every day.
+
 #math #probability #montyhall #puzzle #simulation

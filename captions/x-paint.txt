@@ -8,4 +8,6 @@ The technique is a "neural field" (Fourier features → two layers of 256 → RG
 
 What should it paint next? 👇
 
+Follow for a new simulation every day.
+
 #ai #machinelearning #monalisa #art #python

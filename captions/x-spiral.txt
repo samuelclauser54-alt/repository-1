@@ -8,4 +8,6 @@ GPT-3 uses the same recipe (multiply by a matrix, bend, repeat) with 175 billion
 
 What should I make it learn next? 👇
 
+Follow for a new simulation every day.
+
 #ai #machinelearning #neuralnetworks #math #python

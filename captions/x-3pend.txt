@@ -6,4 +6,6 @@ Same equations of motion for every pendulum (equal 1 kg masses, 1 m arms, RK4 in
 
 Part 2 of the double pendulum reel. Should I do 4 arms next?
 
+Follow for a new simulation every day.
+
 #physics #chaostheory #triplependulum #simulation #math
