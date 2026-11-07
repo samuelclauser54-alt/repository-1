@@ -424,10 +424,11 @@
     "trial": true
   },
   {
-    "id": "x-lorenz",
-    "title": "Lorenz attractor: two paths a billionth apart",
-    "video": "x-lorenz.mp4",
-    "status": "queued"
+    "id": "x-martingale",
+    "title": "Martingale: double your bet after every loss",
+    "video": "x-martingale.mp4",
+    "status": "queued",
+    "thumb_ms": 15500
   },
   {
     "id": "c04-bandwidth",
@@ -435,6 +436,12 @@
     "video": "c04-bandwidth.mp4",
     "status": "queued",
     "trial": true
+  },
+  {
+    "id": "x-lorenz",
+    "title": "Lorenz attractor: two paths a billionth apart",
+    "video": "x-lorenz.mp4",
+    "status": "queued"
   },
   {
     "id": "x-galton",

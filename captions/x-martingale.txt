@@ -1,0 +1,12 @@
+"Double your bet every time you lose. The first win pays back everything." The Martingale strategy feels unbeatable. So I simulated it.
+
+10,000 players, $1,000 each, roulette, betting on red (18/37 chance). Bet $1; after a loss, double it; after a win, go back to $1. Each win nets you exactly $1.
+
+• after 50 spins: 92% of players are ahead
+• after 1,000 spins: 52% ahead, and 48% hit a losing streak long enough that they couldn't cover the next bet
+• winners gained $486 on average; the busted lost $760 on average
+• the casino collected $1,086,986 in total
+
+Every win is small and every bust is huge. With $1,000, nine losses in a row ($1+$2+…+$256 = $511 gone, next bet $512) wipes you out. That streak has about a 1-in-400 chance each time it starts, and over 1,000 spins it hit about half the players. The house edge (1/37) never goes away, no matter how you size your bets.
+
+#math #probability #gambling #casino #simulation
