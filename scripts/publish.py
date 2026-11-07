@@ -30,15 +30,17 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 QUEUE = os.path.join(ROOT, "queue.json")
 IG = "https://graph.instagram.com/v25.0"
 DRY = os.environ.get("DRY_RUN", "") in ("1", "true")
-MIN_GAP = timedelta(hours=3)
+MIN_GAP = timedelta(hours=2)
 CHI = ZoneInfo("America/Chicago")
 # local hours: start, aim-by, latest catch-up
 # windows run back to back so a late cron run (GitHub often drops most of them) still catches the slot
-WINDOWS = {"morning": (8.5, 10.5, 13), "midday": (13.5, 15, 18), "evening": (18.5, 20, 23.5)}
+# 4 main posts a day from 2026-11-07: 3 sims + 1 lesson at night (lessons drive follows: 15-20/day while they ran)
+WINDOWS = {"morning": (8.5, 10.5, 13), "midday": (13.5, 15, 18), "evening": (18.5, 20, 21.5),
+           "night": (21.75, 22.75, 23.75)}
 # Trial Reels lane (from 2026-11-06): entries with "trial": true go out as Instagram Trial Reels (shown to
 # non-followers first, auto-graduated to followers if they do well: graduation_strategy SS_PERFORMANCE).
 # Own windows and gaps, so they never displace a main post.
-TRIAL_WINDOWS = {"trial-late-morning": (11, 12, 13), "trial-afternoon": (16, 17, 18), "trial-night": (21, 22, 23.5)}
+TRIAL_WINDOWS = {"trial-late-morning": (11, 12, 13), "trial-afternoon": (16, 17, 18)}
 TRIAL_GAP = timedelta(hours=2)
 ANY_GAP = timedelta(minutes=45)
 
