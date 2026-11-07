@@ -1,0 +1,13 @@
+One driver taps the brakes for one second, and 30 seconds later there's a traffic jam. 🚗
+
+22 cars on a ring road. No crash, no merge, nothing in the road. One car brakes briefly at the start. Each driver just reacts to the gap in front, a little too late, and the slowdown grows every time it's passed back until cars come to a full stop. Then the jam sits there and drifts backwards, against the traffic, long after the first driver is gone.
+
+The inner ring plots each car's speed, so you can watch the dip slide backwards.
+
+This isn't just a model. In 2008, Sugiyama's team in Japan put 22 real cars on a 230 m circle and told them to drive at a steady 30 km/h. A stop-and-go jam appeared out of nowhere, just like this. (The simulation is the "optimal velocity" car-following model.)
+
+The fix: leave a bigger gap and brake gently. You absorb the wave instead of passing it on.
+
+Send this to the person who tailgates 👇
+
+#traffic #physics #simulation #math #driving

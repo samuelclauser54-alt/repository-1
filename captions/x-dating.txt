@@ -1,0 +1,18 @@
+How many people should you date before you settle? Math has an exact answer: 37%. 💘
+
+The setup (the "secretary problem"): you'll meet up to 100 people in random order. After each one you decide yes or no, and you can't go back.
+
+The best strategy: say no to the first 37%, just to learn what's out there. Then say yes to the first person who's better than everyone you've seen so far.
+
+I simulated 20,000 lives:
+• it finds THE best of all 100 people 37% of the time (picking at random: 1%)
+• it lands someone in the top 5 about 63% of the time
+• the catch: 37% of the time the best one was in your "just looking" phase, so nobody beats the bar and you're stuck with the last person
+
+37% isn't a coincidence. It's 1/e, and it's the same answer for 10 candidates or 10,000.
+
+(Real dating isn't a random line of 100 people with scores, but the math is real.)
+
+Send this to the friend who's "just looking" 👇
+
+#math #dating #probability #statistics #simulation

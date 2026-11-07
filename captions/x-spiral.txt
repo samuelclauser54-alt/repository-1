@@ -1,0 +1,11 @@
+Nobody told this AI what a spiral is. It only got 400 dots and their colors. 🌀
+
+The background shows the network's guess for every point on the plane, and the white seam is where it switches from blue to red. At first it draws a lazy wiggle and gets about 60% right. Then the seam starts curling, and around step 500 it wraps both arms of the spiral: 100%.
+
+What's inside: 2,545 numbers (2 → 48 → 48 → 1, tanh layers). Each training step nudges every number a little downhill on the error (backprop + Adam). I wrote it in plain NumPy, with no ML library, and this is a replay of the real run.
+
+GPT-3 uses the same recipe (multiply by a matrix, bend, repeat) with 175 billion numbers.
+
+What should I make it learn next? 👇
+
+#ai #machinelearning #neuralnetworks #math #python

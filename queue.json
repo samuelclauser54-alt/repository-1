@@ -384,18 +384,18 @@
     "thumb_ms": 6000
   },
   {
-    "id": "x-ergodic",
-    "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
-    "video": "x-ergodic.mp4",
+    "id": "x-yardtax",
+    "title": "Yard-sale model: no tax vs 0.1% tax",
+    "video": "x-yardtax.mp4",
     "status": "queued",
-    "thumb_ms": 15000
+    "thumb_ms": 15500
   },
   {
-    "id": "x-billiard",
-    "title": "1,000 balls: circle vs stadium (chaos)",
-    "video": "x-billiard.mp4",
+    "id": "x-spiral",
+    "title": "AI learns a spiral",
+    "video": "x-spiral.mp4",
     "status": "queued",
-    "thumb_ms": 12000
+    "thumb_ms": 12500
   },
   {
     "id": "m02-curse",
@@ -405,24 +405,25 @@
     "trial": false
   },
   {
+    "id": "x-dating",
+    "title": "37% rule",
+    "video": "x-dating.mp4",
+    "status": "queued",
+    "thumb_ms": 6600
+  },
+  {
+    "id": "x-traffic",
+    "title": "Phantom traffic jam",
+    "video": "x-traffic.mp4",
+    "status": "queued",
+    "thumb_ms": 11500
+  },
+  {
     "id": "x-3pend",
     "title": "500 triple pendulums (chaos, part 2)",
     "video": "x-3pend.mp4",
     "status": "queued",
     "thumb_ms": 12000
-  },
-  {
-    "id": "x-martingale",
-    "title": "Martingale: double your bet after every loss",
-    "video": "x-martingale.mp4",
-    "status": "queued",
-    "thumb_ms": 15500
-  },
-  {
-    "id": "x-lorenz",
-    "title": "Lorenz attractor: two paths a billionth apart",
-    "video": "x-lorenz.mp4",
-    "status": "queued"
   },
   {
     "id": "d05-basel",
@@ -432,9 +433,37 @@
     "trial": false
   },
   {
-    "id": "x-galton",
-    "title": "Galton board: 1500 balls make a bell curve",
-    "video": "x-galton.mp4",
+    "id": "x-martingale",
+    "title": "Martingale: double your bet after every loss",
+    "video": "x-martingale.mp4",
+    "status": "queued",
+    "thumb_ms": 15500
+  },
+  {
+    "id": "x-billiard",
+    "title": "1,000 balls: circle vs stadium (chaos)",
+    "video": "x-billiard.mp4",
+    "status": "queued",
+    "thumb_ms": 12000
+  },
+  {
+    "id": "x-ergodic",
+    "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
+    "video": "x-ergodic.mp4",
+    "status": "queued",
+    "thumb_ms": 15000
+  },
+  {
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
+    "status": "queued",
+    "trial": false
+  },
+  {
+    "id": "x-lorenz",
+    "title": "Lorenz attractor: two paths a billionth apart",
+    "video": "x-lorenz.mp4",
     "status": "queued"
   },
   {
@@ -450,9 +479,9 @@
     "status": "queued"
   },
   {
-    "id": "p06-paths",
-    "title": "Physics 6: Feynman's sum over paths",
-    "video": "p06-paths.mp4",
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
     "status": "queued",
     "trial": false
   },
@@ -463,10 +492,9 @@
     "status": "queued"
   },
   {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
-    "status": "queued",
-    "trial": false
+    "id": "x-galton",
+    "title": "Galton board: 1500 balls make a bell curve",
+    "video": "x-galton.mp4",
+    "status": "queued"
   }
 ]

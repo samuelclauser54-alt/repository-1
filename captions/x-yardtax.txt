@@ -1,0 +1,15 @@
+Same fair game, run twice. One world has a 0.1% wealth tax. 🪙
+
+500 people start with $100 each. Every round they pair up at random and flip a fair coin, and the winner takes 10% of the poorer player's money. No skill, no cheating.
+
+After 20,000 rounds:
+• no tax: 5 people own 80% of all the money, and 92% of people have under $1
+• 0.1% tax per round, split equally: the top 5 own 9%, and nobody is under $1
+
+The tax didn't make everyone equal. Some people still got rich. It just stopped the game from sending everything to a handful of people.
+
+This is the "yard-sale model" from econophysics (Chakraborti 2002, Boghosian 2017). It's a toy model, not a full economy, but it shows that inequality doesn't need cheating: fair rules can produce it, and one small rule changes where it ends up.
+
+Which world would you rather live in: A or B? 👇
+
+#economics #inequality #simulation #math #yardsalemodel
