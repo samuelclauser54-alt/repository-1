@@ -416,8 +416,10 @@
     "id": "x-dating",
     "title": "37% rule",
     "video": "x-dating.mp4",
-    "status": "queued",
-    "thumb_ms": 6600
+    "status": "posted",
+    "thumb_ms": 6600,
+    "media_id": "18088491695686615",
+    "posted_at": "2026-11-08T14:40:23.415505+00:00"
   },
   {
     "id": "x-lotto",
