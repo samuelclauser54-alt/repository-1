@@ -431,11 +431,12 @@
     "posted_at": "2026-11-08T20:24:05.085052+00:00"
   },
   {
-    "id": "x-traffic",
-    "title": "Phantom traffic jam",
-    "video": "x-traffic.mp4",
+    "id": "x-rocket",
+    "title": "AIs learn to land a rocket",
+    "video": "x-rocket.mp4",
     "status": "queued",
-    "thumb_ms": 11500
+    "format": "ai-learns",
+    "thumb_ms": 13500
   },
   {
     "id": "d05-basel",
@@ -443,6 +444,21 @@
     "video": "d05-basel.mp4",
     "status": "queued",
     "trial": false
+  },
+  {
+    "id": "x-escape",
+    "title": "Pick a color",
+    "video": "x-escape.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11300
+  },
+  {
+    "id": "x-traffic",
+    "title": "Phantom traffic jam",
+    "video": "x-traffic.mp4",
+    "status": "queued",
+    "thumb_ms": 11500
   },
   {
     "id": "x-early",
@@ -459,18 +475,18 @@
     "thumb_ms": 4000
   },
   {
-    "id": "x-bday",
-    "title": "Birthday problem",
-    "video": "x-bday.mp4",
-    "status": "queued",
-    "thumb_ms": 7400
-  },
-  {
     "id": "p06-paths",
     "title": "Physics 6: Feynman's sum over paths",
     "video": "p06-paths.mp4",
     "status": "queued",
     "trial": false
+  },
+  {
+    "id": "x-bday",
+    "title": "Birthday problem",
+    "video": "x-bday.mp4",
+    "status": "queued",
+    "thumb_ms": 7400
   },
   {
     "id": "x-descent",

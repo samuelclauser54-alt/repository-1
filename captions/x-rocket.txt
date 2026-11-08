@@ -1,0 +1,16 @@
+100 AIs learning to land a rocket. Nobody shows them how. 🚀
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering) flying a 2D rocket with gravity.
+• Generation 1: 0 of 100 land
+• Generation 12: 11
+• Generation 20: 61
+• Generation 150: 94
+
+How it learns: each generation, 300 networks fly 4 test flights and get one score (closer to the pad, slower and more upright is better). The top 30 survive and get copied with small random changes. That's it. No examples, no rules for how to fly. The 100 you see are the best 100 of that generation.
+
+This is neuroevolution, one of the oldest ways to train an AI.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding

@@ -1,0 +1,13 @@
+Pick a color before it starts. 🎯
+
+12 balls dropped from the same spot, each 0.0000025 pixels from the next. Same speed, same gravity. On a phone screen that gap is about the width of an atom.
+• For the first 4 seconds they move as one ball
+• At 6 seconds they're 38 pixels apart
+• Pink gets out first at 10.9 s
+
+Why: every time the balls glance off a round peg, their tiny difference gets multiplied. A few dozen bounces turn 0.0000025 pixels into the whole arena. That's chaos: exact rules, unpredictable result. Each ball also plays its own note, so you can hear the moment they split.
+
+Which color did you pick?
+
+Follow for a new simulation every day.
+#physics #chaos #simulation #satisfying #math
