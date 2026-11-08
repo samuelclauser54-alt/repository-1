@@ -398,8 +398,10 @@
     "id": "x-spiral",
     "title": "AI learns a spiral",
     "video": "x-spiral.mp4",
-    "status": "queued",
-    "thumb_ms": 12500
+    "status": "posted",
+    "thumb_ms": 12500,
+    "media_id": "17915981184280476",
+    "posted_at": "2026-11-08T00:47:22.562639+00:00"
   },
   {
     "id": "m02-curse",
