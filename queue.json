@@ -407,8 +407,10 @@
     "id": "m02-curse",
     "title": "ML models 2: curse of dimensionality + feature selection",
     "video": "m02-curse.mp4",
-    "status": "queued",
-    "trial": false
+    "status": "posted",
+    "trial": false,
+    "media_id": "18137844385567763",
+    "posted_at": "2026-11-08T04:08:37.085416+00:00"
   },
   {
     "id": "x-dating",
