@@ -425,8 +425,10 @@
     "id": "x-lotto",
     "title": "Lottery 50 years",
     "video": "x-lotto.mp4",
-    "status": "queued",
-    "thumb_ms": 17500
+    "status": "posted",
+    "thumb_ms": 17500,
+    "media_id": "18379766779245535",
+    "posted_at": "2026-11-08T20:24:05.085052+00:00"
   },
   {
     "id": "x-traffic",
