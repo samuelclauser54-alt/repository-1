@@ -434,9 +434,11 @@
     "id": "x-rocket",
     "title": "AIs learn to land a rocket",
     "video": "x-rocket.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
-    "thumb_ms": 13500
+    "thumb_ms": 13500,
+    "media_id": "18108941780623319",
+    "posted_at": "2026-11-09T01:32:53.211230+00:00"
   },
   {
     "id": "d05-basel",
