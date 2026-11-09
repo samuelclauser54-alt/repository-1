@@ -444,8 +444,10 @@
     "id": "d05-basel",
     "title": "Derivations 5: Basel problem, pi^2/6",
     "video": "d05-basel.mp4",
-    "status": "queued",
-    "trial": false
+    "status": "posted",
+    "trial": false,
+    "media_id": "17971814324961554",
+    "posted_at": "2026-11-09T04:24:07.154426+00:00"
   },
   {
     "id": "x-escape",
