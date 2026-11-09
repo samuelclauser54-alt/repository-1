@@ -453,9 +453,11 @@
     "id": "x-escape",
     "title": "Pick a color",
     "video": "x-escape.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "contest",
-    "thumb_ms": 11300
+    "thumb_ms": 11300,
+    "media_id": "18144907609526290",
+    "posted_at": "2026-11-09T20:05:48.387136+00:00"
   },
   {
     "id": "x-traffic",
