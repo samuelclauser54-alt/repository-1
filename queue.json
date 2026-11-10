@@ -487,11 +487,74 @@
     "posted_at": "2026-11-10T20:45:33.665960+00:00"
   },
   {
+    "id": "x-league2",
+    "title": "Color League round 2: pick a color",
+    "video": "x-league2.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11644
+  },
+  {
     "id": "p06-paths",
     "title": "Physics 6: Feynman's sum over paths",
     "video": "p06-paths.mp4",
     "status": "queued",
     "trial": false
+  },
+  {
+    "id": "x-gates",
+    "title": "100 AIs learn to fly through gates",
+    "video": "x-gates.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 12000
+  },
+  {
+    "id": "x-card",
+    "title": "Credit card: minimum payment vs fixed $150",
+    "video": "x-card.mp4",
+    "status": "queued",
+    "format": "money",
+    "thumb_ms": 9000
+  },
+  {
+    "id": "x-league3",
+    "title": "Color League round 3: pick a color",
+    "video": "x-league3.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11942
+  },
+  {
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
+    "status": "queued",
+    "trial": false
+  },
+  {
+    "id": "x-martingale",
+    "title": "Martingale: double your bet after every loss",
+    "video": "x-martingale.mp4",
+    "status": "queued",
+    "thumb_ms": 15500,
+    "format": "money"
+  },
+  {
+    "id": "x-ergodic",
+    "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
+    "video": "x-ergodic.mp4",
+    "status": "queued",
+    "thumb_ms": 15000,
+    "format": "money"
+  },
+  {
+    "id": "x-league4",
+    "title": "Color League round 4: pick a color",
+    "video": "x-league4.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11660
   },
   {
     "id": "x-bday",
@@ -508,13 +571,6 @@
     "thumb_ms": 12500
   },
   {
-    "id": "x-3body",
-    "title": "Three-body two universes",
-    "video": "x-3body.mp4",
-    "status": "queued",
-    "thumb_ms": 11000
-  },
-  {
     "id": "x-paint",
     "title": "AI paints Mona Lisa",
     "video": "x-paint.mp4",
@@ -522,11 +578,19 @@
     "thumb_ms": 9000
   },
   {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
+    "id": "x-league5",
+    "title": "Color League round 5: pick a color",
+    "video": "x-league5.mp4",
     "status": "queued",
-    "trial": false
+    "format": "contest",
+    "thumb_ms": 11676
+  },
+  {
+    "id": "x-3body",
+    "title": "Three-body two universes",
+    "video": "x-3body.mp4",
+    "status": "queued",
+    "thumb_ms": 11000
   },
   {
     "id": "x-boids",
@@ -536,82 +600,78 @@
     "thumb_ms": 9000
   },
   {
-    "id": "x-martingale",
-    "title": "Martingale: double your bet after every loss",
-    "video": "x-martingale.mp4",
+    "id": "x-lorenz",
+    "title": "Lorenz attractor: two paths a billionth apart",
+    "video": "x-lorenz.mp4",
     "status": "queued",
-    "thumb_ms": 15500
+    "trial": true
   },
   {
-    "id": "x-3pend",
-    "title": "500 triple pendulums (chaos, part 2)",
-    "video": "x-3pend.mp4",
+    "id": "x-chladni",
+    "title": "Chladni plate: sand finds the nodal lines",
+    "video": "x-chladni.mp4",
     "status": "queued",
-    "thumb_ms": 12000
+    "trial": true
   },
   {
-    "id": "x-turing",
-    "title": "Turing patterns spots vs stripes",
-    "video": "x-turing.mp4",
+    "id": "x-pwave",
+    "title": "Pendulum wave (15 lengths, 24 s loop)",
+    "video": "x-pwave.mp4",
     "status": "queued",
-    "thumb_ms": 14000
+    "trial": true
   },
   {
-    "id": "x-sand",
-    "title": "Sandpile 200k grains",
-    "video": "x-sand.mp4",
+    "id": "x-drum",
+    "title": "Why a drum doesn't play a note (Bessel modes)",
+    "video": "x-drum.mp4",
     "status": "queued",
-    "thumb_ms": 12000
+    "trial": true
+  },
+  {
+    "id": "x-galton",
+    "title": "Galton board: 1500 balls make a bell curve",
+    "video": "x-galton.mp4",
+    "status": "queued",
+    "trial": true
   },
   {
     "id": "x-ant",
     "title": "Langton's ant",
     "video": "x-ant.mp4",
     "status": "queued",
-    "thumb_ms": 12500
+    "thumb_ms": 12500,
+    "trial": true
   },
   {
-    "id": "x-ergodic",
-    "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
-    "video": "x-ergodic.mp4",
+    "id": "x-sand",
+    "title": "Sandpile 200k grains",
+    "video": "x-sand.mp4",
     "status": "queued",
-    "thumb_ms": 15000
+    "thumb_ms": 12000,
+    "trial": true
+  },
+  {
+    "id": "x-turing",
+    "title": "Turing patterns spots vs stripes",
+    "video": "x-turing.mp4",
+    "status": "queued",
+    "thumb_ms": 14000,
+    "trial": true
+  },
+  {
+    "id": "x-3pend",
+    "title": "500 triple pendulums (chaos, part 2)",
+    "video": "x-3pend.mp4",
+    "status": "queued",
+    "thumb_ms": 12000,
+    "trial": true
   },
   {
     "id": "x-billiard",
     "title": "1,000 balls: circle vs stadium (chaos)",
     "video": "x-billiard.mp4",
     "status": "queued",
-    "thumb_ms": 12000
-  },
-  {
-    "id": "x-lorenz",
-    "title": "Lorenz attractor: two paths a billionth apart",
-    "video": "x-lorenz.mp4",
-    "status": "queued"
-  },
-  {
-    "id": "x-chladni",
-    "title": "Chladni plate: sand finds the nodal lines",
-    "video": "x-chladni.mp4",
-    "status": "queued"
-  },
-  {
-    "id": "x-pwave",
-    "title": "Pendulum wave (15 lengths, 24 s loop)",
-    "video": "x-pwave.mp4",
-    "status": "queued"
-  },
-  {
-    "id": "x-drum",
-    "title": "Why a drum doesn't play a note (Bessel modes)",
-    "video": "x-drum.mp4",
-    "status": "queued"
-  },
-  {
-    "id": "x-galton",
-    "title": "Galton board: 1500 balls make a bell curve",
-    "video": "x-galton.mp4",
-    "status": "queued"
+    "thumb_ms": 12000,
+    "trial": true
   }
 ]

@@ -1,0 +1,15 @@
+Round 2. Pick a color before it starts. 🎯
+
+Same rules as Round 1, new arena: 5 pegs. 12 balls are dropped from the same spot, each 0.0000025 pixels from the next. Same speed, same gravity.
+• For almost 6 seconds they look like one ball
+• Orange gets out first at 11.2 s, then Blue, then Pink
+
+Nothing here is random. Every glancing bounce off a round peg multiplies the tiny gap between the balls, until it's the size of the whole arena. That's chaos: exact rules, a result nobody can call in advance.
+
+Season standings after 2 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Pink 6 · Orange 5 · Blue 3 · Teal 3 · Green 1
+
+Which color are you riding for the season?
+
+Follow for Round 3 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

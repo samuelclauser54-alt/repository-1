@@ -1,0 +1,18 @@
+100 AIs learning to fly through gates. They start out knowing nothing. 🕹️
+
+Each AI is a tiny neural network (4 inputs, 6 neurons, 1 output: flap or don't). It sees how far the next gap is above or below it, its own speed, and the distance to the gate.
+• Generation 1: 10 of 100 get through the first gate, none get through the second
+• Generation 4: 36 get through the first gate
+• Generation 8: 78
+• Generation 40: all 100 pass the first gate and 80 clear all 14 gates in the video
+
+How it learns: every generation, 300 networks fly 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. No examples, no instructions. The 100 you see are that generation's best, flying a course they were not trained on.
+
+It's not perfect: on a 100-gate version of this course, 52 of the final 100 make it to the end.
+
+This is neuroevolution, the same method as the rocket-landing video.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding

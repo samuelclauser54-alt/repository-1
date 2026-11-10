@@ -1,0 +1,18 @@
+$5,000 on a credit card. What happens if you only ever pay the minimum? 💳
+
+Two people, same $5,000 balance, 24% APR, no new purchases. Both pay $150 the first month.
+• Red pays the minimum every month. As the balance drops, so does the minimum: $150, then $83 after 5 years, then $45 after 10.
+• Green keeps paying that first $150 and never lets it shrink.
+
+Result:
+• Red: 16 years 9 months, $8,442 in interest
+• Green: 4 years 8 months, $3,322 in interest
+
+The minimum is built to shrink with your balance, so most of each payment keeps going to interest. Refusing to let it shrink saves 12 years and about $5,100.
+
+Assumptions: minimum = 1% of the balance plus that month's interest, never under $35, which is a common formula. Your card's terms may differ, so check your statement.
+
+Did you know the minimum shrinks?
+
+Follow for a new simulation every day.
+#money #creditcard #personalfinance #debt #math

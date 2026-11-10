@@ -1,0 +1,15 @@
+Round 4. Pick a color before it starts. 🎯
+
+New arena: 6 pegs in 3 sizes. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• They stay within 1 pixel of each other for almost 4 seconds
+• Lime gets out first at 11.2 s, then Purple, then Pink
+
+Small pegs split the pack faster than big ones: the tighter the curve, the more a tiny difference in where a ball hits changes where it goes next.
+
+Season standings after 4 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Lime 8 · Teal 8 · Pink 7 · Orange 5 · Blue 4 · Purple 3 · Green 1
+
+Six colors still have zero points. Is yours one of them?
+
+Follow for Round 5 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

@@ -25,7 +25,7 @@ mv queue.json.merged queue.json
 git add -A
 git commit -qm "queue: add reels $(date +%F)
 
-Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" || true
+Co-Authored-By: Claude <noreply@anthropic.com>" || true
 git push -q
 rm -f /tmp/queue_local.$$.json /tmp/queue_remote.$$.json
 echo pushed

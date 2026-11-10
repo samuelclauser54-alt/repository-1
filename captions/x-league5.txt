@@ -1,0 +1,15 @@
+Round 5. Pick a color before it starts. 🎯
+
+New arena: low gravity (about 40% of the earlier rounds) and 7 small pegs. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• Slower balls, fewer bounces: at 8 seconds the pack is still within 30 pixels
+• Blue gets out first at 11.2 s, then Red, then Yellow
+
+Chaos doesn't run on a clock, it runs on bounces. Fewer collisions per second means the tiny starting gap takes longer to grow, so this round stays close for much longer.
+
+Season standings after 5 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Blue 9 · Lime 8 · Teal 8 · Pink 7 · Orange 5 · Red 3 · Purple 3 · Yellow 1 · Green 1
+
+Who takes the season?
+
+Follow for Round 6 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math
