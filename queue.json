@@ -603,8 +603,10 @@
     "id": "x-lorenz",
     "title": "Lorenz attractor: two paths a billionth apart",
     "video": "x-lorenz.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "18115686659170398",
+    "posted_at": "2026-11-10T23:11:29.400074+00:00"
   },
   {
     "id": "x-chladni",
