@@ -481,8 +481,10 @@
     "id": "x-monty",
     "title": "Monty Hall 900 games",
     "video": "x-monty.mp4",
-    "status": "queued",
-    "thumb_ms": 4000
+    "status": "posted",
+    "thumb_ms": 4000,
+    "media_id": "18131360305884822",
+    "posted_at": "2026-11-10T20:45:33.665960+00:00"
   },
   {
     "id": "p06-paths",
