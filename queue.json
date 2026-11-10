@@ -472,8 +472,10 @@
     "id": "x-early",
     "title": "Save 18-30 vs 30-65",
     "video": "x-early.mp4",
-    "status": "queued",
-    "thumb_ms": 14000
+    "status": "posted",
+    "thumb_ms": 14000,
+    "media_id": "17942377539400209",
+    "posted_at": "2026-11-10T04:06:34.031573+00:00"
   },
   {
     "id": "x-monty",
