@@ -463,8 +463,10 @@
     "id": "x-traffic",
     "title": "Phantom traffic jam",
     "video": "x-traffic.mp4",
-    "status": "queued",
-    "thumb_ms": 11500
+    "status": "posted",
+    "thumb_ms": 11500,
+    "media_id": "17975955638948100",
+    "posted_at": "2026-11-10T01:36:59.041154+00:00"
   },
   {
     "id": "x-early",
