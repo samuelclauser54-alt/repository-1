@@ -6,13 +6,8 @@ on:
     # hours or drops them, so fire many times per slot (odd minutes, less busy);
     # publish.py posts once per slot and the extra runs exit in seconds. UTC hours
     # cover both CDT and CST.
-    - cron: "7,37 13,14,22,23 * * *"
-    - cron: "7 15,16,17,0,1,2 * * *"
-    # midday slot (12:30-2 pm Chicago) on 3-a-day dates
-    - cron: "37 17,18,19 * * *"
-    - cron: "7 18,19,20,21 * * *"
-    # Trial Reels lane (11-13, 16-18, 21-23:30 Chicago); the night window needs 3-5 UTC
-    - cron: "7,37 3,4,5 * * *"
+    # every half hour; publish.py decides whether a slot is due (7 main windows + trial lane)
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:

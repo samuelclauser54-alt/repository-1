@@ -514,12 +514,12 @@
     "thumb_ms": 9000
   },
   {
-    "id": "x-gates",
-    "title": "100 AIs learn to fly through gates",
-    "video": "x-gates.mp4",
+    "id": "x-league3",
+    "title": "Color League round 3: pick a color",
+    "video": "x-league3.mp4",
     "status": "queued",
-    "format": "ai-learns",
-    "thumb_ms": 12000
+    "format": "contest",
+    "thumb_ms": 11942
   },
   {
     "id": "x-quit",
@@ -530,12 +530,12 @@
     "thumb_ms": 13500
   },
   {
-    "id": "x-league3",
-    "title": "Color League round 3: pick a color",
-    "video": "x-league3.mp4",
+    "id": "x-gates",
+    "title": "100 AIs learn to fly through gates",
+    "video": "x-gates.mp4",
     "status": "queued",
-    "format": "contest",
-    "thumb_ms": 11942
+    "format": "ai-learns",
+    "thumb_ms": 12000
   },
   {
     "id": "x-city",
@@ -544,13 +544,6 @@
     "status": "queued",
     "format": "insight",
     "thumb_ms": 13200
-  },
-  {
-    "id": "p06-paths",
-    "title": "Physics 6: Feynman's sum over paths",
-    "video": "p06-paths.mp4",
-    "status": "queued",
-    "trial": false
   },
   {
     "id": "x-martingale",
@@ -577,20 +570,6 @@
     "format": "money"
   },
   {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
-    "status": "queued",
-    "trial": false
-  },
-  {
-    "id": "x-bday",
-    "title": "Birthday problem",
-    "video": "x-bday.mp4",
-    "status": "queued",
-    "thumb_ms": 7400
-  },
-  {
     "id": "x-league5",
     "title": "Color League round 5: pick a color",
     "video": "x-league5.mp4",
@@ -599,25 +578,18 @@
     "thumb_ms": 11676
   },
   {
-    "id": "x-paint",
-    "title": "AI paints Mona Lisa",
-    "video": "x-paint.mp4",
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
     "status": "queued",
-    "thumb_ms": 9000
+    "trial": false
   },
   {
-    "id": "x-descent",
-    "title": "1000 AIs gradient descent",
-    "video": "x-descent.mp4",
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
     "status": "queued",
-    "thumb_ms": 12500
-  },
-  {
-    "id": "x-3body",
-    "title": "Three-body two universes",
-    "video": "x-3body.mp4",
-    "status": "queued",
-    "thumb_ms": 11000
+    "trial": false
   },
   {
     "id": "x-league6",
@@ -626,13 +598,6 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11783
-  },
-  {
-    "id": "x-boids",
-    "title": "Boids 1500 birds + hawk",
-    "video": "x-boids.mp4",
-    "status": "queued",
-    "thumb_ms": 9000
   },
   {
     "id": "x-league7",
@@ -657,6 +622,46 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11158
+  },
+  {
+    "id": "x-bday",
+    "title": "Birthday problem",
+    "video": "x-bday.mp4",
+    "status": "queued",
+    "thumb_ms": 7400,
+    "trial": true
+  },
+  {
+    "id": "x-paint",
+    "title": "AI paints Mona Lisa",
+    "video": "x-paint.mp4",
+    "status": "queued",
+    "thumb_ms": 9000,
+    "trial": true
+  },
+  {
+    "id": "x-descent",
+    "title": "1000 AIs gradient descent",
+    "video": "x-descent.mp4",
+    "status": "queued",
+    "thumb_ms": 12500,
+    "trial": true
+  },
+  {
+    "id": "x-3body",
+    "title": "Three-body two universes",
+    "video": "x-3body.mp4",
+    "status": "queued",
+    "thumb_ms": 11000,
+    "trial": true
+  },
+  {
+    "id": "x-boids",
+    "title": "Boids 1500 birds + hawk",
+    "video": "x-boids.mp4",
+    "status": "queued",
+    "thumb_ms": 9000,
+    "trial": true
   },
   {
     "id": "x-chladni",
