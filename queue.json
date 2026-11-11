@@ -531,10 +531,12 @@
     "id": "x-quit",
     "title": "Quit while you're ahead: 10,000 gamblers",
     "video": "x-quit.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "insight",
     "thumb_ms": 13500,
-    "comment": "Setup: American roulette, $5 on red every spin (18 in 38), $100 bankroll, leave at +$20 or at $0. All 10,000 runs are in the totals."
+    "comment": "Setup: American roulette, $5 on red every spin (18 in 38), $100 bankroll, leave at +$20 or at $0. All 10,000 runs are in the totals.",
+    "media_id": "18119340695325460",
+    "posted_at": "2026-11-11T22:58:33.657138+00:00"
   },
   {
     "id": "x-league4",
