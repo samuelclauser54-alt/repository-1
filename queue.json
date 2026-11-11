@@ -509,10 +509,12 @@
     "id": "x-card",
     "title": "Credit card: minimum payment vs fixed $150",
     "video": "x-card.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "insight",
     "thumb_ms": 9000,
-    "comment": "Assumptions: 24% APR, minimum = 1% of the balance + that month's interest (at least $35), no new purchases. Check your own statement, the formula varies by card."
+    "comment": "Assumptions: 24% APR, minimum = 1% of the balance + that month's interest (at least $35), no new purchases. Check your own statement, the formula varies by card.",
+    "media_id": "17985689337065506",
+    "posted_at": "2026-11-11T03:51:01.135663+00:00"
   },
   {
     "id": "x-league3",
