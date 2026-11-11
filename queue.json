@@ -499,9 +499,11 @@
     "id": "x-league2",
     "title": "Color League round 2: pick a color",
     "video": "x-league2.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "contest",
-    "thumb_ms": 11644
+    "thumb_ms": 11644,
+    "media_id": "18211333075370854",
+    "posted_at": "2026-11-11T00:43:39.981936+00:00"
   },
   {
     "id": "x-card",
