@@ -520,10 +520,12 @@
     "id": "x-league3",
     "title": "Color League round 3: pick a color",
     "video": "x-league3.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "contest",
     "thumb_ms": 11942,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 3: Pink 6 · Orange 5 · Blue 3 · Teal 3 · Green 1."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 3: Pink 6 · Orange 5 · Blue 3 · Teal 3 · Green 1.",
+    "media_id": "18029337449702755",
+    "posted_at": "2026-11-11T16:32:41.101463+00:00"
   },
   {
     "id": "x-quit",
