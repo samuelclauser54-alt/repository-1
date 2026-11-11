@@ -1,0 +1,15 @@
+Nobody in this city minds being outnumbered 2 to 1. Watch what happens anyway. 🏙️
+
+A 50 × 50 city: 45% blue households, 45% orange, 10% empty lots, mixed at random. One rule: a household moves only if fewer than 1 in 3 of its neighbors share its color. Everyone is fine living as a minority.
+• At the start, the average household has 49% matching neighbors, and 19% want to move
+• After 1,021 moves, nobody wants to move
+• The average household now has 78% matching neighbors, and 34% have no neighbor of the other color at all
+
+Nobody asked for that. Each move slightly tips the neighbors left behind, some of them move too, and the mild preferences add up to a divided map.
+
+This is Thomas Schelling's model from 1971, part of the work behind his Nobel Prize in economics. It's a toy model with one rule, not a description of any real city. Real segregation has many other causes, including laws and money. The point is narrower: a pattern can be far more extreme than what any single person in it wants.
+
+Does that surprise you, or does it match what you've seen?
+
+Follow for a new simulation every day.
+#economics #simulation #math #sociology #gametheory

@@ -1,0 +1,15 @@
+Round 7. Pick a color before it starts. 🎯
+
+New arena: two giant pegs. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• Under 1 pixel apart for the first 4 seconds
+• Cyan gets out first at 10.1 s, its first points of the season. Teal is second, Yellow third.
+
+Big pegs curve gently, so each bounce spreads the balls less than a small peg would. It just takes more bounces to get the same chaos.
+
+Season standings after 7 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Teal 12 · Blue 9 · Lime 8 · Pink 7 · Cyan 5 · Orange 5 · Indigo 5 · Green 4 · Red 3 · Purple 3 · Yellow 2
+
+Teal has won only once, but it keeps landing on the podium. Can anyone catch it?
+
+Follow for Round 8 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

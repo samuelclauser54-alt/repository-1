@@ -1,0 +1,15 @@
+Round 8. Pick a color before it starts. 🎯
+
+New arena: three exits, four pegs. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• Under 1 pixel apart for more than 4 seconds
+• Cyan wins again at 10.1 s, back to back. Yellow is second, Indigo third.
+
+Three exits, but each one is narrow, and they keep rotating. A ball has to reach the wall at the right place at the right moment.
+
+Season standings after 8 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Teal 12 · Cyan 10 · Blue 9 · Lime 8 · Pink 7 · Indigo 6 · Yellow 5 · Orange 5 · Green 4 · Purple 3 · Red 3
+
+Cyan had zero points two rounds ago. Now it's second.
+
+Follow for Round 9 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

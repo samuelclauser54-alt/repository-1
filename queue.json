@@ -487,6 +487,15 @@
     "posted_at": "2026-11-10T20:45:33.665960+00:00"
   },
   {
+    "id": "x-lorenz",
+    "title": "Lorenz attractor: two paths a billionth apart",
+    "video": "x-lorenz.mp4",
+    "status": "posted",
+    "trial": true,
+    "media_id": "18115686659170398",
+    "posted_at": "2026-11-10T23:11:29.400074+00:00"
+  },
+  {
     "id": "x-league2",
     "title": "Color League round 2: pick a color",
     "video": "x-league2.mp4",
@@ -495,11 +504,12 @@
     "thumb_ms": 11644
   },
   {
-    "id": "p06-paths",
-    "title": "Physics 6: Feynman's sum over paths",
-    "video": "p06-paths.mp4",
+    "id": "x-card",
+    "title": "Credit card: minimum payment vs fixed $150",
+    "video": "x-card.mp4",
     "status": "queued",
-    "trial": false
+    "format": "insight",
+    "thumb_ms": 9000
   },
   {
     "id": "x-gates",
@@ -510,12 +520,12 @@
     "thumb_ms": 12000
   },
   {
-    "id": "x-card",
-    "title": "Credit card: minimum payment vs fixed $150",
-    "video": "x-card.mp4",
+    "id": "x-quit",
+    "title": "Quit while you're ahead: 10,000 gamblers",
+    "video": "x-quit.mp4",
     "status": "queued",
-    "format": "money",
-    "thumb_ms": 9000
+    "format": "insight",
+    "thumb_ms": 13500
   },
   {
     "id": "x-league3",
@@ -526,9 +536,17 @@
     "thumb_ms": 11942
   },
   {
-    "id": "c04-bandwidth",
-    "title": "Code 4: memory bandwidth, not math",
-    "video": "c04-bandwidth.mp4",
+    "id": "x-city",
+    "title": "Schelling model: mild preference, divided city",
+    "video": "x-city.mp4",
+    "status": "queued",
+    "format": "insight",
+    "thumb_ms": 13200
+  },
+  {
+    "id": "p06-paths",
+    "title": "Physics 6: Feynman's sum over paths",
+    "video": "p06-paths.mp4",
     "status": "queued",
     "trial": false
   },
@@ -541,14 +559,6 @@
     "format": "money"
   },
   {
-    "id": "x-ergodic",
-    "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
-    "video": "x-ergodic.mp4",
-    "status": "queued",
-    "thumb_ms": 15000,
-    "format": "money"
-  },
-  {
     "id": "x-league4",
     "title": "Color League round 4: pick a color",
     "video": "x-league4.mp4",
@@ -557,25 +567,26 @@
     "thumb_ms": 11660
   },
   {
+    "id": "x-ergodic",
+    "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
+    "video": "x-ergodic.mp4",
+    "status": "queued",
+    "thumb_ms": 15000,
+    "format": "money"
+  },
+  {
+    "id": "c04-bandwidth",
+    "title": "Code 4: memory bandwidth, not math",
+    "video": "c04-bandwidth.mp4",
+    "status": "queued",
+    "trial": false
+  },
+  {
     "id": "x-bday",
     "title": "Birthday problem",
     "video": "x-bday.mp4",
     "status": "queued",
     "thumb_ms": 7400
-  },
-  {
-    "id": "x-descent",
-    "title": "1000 AIs gradient descent",
-    "video": "x-descent.mp4",
-    "status": "queued",
-    "thumb_ms": 12500
-  },
-  {
-    "id": "x-paint",
-    "title": "AI paints Mona Lisa",
-    "video": "x-paint.mp4",
-    "status": "queued",
-    "thumb_ms": 9000
   },
   {
     "id": "x-league5",
@@ -586,11 +597,33 @@
     "thumb_ms": 11676
   },
   {
+    "id": "x-paint",
+    "title": "AI paints Mona Lisa",
+    "video": "x-paint.mp4",
+    "status": "queued",
+    "thumb_ms": 9000
+  },
+  {
+    "id": "x-descent",
+    "title": "1000 AIs gradient descent",
+    "video": "x-descent.mp4",
+    "status": "queued",
+    "thumb_ms": 12500
+  },
+  {
     "id": "x-3body",
     "title": "Three-body two universes",
     "video": "x-3body.mp4",
     "status": "queued",
     "thumb_ms": 11000
+  },
+  {
+    "id": "x-league6",
+    "title": "Color League round 6: pick a color",
+    "video": "x-league6.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11783
   },
   {
     "id": "x-boids",
@@ -600,13 +633,28 @@
     "thumb_ms": 9000
   },
   {
-    "id": "x-lorenz",
-    "title": "Lorenz attractor: two paths a billionth apart",
-    "video": "x-lorenz.mp4",
-    "status": "posted",
-    "trial": true,
-    "media_id": "18115686659170398",
-    "posted_at": "2026-11-10T23:11:29.400074+00:00"
+    "id": "x-league7",
+    "title": "Color League round 7: pick a color",
+    "video": "x-league7.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 10599
+  },
+  {
+    "id": "x-league8",
+    "title": "Color League round 8: pick a color",
+    "video": "x-league8.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 10589
+  },
+  {
+    "id": "x-league9",
+    "title": "Color League round 9: pick a color",
+    "video": "x-league9.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11158
   },
   {
     "id": "x-chladni",

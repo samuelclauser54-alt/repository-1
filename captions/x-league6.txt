@@ -1,0 +1,15 @@
+Round 6. Pick a color before it starts. 🎯
+
+New arena: 10 pegs stacked in a triangle. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• They stay within 1 pixel of each other for 6 seconds, the longest of the season so far
+• Then the triangle scatters them, and Indigo gets out first at 11.3 s, followed by Green and Teal
+
+The pack holds together until it finally drops into the pegs. After that, every bounce multiplies the gap, and a few bounces are enough.
+
+Season standings after 6 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Teal 9 · Blue 9 · Lime 8 · Pink 7 · Indigo 5 · Orange 5 · Green 4 · Red 3 · Purple 3 · Yellow 1
+
+Two colors still have nothing: Cyan and Magenta. Is one of them yours?
+
+Follow for Round 7 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

@@ -1,0 +1,17 @@
+"Quit while you're ahead." I tested it on 10,000 gamblers. 🎰
+
+Everyone walks into a casino with $100 and bets $5 on red at roulette (American wheel, 18 chances in 38). The rule: the moment you're up $20, you leave. No greed, no chasing.
+• 64% walked out winners
+• 36% lost the whole $100
+• The casino made $232,840, about $23 per person
+
+How can most people win and the house still clean up? Winners take home $20. Losers leave $100. It takes 5 winners to pay for 1 loser, and there are fewer than 2.
+
+Quitting early doesn't change the odds of a spin. It just trades many small wins for a few big losses. The casino kept about 5 cents of every dollar bet either way.
+
+Each dot is one gambler; 2,500 of the 10,000 are shown. The totals count all of them.
+
+So is "quit while you're ahead" good advice, or a trap? 👇
+
+Follow for a new simulation every day.
+#casino #gambling #probability #money #math

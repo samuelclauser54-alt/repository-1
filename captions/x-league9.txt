@@ -1,0 +1,15 @@
+Round 9. Pick a color before it starts. 🎯
+
+New arena: double gravity and a ring of 8 pegs. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• Faster balls, more bounces per second: they're over 1 pixel apart by 3 seconds
+• Magenta gets out first at 10.7 s. It was the last color without a single point. Green is second, Indigo third.
+
+After 9 rounds, all 12 colors have scored.
+
+Season standings (1st = 5 points, 2nd = 3, 3rd = 1):
+Teal 12 · Cyan 10 · Blue 9 · Lime 8 · Green 7 · Indigo 7 · Pink 7 · Magenta 5 · Orange 5 · Yellow 5 · Red 3 · Purple 3
+
+Who takes the season?
+
+Follow for Round 10 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math
