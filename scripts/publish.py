@@ -258,6 +258,13 @@ def main():
                         nxt.update(status="posted", media_id=mid,
                                    posted_at=datetime.now(timezone.utc).isoformat())
                         print("  published media", mid)
+                        if nxt.get("comment"):   # optional first comment from the account (context, no spoilers)
+                            try:
+                                time.sleep(8)
+                                ig("POST", f"{mid}/comments", message=nxt["comment"])
+                                print("  first comment posted")
+                            except SystemExit as e:   # never let a comment failure undo a successful post
+                                print("  first comment failed:", str(e)[:120])
         except SystemExit as e:   # API error: keep it queued (retried next slot), tell the user
             err = str(e)[:300]
             nxt["tried_at"] = datetime.now(timezone.utc).isoformat()   # one try per slot

@@ -1,0 +1,17 @@
+10 identical songs. Same quality, same everything. Why does one become a hit? 🎵
+
+100,000 listeners arrive one at a time. Each one plays a single song, and is more likely to pick a song that already has more plays. That's the only rule.
+• The winner ended with 30,089 plays
+• The loser ended with 244
+• Same song. A 123× gap from nothing but who happened to click first
+
+Then I reran the whole thing 1,000 times. Every song finished number one somewhere between 77 and 122 times. There's no "best" song here. There's just the one that got lucky early, and then popularity fed itself.
+
+Researchers call it cumulative advantage. A real experiment found the same pattern: when people could see download counts, which songs became hits was far less predictable (Salganik, Dodds and Watts, 2006).
+
+This is a toy model. In real life quality does matter, but it shows how much of a gap luck alone can make.
+
+So how much of going viral do you think is luck? 👇
+
+Follow for a new simulation every day.
+#music #viral #probability #simulation #math

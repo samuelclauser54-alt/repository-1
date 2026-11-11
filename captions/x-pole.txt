@@ -1,0 +1,16 @@
+100 AIs learning to balance a stick. Nobody tells them how. 🧠
+
+Each AI is a tiny neural network (4 inputs, 5 neurons, 1 output: push the cart left or right). It starts with the stick already tilted, and gets a random shove every 1.5 seconds.
+• Generation 1: every stick is down within seconds. The typical one lasts 0.56 s.
+• Generation 5: 4 of 100 last the full 12 seconds
+• Generation 8: 27
+• Generation 30: 97
+
+How it learns: each generation, 300 networks get 3 tries and one number back: how long the stick stayed up. The top 30 survive and are copied with small random changes. No physics lessons, no examples. The 100 you see are that generation's best.
+
+The physics is the classic cart-pole problem from 1983, one of the oldest tests in reinforcement learning.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding

@@ -1,0 +1,15 @@
+Round 13. Pick a color before it starts. 🎯
+
+New arena: triple gravity, two exits. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• They hold together for over 4 seconds, even at this speed
+• Blue gets out first at 10.9 s, then Teal, then Cyan
+
+Teal breaks the three-way tie without winning the round. It has one win all season and six podiums. Steady beats lucky, for now.
+
+Season standings after 13 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Teal 18 · Orange 15 · Indigo 15 · Blue 14 · Lime 13 · Cyan 11 · Green 7 · Pink 7 · Magenta 5 · Yellow 5 · Purple 4 · Red 3
+
+Five colors within 5 points. Who takes it?
+
+Follow for Round 14 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

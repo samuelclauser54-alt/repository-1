@@ -1,0 +1,15 @@
+Round 12. Pick a color before it starts. 🎯
+
+New arena: 13 tiny pegs. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• Over 1 pixel apart before 4 seconds
+• Orange wins again at 11.7 s, its third win of the season. Indigo is second, Lime third.
+
+And now it's a three-way tie at the top.
+
+Season standings after 12 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Orange 15 · Indigo 15 · Teal 15 · Lime 13 · Cyan 10 · Blue 9 · Green 7 · Pink 7 · Yellow 5 · Magenta 5 · Purple 4 · Red 3
+
+Orange, Indigo or Teal?
+
+Follow for Round 13 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

@@ -1,0 +1,15 @@
+Round 10. Pick a color before it starts. 🎯
+
+New arena: four exits, each one narrow. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• Over 1 pixel apart by 3.5 seconds
+• Indigo gets out first at 11.3 s, its second win of the season. Teal is second, Lime third.
+
+More exits, but each is about a third as wide as usual. A ball has to hit the wall in exactly the right spot while the gaps keep rotating.
+
+Season standings after 10 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Teal 15 · Indigo 12 · Cyan 10 · Lime 9 · Blue 9 · Green 7 · Pink 7 · Orange 5 · Yellow 5 · Magenta 5 · Purple 3 · Red 3
+
+Teal still has just one win, and still leads. Is your color in the top five?
+
+Follow for Round 11 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math

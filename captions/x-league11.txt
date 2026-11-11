@@ -1,0 +1,15 @@
+Round 11. Pick a color before it starts. 🎯
+
+New arena: a wall of 5 pegs across the middle. 12 balls start from the same spot, each 0.0000025 pixels from the next.
+• Over 1 pixel apart by 3 seconds
+• Orange gets out first at 11.2 s, then Lime, then Purple
+
+To reach the lower half a ball has to slip between the pegs. Which gap it finds depends on a difference smaller than an atom.
+
+Season standings after 11 rounds (1st = 5 points, 2nd = 3, 3rd = 1):
+Teal 15 · Lime 12 · Indigo 12 · Orange 10 · Cyan 10 · Blue 9 · Green 7 · Pink 7 · Yellow 5 · Magenta 5 · Purple 4 · Red 3
+
+Orange jumps from eighth to fourth in one round. Who's your pick now?
+
+Follow for Round 12 and a new simulation every day.
+#physics #chaos #simulation #satisfying #math
