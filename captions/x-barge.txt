@@ -1,0 +1,18 @@
+Part 2: the landing pad moves now. 100 AIs learning to land a rocket on it. Nobody shows them how. 🚀
+
+Last time the pad stood still and 94 of 100 landed. Now it slides side to side, and a landing only counts if the rocket touches down softly, upright and on the pad.
+
+Each AI is a tiny neural network (9 inputs, 12 neurons, 2 outputs: engine and steering). It sees where it is relative to the pad, its speed and tilt, and how fast the pad is moving.
+• Generation 1: 0 of 100 land
+• Generation 24: 12
+• Generation 40: 42
+• Generation 150: 79
+
+How it learns: each generation, 300 networks fly 4 test flights and get one score (closer to the pad, slower and more upright is better). The top 30 survive and are copied with small random changes. No examples, no rules for how to fly. The 100 you see are that generation's best.
+
+It's harder than part 1 and not as clean: of the final 100, 15 crash and 6 are still hovering when the 10 seconds run out. For the first 12 generations nothing landed at all.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding

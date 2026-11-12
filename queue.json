@@ -650,6 +650,33 @@
     "comment": "Part 1 (fixed gates) is on the profile. Details: 5 inputs, 8 neurons, 1 output. 300 networks per generation, top 30 kept. The course in the video was never used in training."
   },
   {
+    "id": "x-dip",
+    "title": "Buy the dip, or just buy every month?",
+    "video": "x-dip.mp4",
+    "status": "queued",
+    "format": "money",
+    "thumb_ms": 9000,
+    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, \u00b117% swings, waiting cash earns 0%. Real crashes cluster more than this model, so treat it as a model, not a promise."
+  },
+  {
+    "id": "x-barge",
+    "title": "100 AIs vs a landing pad that moves (part 2)",
+    "video": "x-barge.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 12500,
+    "comment": "Part 1 (fixed pad, 94 of 100 landed) is on the profile. Details: 9 inputs, 12 neurons, 2 outputs. 300 networks per generation, top 30 kept, 150 generations."
+  },
+  {
+    "id": "x-league7",
+    "title": "Color League round 7: pick a color",
+    "video": "x-league7.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 10599,
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 7: Teal 9 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Indigo 5 \u00b7 Orange 5."
+  },
+  {
     "id": "x-series",
     "title": "Does the better team win? best-of-7 vs best-of-269",
     "video": "x-series.mp4",
@@ -668,14 +695,6 @@
     "comment": "This is Schelling's 1971 model with one rule. It is not a description of any real city, where laws and money matter far more."
   },
   {
-    "id": "x-martingale",
-    "title": "Martingale: double your bet after every loss",
-    "video": "x-martingale.mp4",
-    "status": "queued",
-    "thumb_ms": 15500,
-    "format": "money"
-  },
-  {
     "id": "x-hits",
     "title": "10 identical songs: why one becomes a hit",
     "video": "x-hits.mp4",
@@ -685,21 +704,29 @@
     "comment": "Model: each listener picks a song with probability proportional to its plays so far, plus one. Nothing else differs between the songs."
   },
   {
+    "id": "x-league8",
+    "title": "Color League round 8: pick a color",
+    "video": "x-league8.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 10589,
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 8: Teal 12 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Cyan 5 \u00b7 Orange 5."
+  },
+  {
+    "id": "x-martingale",
+    "title": "Martingale: double your bet after every loss",
+    "video": "x-martingale.mp4",
+    "status": "queued",
+    "thumb_ms": 15500,
+    "format": "money"
+  },
+  {
     "id": "x-ergodic",
     "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
     "video": "x-ergodic.mp4",
     "status": "queued",
     "thumb_ms": 15000,
     "format": "money"
-  },
-  {
-    "id": "x-league7",
-    "title": "Color League round 7: pick a color",
-    "video": "x-league7.mp4",
-    "status": "queued",
-    "format": "contest",
-    "thumb_ms": 10599,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 7: Teal 9 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Indigo 5 \u00b7 Orange 5."
   },
   {
     "id": "p06-paths",
@@ -714,15 +741,6 @@
     "video": "c04-bandwidth.mp4",
     "status": "queued",
     "trial": false
-  },
-  {
-    "id": "x-league8",
-    "title": "Color League round 8: pick a color",
-    "video": "x-league8.mp4",
-    "status": "queued",
-    "format": "contest",
-    "thumb_ms": 10589,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 8: Teal 12 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Cyan 5 \u00b7 Orange 5."
   },
   {
     "id": "x-league9",
@@ -860,14 +878,5 @@
     "status": "queued",
     "thumb_ms": 12000,
     "trial": true
-  },
-  {
-    "id": "x-dip",
-    "title": "Buy the dip, or just buy every month?",
-    "video": "x-dip.mp4",
-    "status": "queued",
-    "format": "money",
-    "thumb_ms": 9000,
-    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, \u00b117% swings, waiting cash earns 0%. Real crashes cluster more than this model, so treat it as a model, not a promise."
   }
 ]
