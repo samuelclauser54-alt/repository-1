@@ -1,0 +1,20 @@
+"Wait for the dip, then buy." I tested it against the boring plan on 10,000 simulated markets. 📉
+
+Both people get $500 a month for 30 years ($180,000 in total).
+• one invests it the day it arrives, every month
+• the other holds it as cash and only buys when the market is 20% or more below its high
+
+Results after 30 years:
+• buys every month: typical balance $471,581
+• waits for the dip: typical balance $419,710
+• buying every month ended ahead in 77% of the markets
+
+Why: the dip buyer does get lower prices, but the cash sits out of the market for years while it waits, and the market usually climbs more in that time than the dip gives back. Waiting for a 30% dip did worse (ahead in only 19% of markets), and a 10% dip was closer but still behind (28%).
+
+How I ran it: monthly returns that add up to 7% a year after inflation with swings of ±17% a year, and waiting cash earns 0% after inflation. Real markets have crashes that cluster more than this model, so treat it as a model, not a promise.
+
+Which one are you? 👇
+
+Follow for a new simulation every day.
+
+#money #investing #stockmarket #personalfinance #math
