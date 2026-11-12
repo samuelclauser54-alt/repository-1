@@ -564,10 +564,12 @@
     "id": "x-gates",
     "title": "100 AIs learn to fly through gates",
     "video": "x-gates.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 12000,
-    "comment": "The 100 on screen are each generation's best, flying a course none of them trained on."
+    "comment": "The 100 on screen are each generation's best, flying a course none of them trained on.",
+    "media_id": "18646330423045197",
+    "posted_at": "2026-11-12T16:02:26.468657+00:00"
   },
   {
     "id": "x-lump",
