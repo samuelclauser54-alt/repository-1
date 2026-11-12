@@ -1,0 +1,15 @@
+Two people put $400 a month into the same stock index from 25 to 65. The only difference: one fund charges 0.05% a year, the other charges 1%. 📉
+
+• both put in: $192,000
+• 0.05% fee: typical balance at 65 is $762,287
+• 1% fee: typical balance at 65 is $589,778
+
+In the typical simulated market the 1% fee costs $171,662, about 23% of the final balance. Only about $90,000 of that is the fee itself. The rest is the growth that money would have earned if it had stayed invested.
+
+How I ran it: 10,000 random stock markets (yearly returns averaging 7% after inflation, with swings of ±17%), the fee taken from the balance once a year. Both funds see the exact same markets, so the fee is the only difference. Balances are in today's dollars. The thin lines are 150 of those markets for each fund, and the thick lines are the median.
+
+Do you know what fee your fund charges? 👇
+
+Follow for a new simulation every day.
+
+#money #investing #indexfunds #personalfinance #math
