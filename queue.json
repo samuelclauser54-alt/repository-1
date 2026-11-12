@@ -523,7 +523,7 @@
     "status": "posted",
     "format": "contest",
     "thumb_ms": 11942,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 3: Pink 6 \u00b7 Orange 5 \u00b7 Blue 3 \u00b7 Teal 3 \u00b7 Green 1.",
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 3: Pink 6 · Orange 5 · Blue 3 · Teal 3 · Green 1.",
     "media_id": "18029337449702755",
     "posted_at": "2026-11-11T16:32:41.101463+00:00"
   },
@@ -545,7 +545,7 @@
     "status": "posted",
     "format": "contest",
     "thumb_ms": 11660,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 4: Teal 8 \u00b7 Pink 6 \u00b7 Orange 5 \u00b7 Blue 4 \u00b7 Lime 3 \u00b7 Green 1.",
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 4: Teal 8 · Pink 6 · Orange 5 · Blue 4 · Lime 3 · Green 1.",
     "media_id": "18189248779416988",
     "posted_at": "2026-11-12T03:09:59.160804+00:00"
   },
@@ -556,7 +556,7 @@
     "status": "queued",
     "format": "money",
     "thumb_ms": 9000,
-    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, \u00b117% swings, fee taken once a year. Both funds see the same markets. Real funds, taxes and your own returns will differ."
+    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, ±17% swings, fee taken once a year. Both funds see the same markets. Real funds, taxes and your own returns will differ."
   },
   {
     "id": "x-gates",
@@ -574,7 +574,7 @@
     "status": "queued",
     "format": "money",
     "thumb_ms": 8000,
-    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, \u00b117% swings, waiting cash earns 0% after inflation. If your cash earns interest while it waits, the gap is smaller."
+    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, ±17% swings, waiting cash earns 0% after inflation. If your cash earns interest while it waits, the gap is smaller."
   },
   {
     "id": "x-league5",
@@ -583,7 +583,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11676,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 5: Lime 8 \u00b7 Teal 8 \u00b7 Pink 7 \u00b7 Orange 5 \u00b7 Blue 4 \u00b7 Purple 3."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 5: Lime 8 · Teal 8 · Pink 7 · Orange 5 · Blue 4 · Purple 3."
   },
   {
     "id": "x-pole",
@@ -627,7 +627,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11783,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 6: Blue 9 \u00b7 Lime 8 \u00b7 Teal 8 \u00b7 Pink 7 \u00b7 Orange 5 \u00b7 Red 3."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 6: Blue 9 · Lime 8 · Teal 8 · Pink 7 · Orange 5 · Red 3."
   },
   {
     "id": "x-hits",
@@ -653,7 +653,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 10599,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 7: Teal 9 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Indigo 5 \u00b7 Orange 5."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 7: Teal 9 · Blue 9 · Lime 8 · Pink 7 · Indigo 5 · Orange 5."
   },
   {
     "id": "p06-paths",
@@ -676,7 +676,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 10589,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 8: Teal 12 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Cyan 5 \u00b7 Orange 5."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 8: Teal 12 · Blue 9 · Lime 8 · Pink 7 · Cyan 5 · Orange 5."
   },
   {
     "id": "x-league9",
@@ -685,7 +685,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11158,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 9: Teal 12 \u00b7 Cyan 10 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Indigo 6."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 9: Teal 12 · Cyan 10 · Blue 9 · Lime 8 · Pink 7 · Indigo 6."
   },
   {
     "id": "x-league10",
@@ -694,7 +694,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11726,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 10: Teal 12 \u00b7 Cyan 10 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Green 7 \u00b7 Indigo 7."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 10: Teal 12 · Cyan 10 · Blue 9 · Lime 8 · Green 7 · Indigo 7."
   },
   {
     "id": "x-league11",
@@ -703,7 +703,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11669,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 11: Teal 15 \u00b7 Indigo 12 \u00b7 Cyan 10 \u00b7 Lime 9 \u00b7 Blue 9 \u00b7 Green 7."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 11: Teal 15 · Indigo 12 · Cyan 10 · Lime 9 · Blue 9 · Green 7."
   },
   {
     "id": "x-league12",
@@ -712,7 +712,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 12150,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 12: Teal 15 \u00b7 Lime 12 \u00b7 Indigo 12 \u00b7 Orange 10 \u00b7 Cyan 10 \u00b7 Blue 9."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 12: Teal 15 · Lime 12 · Indigo 12 · Orange 10 · Cyan 10 · Blue 9."
   },
   {
     "id": "x-league13",
@@ -721,7 +721,7 @@
     "status": "queued",
     "format": "contest",
     "thumb_ms": 11369,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 13: Orange 15 \u00b7 Indigo 15 \u00b7 Teal 15 \u00b7 Lime 13 \u00b7 Cyan 10 \u00b7 Blue 9."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 13: Orange 15 · Indigo 15 · Teal 15 · Lime 13 · Cyan 10 · Blue 9."
   },
   {
     "id": "x-bday",
