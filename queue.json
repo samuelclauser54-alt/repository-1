@@ -586,10 +586,12 @@
     "id": "x-league5",
     "title": "Color League round 5: pick a color",
     "video": "x-league5.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "contest",
     "thumb_ms": 11676,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 5: Lime 8 · Teal 8 · Pink 7 · Orange 5 · Blue 4 · Purple 3."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 5: Lime 8 · Teal 8 · Pink 7 · Orange 5 · Blue 4 · Purple 3.",
+    "media_id": "18440303518182899",
+    "posted_at": "2026-11-12T22:21:22.853884+00:00"
   },
   {
     "id": "x-pole",
