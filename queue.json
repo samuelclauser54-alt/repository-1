@@ -641,6 +641,15 @@
     "comment": "Lock in your color before the gap comes around. Standings going into Round 6: Blue 9 \u00b7 Lime 8 \u00b7 Teal 8 \u00b7 Pink 7 \u00b7 Orange 5 \u00b7 Red 3."
   },
   {
+    "id": "x-gates2",
+    "title": "100 AIs vs gates that move (part 2)",
+    "video": "x-gates2.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 12500,
+    "comment": "Part 1 (fixed gates) is on the profile. Details: 5 inputs, 8 neurons, 1 output. 300 networks per generation, top 30 kept. The course in the video was never used in training."
+  },
+  {
     "id": "x-series",
     "title": "Does the better team win? best-of-7 vs best-of-269",
     "video": "x-series.mp4",

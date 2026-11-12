@@ -1,0 +1,18 @@
+Part 2: the gates move now. 100 AIs learning to fly through them, starting from nothing. 🕹️
+
+Last time the gates stood still and 80 of 100 cleared the course by generation 40. This time every gap slides up and down, so aiming at where the gap is now doesn't work.
+
+Each AI is a tiny neural network (5 inputs, 8 neurons, 1 output: flap or don't). It sees where the next gap is, how fast the gap is moving, its own speed, and the distance to the gate.
+• Generation 1: 13 of 100 get through the first gate
+• Generation 6: 84 get through the first gate, the best one reaches gate 9
+• Generation 16: 17 clear all 14 gates in the video
+• Generation 60: 82 clear all 14 gates
+
+How it learns: every generation, 300 networks fly 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, on a course they were not trained on.
+
+It's harder than the first version: on a 100-gate course, only 28 of the final 100 make it to the end (it was 52 with fixed gates). I also made the gaps slightly taller here (2.1 units, up from 1.9).
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
