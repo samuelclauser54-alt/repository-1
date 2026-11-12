@@ -12,6 +12,8 @@ It's not a steady climb: in generation 25, 4 of the 100 crashed on this same tra
 
 This is neuroevolution, the same method as the gates and rocket videos.
 
+Want to run it yourself? I put a live version online where you can change the rules and watch them learn: samuelclauser54-alt.github.io/evolve-lab
+
 What should they learn next?
 
 Follow for a new simulation every day.

@@ -620,7 +620,7 @@
     "status": "queued",
     "format": "ai-learns",
     "thumb_ms": 12500,
-    "comment": "Classic cart-pole physics. The 100 on screen are each generation's best, all facing the same starts and the same shoves."
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
   },
   {
     "id": "x-drive",
@@ -629,7 +629,7 @@
     "status": "queued",
     "format": "ai-learns",
     "thumb_ms": 11500,
-    "comment": "Details: each car sees 5 distances to the track edge and outputs one steering value. Speed is fixed. 300 networks per generation, top 30 kept. The track in the video was never used in training."
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
   },
   {
     "id": "x-league6",
@@ -647,7 +647,7 @@
     "status": "queued",
     "format": "ai-learns",
     "thumb_ms": 12500,
-    "comment": "Part 1 (fixed gates) is on the profile. Details: 5 inputs, 8 neurons, 1 output. 300 networks per generation, top 30 kept. The course in the video was never used in training."
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
   },
   {
     "id": "x-dip",
@@ -665,7 +665,7 @@
     "status": "queued",
     "format": "ai-learns",
     "thumb_ms": 12500,
-    "comment": "Part 1 (fixed pad, 94 of 100 landed) is on the profile. Details: 9 inputs, 12 neurons, 2 outputs. 300 networks per generation, top 30 kept, 150 generations."
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
   },
   {
     "id": "x-league7",
