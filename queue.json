@@ -731,9 +731,11 @@
     "id": "x-bday",
     "title": "Birthday problem",
     "video": "x-bday.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 7400,
-    "trial": true
+    "trial": true,
+    "media_id": "17912852790667571",
+    "posted_at": "2026-11-12T17:33:05.116136+00:00"
   },
   {
     "id": "x-paint",
