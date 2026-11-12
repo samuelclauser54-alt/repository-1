@@ -17,6 +17,12 @@ cd "$TMP"
 git init -q -b media
 git add -A
 git commit -q -m "media $(date +%F)"
-git push -q -f "$(cd "$ROOT" && git remote get-url origin)" media
+REMOTE="$(cd "$ROOT" && git remote get-url origin)"
+ok=0   # GitHub sometimes drops this large push (HTTP 408): retry instead of leaving new videos offline
+for try in 1 2 3 4 5; do
+  if git push -q -f "$REMOTE" media; then ok=1; break; fi
+  echo "media push failed (try $try), retrying" >&2; sleep 15
+done
+[ "$ok" = 1 ] || { echo "MEDIA PUSH FAILED: new videos are NOT live" >&2; exit 1; }
 rm -rf "$TMP"
 echo "media branch now holds $(ls "$ROOT/videos" | wc -l | tr -d ' ') local / upcoming videos pushed"
