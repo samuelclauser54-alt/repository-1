@@ -553,10 +553,12 @@
     "id": "x-fee",
     "title": "Same fund, 0.05% fee vs 1% fee: what it costs by 65",
     "video": "x-fee.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "money",
     "thumb_ms": 9000,
-    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, ±17% swings, fee taken once a year. Both funds see the same markets. Real funds, taxes and your own returns will differ."
+    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, ±17% swings, fee taken once a year. Both funds see the same markets. Real funds, taxes and your own returns will differ.",
+    "media_id": "18146991256589440",
+    "posted_at": "2026-11-12T13:17:34.659065+00:00"
   },
   {
     "id": "x-gates",
