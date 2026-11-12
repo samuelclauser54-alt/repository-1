@@ -733,14 +733,14 @@
     "title": "Physics 6: Feynman's sum over paths",
     "video": "p06-paths.mp4",
     "status": "queued",
-    "trial": false
+    "trial": true
   },
   {
     "id": "c04-bandwidth",
     "title": "Code 4: memory bandwidth, not math",
     "video": "c04-bandwidth.mp4",
     "status": "queued",
-    "trial": false
+    "trial": true
   },
   {
     "id": "x-league9",
