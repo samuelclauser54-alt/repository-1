@@ -1,0 +1,27 @@
+name: keeper
+
+# Keeps the posting schedule alive without relying on GitHub's cron (which drops most runs)
+# or on the Mac being awake. See scripts/keeper.py. The cron below only restarts the chain if it ever breaks.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5,11,17,23 * * *"
+
+concurrency:   # one keeper at a time; an extra one just waits and then takes over
+  group: keeper
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  keep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sleep until the next slot, then trigger the post
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/keeper.py
