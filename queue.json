@@ -672,10 +672,12 @@
     "id": "x-barge",
     "title": "100 AIs vs a landing pad that moves (part 2)",
     "video": "x-barge.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 12500,
-    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab",
+    "media_id": "18121514405069665",
+    "posted_at": "2026-11-13T22:21:09.082374+00:00"
   },
   {
     "id": "x-league7",
