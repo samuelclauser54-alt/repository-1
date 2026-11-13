@@ -1,0 +1,20 @@
+100 trained AIs. Every gap is 8% smaller than the one before. How many gates before none are left? 🕹️
+
+These are the 100 best flyers from generation 40 of the gates video. They learned on gaps that were all the same size, and they have never seen a small one.
+• Gate 1 (full size): all 100 get through
+• Gate 5 (72% size): 79 left
+• Gate 7 (61%): 32 left
+• Gate 9 (51%): 6 left
+• Gate 10 (47%): 2 left
+• Gate 11 (43%): nobody gets through
+
+So the networks kept working down to gaps less than half the size they trained on, then failed fast. Nothing was retrained for this video. It is one new course, flown once.
+
+Each AI is a tiny neural network (4 inputs, 6 neurons, 1 output: flap or don't), trained by evolution: 300 networks per generation, the top 30 survive and are copied with small random changes.
+
+Want to run it yourself? I put a live version online where you can change the gap size and watch them learn: samuelclauser54-alt.github.io/evolve-lab
+
+How far did you think they'd get?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
