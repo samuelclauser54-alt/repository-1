@@ -780,8 +780,10 @@
     "id": "c04-bandwidth",
     "title": "Code 4: memory bandwidth, not math",
     "video": "c04-bandwidth.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "18032028977864267",
+    "posted_at": "2026-11-13T23:12:18.523766+00:00"
   },
   {
     "id": "x-league10",
