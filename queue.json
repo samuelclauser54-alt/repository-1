@@ -767,8 +767,10 @@
     "id": "p06-paths",
     "title": "Physics 6: Feynman's sum over paths",
     "video": "p06-paths.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "17895577500616021",
+    "posted_at": "2026-11-13T17:41:27.176641+00:00"
   },
   {
     "id": "c04-bandwidth",
