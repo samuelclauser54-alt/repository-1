@@ -1,0 +1,19 @@
+100 AI drivers, and the car gets 2% faster every second. They only ever trained at normal speed. How long do they last? 🏎️
+
+These are the 100 best drivers from generation 20 of the driving video, on the same track. At normal speed all 100 drive it without touching the edge. Nothing was retrained for this.
+• 1.10x speed: 98 still driving
+• 1.20x: 73
+• 1.30x: 26
+• 1.40x: 1
+• 1.44x: the last one goes off, 5 laps and 18.6 seconds in
+
+They crash in groups rather than one by one. That is because evolution copied the same few winners over and over, so many of the 100 drive almost identically and fail at the same corner.
+
+Each AI is a tiny neural network (5 inputs, 6 neurons, 1 output: steering). It sees 5 distances to the track edge and has no idea how fast it is going.
+
+Want to run it yourself? I put a live version online where you can change the car speed and watch them learn: samuelclauser54-alt.github.io/evolve-lab
+
+What speed did you think they'd reach?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
