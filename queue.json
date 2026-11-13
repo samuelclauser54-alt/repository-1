@@ -623,6 +623,15 @@
     "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
   },
   {
+    "id": "x-pole",
+    "title": "100 AIs learn to balance a stick",
+    "video": "x-pole.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 12500,
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
+  },
+  {
     "id": "x-league6",
     "title": "Color League round 6: pick a color",
     "video": "x-league6.mp4",
@@ -675,15 +684,6 @@
     "format": "contest",
     "thumb_ms": 10599,
     "comment": "Lock in your color before the gap comes around. Standings going into Round 7: Teal 9 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Indigo 5 \u00b7 Orange 5."
-  },
-  {
-    "id": "x-pole",
-    "title": "100 AIs learn to balance a stick",
-    "video": "x-pole.mp4",
-    "status": "queued",
-    "format": "ai-learns",
-    "thumb_ms": 12500,
-    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
   },
   {
     "id": "x-series",
