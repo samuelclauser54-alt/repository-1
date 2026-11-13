@@ -628,10 +628,12 @@
     "id": "x-pole",
     "title": "100 AIs learn to balance a stick",
     "video": "x-pole.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 12500,
-    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab",
+    "media_id": "17870379666676966",
+    "posted_at": "2026-11-13T03:05:38.239429+00:00"
   },
   {
     "id": "x-league6",
