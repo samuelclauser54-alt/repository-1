@@ -661,10 +661,12 @@
     "id": "x-shrink",
     "title": "100 trained AIs vs gaps that shrink 8% each gate",
     "video": "x-shrink.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 7000,
-    "comment": "Train your own in the browser and try small gaps yourself: samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Train your own in the browser and try small gaps yourself: samuelclauser54-alt.github.io/evolve-lab",
+    "media_id": "18124345745072889",
+    "posted_at": "2026-11-13T19:14:20.675613+00:00"
   },
   {
     "id": "x-barge",
