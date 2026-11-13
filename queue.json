@@ -650,10 +650,12 @@
     "id": "x-gates2",
     "title": "100 AIs vs gates that move (part 2)",
     "video": "x-gates2.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 12500,
-    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Train your own in the browser (gates and driving, you can change the rules): samuelclauser54-alt.github.io/evolve-lab",
+    "media_id": "17912497398605237",
+    "posted_at": "2026-11-13T16:24:59.842674+00:00"
   },
   {
     "id": "x-shrink",
