@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 
 CHI = ZoneInfo("America/Chicago")
 # one minute after each main window opens, plus the two trial-lane windows
-TRIGGERS = ["07:01", "10:01", "11:20", "13:01", "16:01", "17:10", "18:31", "20:46", "23:01"]
+TRIGGERS = ["07:01", "10:01", "11:20", "13:01", "16:01", "17:10", "18:31", "20:46", "23:01", "23:25"]   # 23:25: retry, because the 2 h gap after a late 20:45 post blocks 23:01
 MAX_HOP = 5 * 3600
 REPO = os.environ["GITHUB_REPOSITORY"]
 
