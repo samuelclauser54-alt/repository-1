@@ -24,13 +24,13 @@ def duration(f):
 
 queue = {q.get("media_id"): q for q in json.load(open(os.path.join(ROOT, "queue.json")))}
 media = get("me/media", fields="id,timestamp,like_count", limit=25)["data"]
-print(f"{'reel':12} {'posted (UTC)':16} {'views':>6} {'watch%':>6} {'share%':>6} {'save%':>6}")
+print(f"{'reel':12} {'posted (UTC)':16} {'views':>6} {'skip%':>6} {'watch%':>6} {'share%':>6} {'save%':>6}")
 for m in reversed(media):
     ins = {x["name"]: x["values"][0]["value"] for x in get(
-        f"{m['id']}/insights", metric="views,reach,saved,shares,ig_reels_avg_watch_time")["data"]}
+        f"{m['id']}/insights", metric="views,reach,saved,shares,ig_reels_avg_watch_time,reels_skip_rate")["data"]}
     q = queue.get(m["id"], {})
     d = duration(os.path.join(ROOT, "videos", q["video"])) if q else None
     watch = f"{ins['ig_reels_avg_watch_time'] / 10 / d:5.0f}%" if d else "     ?"
     r = max(ins["reach"], 1)
-    print(f"{q.get('id', '-'):12} {m['timestamp'][:16]} {ins['views']:6} {watch} "
+    print(f"{q.get('id', '-'):12} {m['timestamp'][:16]} {ins['views']:6} {ins.get('reels_skip_rate', 0):5.1f}% {watch} "
           f"{ins['shares'] / r * 100:5.2f}% {ins['saved'] / r * 100:5.2f}%")
