@@ -792,6 +792,15 @@
     "comment": "Lock in your color before the gap comes around. Standings going into Round 9: Teal 12 \u00b7 Cyan 10 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Pink 7 \u00b7 Indigo 6."
   },
   {
+    "id": "x-speed",
+    "title": "Part 4: 100 AIs, the course is 83% faster",
+    "video": "x-speed.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1000,
+    "comment": "Parts 1 to 3 are on my page. What should Part 5 be? Train your own: samuelclauser54-alt.github.io/evolve-lab"
+  },
+  {
     "id": "x-city",
     "title": "Schelling model: mild preference, divided city",
     "video": "x-city.mp4",
@@ -799,6 +808,24 @@
     "format": "insight",
     "thumb_ms": 13200,
     "comment": "This is Schelling's 1971 model with one rule. It is not a description of any real city, where laws and money matter far more."
+  },
+  {
+    "id": "x-league10",
+    "title": "Color League round 10: pick a color",
+    "video": "x-league10.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11726,
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 10: Teal 12 \u00b7 Cyan 10 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Green 7 \u00b7 Indigo 7."
+  },
+  {
+    "id": "x-tiny",
+    "title": "Part 5: 100 AIs, gaps 26% smaller",
+    "video": "x-tiny.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "comment": "Parts 1 to 4 are on my page. What should Part 6 be? Train your own: samuelclauser54-alt.github.io/evolve-lab"
   },
   {
     "id": "x-hits",
@@ -833,15 +860,6 @@
     "status": "queued",
     "thumb_ms": 15000,
     "format": "money"
-  },
-  {
-    "id": "x-league10",
-    "title": "Color League round 10: pick a color",
-    "video": "x-league10.mp4",
-    "status": "queued",
-    "format": "contest",
-    "thumb_ms": 11726,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 10: Teal 12 \u00b7 Cyan 10 \u00b7 Blue 9 \u00b7 Lime 8 \u00b7 Green 7 \u00b7 Indigo 7."
   },
   {
     "id": "x-league11",

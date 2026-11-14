@@ -1,0 +1,18 @@
+Part 5: the gaps are 26% smaller. 100 AIs learning to fly through gates, starting from nothing. 🕹️
+
+Same flyers and same speed as Part 1. Every gap is 1.4 units tall, down from 1.9, so there is much less room for a late flap.
+• Generation 1: 4 of 100 get through the first gate
+• Generation 5: 72 get through the first gate, 8 clear all 14
+• Generation 30: 46 clear all 14
+• Generation 100: 76 clear all 14
+
+In Part 1, with full-size gaps, 80 of 100 cleared the course by generation 40. Here it takes 100 generations to get to 76, and it never reaches 80.
+
+Each AI is a tiny neural network (6 inputs, 8 neurons, 1 output: flap or don't). Every generation, 300 networks fly 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, on a course they were not trained on.
+
+Parts 1 to 4 are on my page. Want to run it yourself? samuelclauser54-alt.github.io/evolve-lab
+
+What should Part 6 be?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding

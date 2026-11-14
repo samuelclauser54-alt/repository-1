@@ -1,0 +1,20 @@
+Part 4: the course is 83% faster. 100 AIs learning to fly through gates, starting from nothing. 🕹️
+
+Same flyers, same gravity, same flap. The only change is how fast the gates come at them: 5.5 units a second, up from 3. That leaves about 0.7 seconds between gates to get lined up.
+• Generation 1: 24 of 100 get through the first gate, and 2 are left after the second
+• Generation 5: 16 make it through the whole 20-second course
+• Generation 25: 62
+• Generation 85: 98
+
+The 15 gates you see in the last run take them 12 seconds. All 98 that finish those also finish the full 26-gate course.
+
+Each AI is a tiny neural network (6 inputs, 8 neurons, 1 output: flap or don't). Every generation, 300 networks fly 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, on a course they were not trained on.
+
+Odd result: speed turned out to be easier for them than moving gates (Part 2) or flipping gravity (Part 3).
+
+Parts 1 to 3 are on my page. Want to run it yourself? samuelclauser54-alt.github.io/evolve-lab
+
+What should Part 5 be?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
