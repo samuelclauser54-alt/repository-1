@@ -780,7 +780,8 @@
     "status": "queued",
     "format": "ai-learns",
     "thumb_ms": 13000,
-    "comment": "Part 1 and Part 2 are on my page. What should Part 4 be? Train your own: samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Part 1 and Part 2 are on my page. What should Part 4 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
+    "cover": "x-flip.jpg"
   },
   {
     "id": "x-league9",
@@ -798,7 +799,8 @@
     "status": "queued",
     "format": "ai-learns",
     "thumb_ms": 1000,
-    "comment": "Parts 1 to 3 are on my page. What should Part 5 be? Train your own: samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Parts 1 to 3 are on my page. What should Part 5 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
+    "cover": "x-speed.jpg"
   },
   {
     "id": "x-how",
@@ -807,7 +809,8 @@
     "status": "queued",
     "format": "explainer",
     "thumb_ms": 17500,
-    "comment": "The original run is the gates video on my page. Train your own here: samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "The original run is the gates video on my page. Train your own here: samuelclauser54-alt.github.io/evolve-lab",
+    "cover": "x-how.jpg"
   },
   {
     "id": "x-league10",
@@ -825,7 +828,8 @@
     "status": "queued",
     "format": "ai-learns",
     "thumb_ms": 1200,
-    "comment": "Parts 1 to 4 are on my page. What should Part 6 be? Train your own: samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Parts 1 to 4 are on my page. What should Part 6 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
+    "cover": "x-tiny.jpg"
   },
   {
     "id": "x-city",
@@ -834,7 +838,8 @@
     "status": "queued",
     "format": "insight",
     "thumb_ms": 13200,
-    "comment": "This is Schelling's 1971 model with one rule. It is not a description of any real city, where laws and money matter far more."
+    "comment": "This is Schelling's 1971 model with one rule. It is not a description of any real city, where laws and money matter far more.",
+    "trial": true
   },
   {
     "id": "x-hits",
@@ -843,7 +848,8 @@
     "status": "queued",
     "format": "insight",
     "thumb_ms": 12300,
-    "comment": "Model: each listener picks a song with probability proportional to its plays so far, plus one. Nothing else differs between the songs."
+    "comment": "Model: each listener picks a song with probability proportional to its plays so far, plus one. Nothing else differs between the songs.",
+    "trial": true
   },
   {
     "id": "x-dip",
@@ -852,7 +858,8 @@
     "status": "queued",
     "format": "money",
     "thumb_ms": 9000,
-    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, \u00b117% swings, waiting cash earns 0%. Real crashes cluster more than this model, so treat it as a model, not a promise."
+    "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, \u00b117% swings, waiting cash earns 0%. Real crashes cluster more than this model, so treat it as a model, not a promise.",
+    "trial": true
   },
   {
     "id": "x-martingale",
@@ -860,7 +867,8 @@
     "video": "x-martingale.mp4",
     "status": "queued",
     "thumb_ms": 15500,
-    "format": "money"
+    "format": "money",
+    "trial": true
   },
   {
     "id": "x-ergodic",
@@ -868,7 +876,8 @@
     "video": "x-ergodic.mp4",
     "status": "queued",
     "thumb_ms": 15000,
-    "format": "money"
+    "format": "money",
+    "trial": true
   },
   {
     "id": "x-league11",
