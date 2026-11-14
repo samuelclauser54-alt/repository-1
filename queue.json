@@ -745,10 +745,12 @@
     "id": "x-putt",
     "title": "100 AIs learning to putt on a sloped green",
     "video": "x-putt.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1500,
-    "comment": "Details: 2 inputs (where the hole is), 8 neurons, 2 outputs (aim, speed). The slope is constant across the green and the units are stylised."
+    "comment": "Details: 2 inputs (where the hole is), 8 neurons, 2 outputs (aim, speed). The slope is constant across the green and the units are stylised.",
+    "media_id": "18132207787833407",
+    "posted_at": "2026-11-14T16:03:52.362468+00:00"
   },
   {
     "id": "x-series",
