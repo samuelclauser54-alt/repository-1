@@ -3,7 +3,7 @@
 cd "$(dirname "$0")/.." || exit 1
 BASE="https://samuelclauser54-alt.github.io/repository-1"
 bad=0
-for v in $(python3 -c "import json;[print(q['video']) for q in json.load(open('queue.json')) if q['status']=='queued']"); do
+for v in $(python3 -c "import json;[print(x) for q in json.load(open('queue.json')) if q['status']=='queued' for x in [q['video']]+([q['cover']] if q.get('cover') else [])]"); do
   code=$(curl -s -o /dev/null -w '%{http_code}' -I "$BASE/$v")
   [ "$code" = 200 ] || { echo "NOT LIVE ($code): $v"; bad=1; }
 done

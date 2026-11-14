@@ -19,8 +19,10 @@ find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
 python3 -c "
 import json
 for q in json.load(open('$ROOT/queue.json')):
-    if q['status'] in ('queued', 'skipped'): print(q['video'])
-" | while read -r v; do cp "$ROOT/videos/$v" .; done
+    if q['status'] in ('queued', 'skipped'):
+        print('videos/' + q['video'])
+        if q.get('cover'): print('covers/' + q['cover'])
+" | while read -r v; do cp "$ROOT/$v" .; done
 touch .nojekyll
 echo '<!doctype html><title>media</title>' > index.html
 git checkout -q --orphan "build-$$" 2>/dev/null || git checkout -q -B "build-$$"

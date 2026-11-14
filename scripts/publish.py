@@ -239,8 +239,18 @@ def main():
                         extra["trial_params"] = json.dumps({"graduation_strategy": "SS_PERFORMANCE"})
                     if nxt.get("thumb_ms") is not None:
                         extra["thumb_offset"] = str(int(nxt["thumb_ms"]))
-                    c = ig("POST", f"{uid}/media", media_type="REELS", video_url=url,
-                           caption=caption, share_to_feed="true", **extra)["id"]
+                    if nxt.get("cover"):   # designed cover for the profile grid (served next to the videos)
+                        extra["cover_url"] = f"{os.environ['MEDIA_BASE_URL'].rstrip('/')}/{nxt['cover']}"
+                    try:
+                        c = ig("POST", f"{uid}/media", media_type="REELS", video_url=url,
+                               caption=caption, share_to_feed="true", **extra)["id"]
+                    except SystemExit as e:   # never let a bad cover block a post: retry once without it
+                        if "cover_url" not in extra:
+                            raise
+                        print("  cover rejected, posting without it:", str(e)[:120])
+                        extra.pop("cover_url")
+                        c = ig("POST", f"{uid}/media", media_type="REELS", video_url=url,
+                               caption=caption, share_to_feed="true", **extra)["id"]
                     for _ in range(30):   # Instagram downloads + transcodes the video
                         time.sleep(20)
                         st = ig("GET", c, fields="status_code,status")
