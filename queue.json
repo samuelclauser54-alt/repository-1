@@ -734,10 +734,12 @@
     "id": "x-league8",
     "title": "Color League round 8: pick a color",
     "video": "x-league8.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "contest",
     "thumb_ms": 10589,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 8: Teal 12 · Blue 9 · Lime 8 · Pink 7 · Cyan 5 · Orange 5."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 8: Teal 12 · Blue 9 · Lime 8 · Pink 7 · Cyan 5 · Orange 5.",
+    "media_id": "18140071909645326",
+    "posted_at": "2026-11-14T13:24:38.921136+00:00"
   },
   {
     "id": "x-putt",
