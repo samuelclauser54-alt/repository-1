@@ -777,11 +777,13 @@
     "id": "x-flip",
     "title": "Part 3: 100 AIs, gravity flips every 2 seconds",
     "video": "x-flip.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 13000,
     "comment": "Part 1 and Part 2 are on my page. What should Part 4 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
-    "cover": "x-flip.jpg"
+    "cover": "x-flip.jpg",
+    "media_id": "18137454097662526",
+    "posted_at": "2026-11-14T22:25:56.906274+00:00"
   },
   {
     "id": "x-league9",
