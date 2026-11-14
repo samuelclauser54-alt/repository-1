@@ -1,0 +1,20 @@
+Part 3: gravity flips every 2 seconds. 100 AIs learning to fly through gates anyway. 🕹️
+
+Every 2 seconds, down becomes up. A flap always pushes against gravity, so the same button that saved you a moment ago now throws you into the wall.
+• Generation 1: 10 of 100 get through the first gate
+• Generation 10: 97 get through the first gate, and not one gets through a second. The first flip kills all of them
+• Generation 45: 3 clear all 14 gates
+• Generation 75: 75 clear all 14 gates
+
+For about 40 generations they were stuck on the flip. Then a few networks found a way to use the two inputs that tell them which way gravity points and how long until it changes, and that spread through the population.
+
+Each AI is a tiny neural network (6 inputs, 8 neurons, 1 output: flap or don't). Every generation, 300 networks fly 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, on a course they were not trained on.
+
+Part 1 (1.2 million views, thank you) and Part 2 (the gates move) are on my page.
+
+Want to run it yourself? samuelclauser54-alt.github.io/evolve-lab
+
+What should Part 4 be?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
