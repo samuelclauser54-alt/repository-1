@@ -832,6 +832,45 @@
     "cover": "x-tiny.jpg"
   },
   {
+    "id": "x-tumble",
+    "title": "Rockets part 3: every rocket starts tumbling",
+    "video": "x-tumble.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "comment": "Part 1 (fixed pad) and part 2 (moving pad) are on my page. Details: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept.",
+    "cover": "x-tumble.jpg"
+  },
+  {
+    "id": "x-gust",
+    "title": "Part 6: 100 AIs vs a gusting wind",
+    "video": "x-gust.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "comment": "Parts 1 to 5 are on my page. What should Part 7 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
+    "cover": "x-gust.jpg"
+  },
+  {
+    "id": "x-league11",
+    "title": "Color League round 11: pick a color",
+    "video": "x-league11.mp4",
+    "status": "queued",
+    "format": "contest",
+    "thumb_ms": 11669,
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 11: Teal 15 \u00b7 Indigo 12 \u00b7 Cyan 10 \u00b7 Lime 9 \u00b7 Blue 9 \u00b7 Green 7."
+  },
+  {
+    "id": "x-pad",
+    "title": "Rockets part 4: the pad is 3x smaller",
+    "video": "x-pad.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "comment": "Parts 1 to 3 of the rocket series are on my page. Details: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept.",
+    "cover": "x-pad.jpg"
+  },
+  {
     "id": "x-city",
     "title": "Schelling model: mild preference, divided city",
     "video": "x-city.mp4",
@@ -878,15 +917,6 @@
     "thumb_ms": 15000,
     "format": "money",
     "trial": true
-  },
-  {
-    "id": "x-league11",
-    "title": "Color League round 11: pick a color",
-    "video": "x-league11.mp4",
-    "status": "queued",
-    "format": "contest",
-    "thumb_ms": 11669,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 11: Teal 15 \u00b7 Indigo 12 \u00b7 Cyan 10 \u00b7 Lime 9 \u00b7 Blue 9 \u00b7 Green 7."
   },
   {
     "id": "x-league12",

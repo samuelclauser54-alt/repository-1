@@ -1,0 +1,16 @@
+Part 6: now there's wind. 100 AIs learning to fly through gates while gusts shove them up and down. 🕹️
+
+The wind swings between pushing up (orange) and pushing down (blue) about every 1.2 seconds, and at full strength it is about two thirds as strong as gravity. A flap that was right a moment ago now overshoots.
+• Generation 1: 10 of 100 get through the first gate
+• Generation 10: 37 get through the first gate, 1 clears all 14
+• Generation 25: 41 clear all 14
+• Generation 100: 90 clear all 14
+
+Each AI is a tiny neural network (6 inputs, 8 neurons, 1 output: flap or don't). Two of the inputs tell it what the wind is doing right now. Every generation, 300 networks fly 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, on a course they were not trained on.
+
+Parts 1 to 5 are on my page. Want to run it yourself? samuelclauser54-alt.github.io/evolve-lab
+
+What should Part 7 be?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding

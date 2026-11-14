@@ -1,0 +1,18 @@
+Rocket series, part 3: every rocket starts out tumbling. 100 AIs learning to recover and land. 🚀
+
+Each rocket is dropped at a random tilt, anywhere up to fully upside down, and already spinning. Before it can think about the pad it has to stop the spin and get its engine pointing down.
+• Generation 1: 0 of 100 land
+• Generation 20: 4
+• Generation 30: 60
+• Generation 140: 97
+
+Nothing landed at all for the first 10 generations. The jump from 4 to 60 happens in just 10 generations, once a few networks find a way to cancel the spin and that spreads.
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 300 networks fly 4 test flights and get one score (closer to the pad, slower and more upright is better). The top 30 survive and are copied with small random changes. A landing only counts if it is soft, upright and on the pad.
+
+Part 1 (fixed pad) and part 2 (moving pad) are on my page.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
