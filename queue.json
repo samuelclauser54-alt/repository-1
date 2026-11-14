@@ -801,13 +801,13 @@
     "comment": "Parts 1 to 3 are on my page. What should Part 5 be? Train your own: samuelclauser54-alt.github.io/evolve-lab"
   },
   {
-    "id": "x-city",
-    "title": "Schelling model: mild preference, divided city",
-    "video": "x-city.mp4",
+    "id": "x-how",
+    "title": "How 100 AIs taught themselves to fly (voiced explainer)",
+    "video": "x-how.mp4",
     "status": "queued",
-    "format": "insight",
-    "thumb_ms": 13200,
-    "comment": "This is Schelling's 1971 model with one rule. It is not a description of any real city, where laws and money matter far more."
+    "format": "explainer",
+    "thumb_ms": 17500,
+    "comment": "The original run is the gates video on my page. Train your own here: samuelclauser54-alt.github.io/evolve-lab"
   },
   {
     "id": "x-league10",
@@ -826,6 +826,15 @@
     "format": "ai-learns",
     "thumb_ms": 1200,
     "comment": "Parts 1 to 4 are on my page. What should Part 6 be? Train your own: samuelclauser54-alt.github.io/evolve-lab"
+  },
+  {
+    "id": "x-city",
+    "title": "Schelling model: mild preference, divided city",
+    "video": "x-city.mp4",
+    "status": "queued",
+    "format": "insight",
+    "thumb_ms": 13200,
+    "comment": "This is Schelling's 1971 model with one rule. It is not a description of any real city, where laws and money matter far more."
   },
   {
     "id": "x-hits",

@@ -1,0 +1,17 @@
+How 100 AIs taught themselves to fly, in 30 seconds. 🔊 Sound on.
+
+This is what was happening in the gates video that 1.2 million of you watched:
+
+1. Each flyer is a tiny neural network. It sees 4 numbers: how far the next gap is above or below it, its own vertical speed, the distance to the gate, and where the gap after that is.
+2. It turns those into 1 decision, 30 times a second: flap, or don't.
+3. After every round, the 30 that flew furthest are kept. The other 270 are deleted and replaced with copies of the winners, each with small random changes.
+4. Repeat. By generation 40, 80 of the best 100 clear all 14 gates on a course they have never seen.
+
+Nobody writes the rules for how to fly, and the networks never see an example. The only feedback is one number: how far it got. This is called neuroevolution.
+
+Everything on screen is from the real run, not an illustration. The dots in the grid are generation 8, ranked by how long each one lasted.
+
+You can train your own in the browser and change the rules: samuelclauser54-alt.github.io/evolve-lab
+
+Follow for a new experiment every day.
+#ai #machinelearning #neuralnetwork #explained #coding
