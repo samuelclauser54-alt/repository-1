@@ -756,10 +756,12 @@
     "id": "x-series",
     "title": "Does the better team win? best-of-7 vs best-of-269",
     "video": "x-series.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "insight",
     "thumb_ms": 12200,
-    "comment": "The 55% per-game edge is an assumption. With a 60% edge, a best-of-7 goes to the better team about 71% of the time."
+    "comment": "The 55% per-game edge is an assumption. With a 60% edge, a best-of-7 goes to the better team about 71% of the time.",
+    "media_id": "18143739475625430",
+    "posted_at": "2026-11-14T19:05:47.571625+00:00"
   },
   {
     "id": "x-league9",
