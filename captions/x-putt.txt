@@ -1,0 +1,20 @@
+100 AIs learning to putt on a sloped green. Nobody tells them which way it breaks. ⛳
+
+The green tilts down and to the right, so a ball aimed straight at the hole misses. Each AI gets one putt.
+
+Each AI is a tiny neural network (2 inputs, 8 neurons, 2 outputs: aim and speed). It only sees where the hole is relative to the ball. It is never told the slope exists.
+• Generation 1: 1 of 100 holes it
+• Generation 20: 19
+• Generation 50: 48
+• Generation 120: 92
+
+How it learns: every generation, 300 networks each take 10 putts from random spots and get a score back (holed putts, then how close the misses stopped). The top 30 survive and are copied with small random changes that get smaller every generation. To score well they have to aim uphill of the hole and get the speed right, because a ball going too fast rolls straight over it.
+
+What's simplified: the slope is the same everywhere on the green, the units are made up rather than a real green, and there is no wind or bumps. The 8 that still miss at the end stop between 0.4 and 1.5 units from the hole (the hole is 0.44 units wide).
+
+Want to run one yourself? I put live versions of the gates and driving AIs online: samuelclauser54-alt.github.io/evolve-lab
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #golf #simulation #coding
