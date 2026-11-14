@@ -853,9 +853,11 @@
     "id": "x-descent",
     "title": "1000 AIs gradient descent",
     "video": "x-descent.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 12500,
-    "trial": true
+    "trial": true,
+    "media_id": "18120220691088296",
+    "posted_at": "2026-11-14T17:30:25.299729+00:00"
   },
   {
     "id": "x-3body",
