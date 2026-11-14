@@ -694,10 +694,12 @@
     "id": "x-fast",
     "title": "100 AI drivers, 2% faster every second",
     "video": "x-fast.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 8500,
-    "comment": "Train your own drivers in the browser and change the car speed: samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "Train your own drivers in the browser and change the car speed: samuelclauser54-alt.github.io/evolve-lab",
+    "media_id": "17979898713136269",
+    "posted_at": "2026-11-14T03:07:41.747686+00:00"
   },
   {
     "id": "x-series",
