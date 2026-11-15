@@ -835,11 +835,13 @@
     "id": "x-tiny",
     "title": "Part 5: 100 AIs, gaps 26% smaller",
     "video": "x-tiny.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "comment": "Parts 1 to 4 are on my page. What should Part 6 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
-    "cover": "x-tiny.jpg"
+    "cover": "x-tiny.jpg",
+    "media_id": "18099239117677533",
+    "posted_at": "2026-11-15T16:23:30.497193+00:00"
   },
   {
     "id": "x-tumble",
