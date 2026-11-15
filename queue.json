@@ -812,11 +812,13 @@
     "id": "x-how",
     "title": "How 100 AIs taught themselves to fly (voiced explainer)",
     "video": "x-how.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "explainer",
     "thumb_ms": 17500,
     "comment": "The original run is the gates video on my page. Train your own here: samuelclauser54-alt.github.io/evolve-lab",
-    "cover": "x-how.jpg"
+    "cover": "x-how.jpg",
+    "media_id": "17982284403135868",
+    "posted_at": "2026-11-15T05:15:15.820022+00:00"
   },
   {
     "id": "x-league10",
