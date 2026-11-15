@@ -1,0 +1,17 @@
+This beating heart is 67 lines of Python. ❤️ The code on screen is the code drawing it.
+
+How it works:
+• One equation describes a heart-shaped surface in 3D. The program throws 200,000 random points into a box and keeps the roughly 30,000 that land inside it
+• Every frame it scales those points by the beat, tilts them, and flattens them onto a grid of text
+• The nearest point in each cell wins. Near points get dense characters (@ %), far ones get light characters (: -), which is what makes it look round
+• The beat is two quick bumps, 72 times a minute: lub-dub. The monitor trace along the bottom is drawn from the same clock
+
+It only needs NumPy and runs in a normal terminal:
+samuelclauser54-alt.github.io/evolve-lab/heart.py
+
+The heart equation is the classic one: (x² + 9/4 y² + z² − 1)³ − x² z³ − 9/80 y² z³ = 0.
+
+What should I build in text next?
+
+Follow for a new build every day.
+#python #coding #programming #math #asciiart

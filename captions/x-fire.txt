@@ -1,0 +1,18 @@
+This fire is 46 lines of Python. 🔥 The code on screen is the code drawing it.
+
+There is no physics in it. The whole simulation is one rule, run 30 times a second:
+• every cell copies the heat of a cell in the row below it
+• usually the one straight below, sometimes one step to the left or right, at random
+• and loses a little heat on the way up
+
+The bottom row is the fuel: a few hot spots that sway and flicker. Heat that climbs far enough cools to nothing, which is what makes the flame tips. Halfway through I add wind, which just shifts where each cell copies from.
+
+Each cell's heat then picks two things: a character (denser = hotter) and a colour from black through red, orange and yellow to white.
+
+It is a version of the fire effect from the PlayStation port of DOOM (1995). It only needs NumPy and runs in a normal terminal:
+samuelclauser54-alt.github.io/evolve-lab/fire.py
+
+What should I build in text next?
+
+Follow for a new build every day.
+#python #coding #programming #simulation #asciiart
