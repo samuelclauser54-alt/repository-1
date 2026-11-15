@@ -1,0 +1,15 @@
+Part 7: every gap is 8% smaller than the one before. 100 AIs learning to fly through gates, starting from nothing. 🕹️
+
+The first gap is 3.0 units tall. By gate 14 it is 1.0, a third of the size.
+• Generation 1: 16 of 100 get through the first gate
+• Generation 5: all 100 get through the first gate, none finish
+• Generation 30: 33 clear all 14
+• Generation 100: 45 clear all 14
+
+Now you can enter your own. I put the trainer online: train a flyer in your browser, give it a nickname and enter it in the Arena. It gets ranked against everyone else's on a course where the gaps keep shrinking, and the top 100 race each other in a video here with their names on screen.
+Train one here: samuelclauser54-alt.github.io/evolve-lab
+
+Each AI is a tiny neural network (6 inputs, 8 neurons, 1 output: flap or don't). Every generation, 300 networks fly 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, on a course they were not trained on.
+
+Follow to see whose AI wins.
+#ai #machinelearning #neuralnetwork #simulation #coding
