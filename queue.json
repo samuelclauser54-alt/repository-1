@@ -800,11 +800,13 @@
     "id": "x-speed",
     "title": "Part 4: 100 AIs, the course is 83% faster",
     "video": "x-speed.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1000,
     "comment": "Parts 1 to 3 are on my page. What should Part 5 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
-    "cover": "x-speed.jpg"
+    "cover": "x-speed.jpg",
+    "media_id": "18086928926757570",
+    "posted_at": "2026-11-15T02:59:19.026352+00:00"
   },
   {
     "id": "x-how",
