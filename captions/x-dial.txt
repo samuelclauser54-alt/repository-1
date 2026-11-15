@@ -1,0 +1,17 @@
+Same AI, one setting changed. 🔊 Sound on.
+
+Three groups of 100 flyers learn the same course, starting from the same random networks. The only difference is how much each copy of a winner is changed (the mutation size):
+• Tiny changes (0.003): 0 of 100 finish after 40 generations. The copies are almost identical to their parents, so nothing new ever gets tried.
+• Medium changes (0.15): 98 of 100 finish.
+• Huge changes (2.0): 66 of 100 finish. Most copies are scrambled so badly that they lose what the parent had learned.
+
+After 10 generations the gap is even wider: 0, 58 and 2.
+
+Every learning system has a dial like this. In the networks behind chatbots it is called the learning rate, and it is the same trade-off: too small and training crawls, too large and it falls apart.
+
+Everything on screen is from the real runs. Each AI is a tiny neural network (6 inputs, 8 neurons, 1 output: flap or don't). Each generation, 300 fly 3 random courses, the top 30 survive and are copied with random changes. You see each group's best 100 on a course they were not trained on.
+
+Try the dial yourself: samuelclauser54-alt.github.io/evolve-lab
+
+Follow for one AI experiment a day.
+#ai #machinelearning #neuralnetwork #explained #coding
