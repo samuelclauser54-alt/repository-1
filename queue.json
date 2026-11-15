@@ -886,11 +886,13 @@
     "id": "x-city",
     "title": "Schelling model: mild preference, divided city",
     "video": "x-city.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "insight",
     "thumb_ms": 13200,
     "comment": "This is Schelling's 1971 model with one rule. It is not a description of any real city, where laws and money matter far more.",
-    "trial": true
+    "trial": true,
+    "media_id": "17912508684664446",
+    "posted_at": "2026-11-15T17:24:27.237576+00:00"
   },
   {
     "id": "x-hits",
