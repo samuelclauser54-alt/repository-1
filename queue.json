@@ -856,6 +856,15 @@
     "posted_at": "2026-11-15T17:24:27.237576+00:00"
   },
   {
+    "id": "x-tree",
+    "title": "This Christmas tree is 103 lines of Python",
+    "video": "x-tree.mp4",
+    "status": "queued",
+    "format": "code",
+    "thumb_ms": 16500,
+    "comment": "Code (NumPy only, runs in a terminal): samuelclauser54-alt.github.io/evolve-lab/tree.py"
+  },
+  {
     "id": "x-tumble",
     "title": "Rockets part 3: every rocket starts tumbling",
     "video": "x-tumble.mp4",
@@ -922,13 +931,13 @@
     "comment": "Lock in your color before the gap comes around. Standings going into Round 12: Teal 15 \u00b7 Lime 12 \u00b7 Indigo 12 \u00b7 Orange 10 \u00b7 Cyan 10 \u00b7 Blue 9."
   },
   {
-    "id": "x-tree",
-    "title": "This Christmas tree is 103 lines of Python",
-    "video": "x-tree.mp4",
+    "id": "x-league13",
+    "title": "Color League round 13: pick a color",
+    "video": "x-league13.mp4",
     "status": "queued",
-    "format": "code",
-    "thumb_ms": 16500,
-    "comment": "Code (NumPy only, runs in a terminal): samuelclauser54-alt.github.io/evolve-lab/tree.py"
+    "format": "contest",
+    "thumb_ms": 11369,
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 13: Orange 15 \u00b7 Indigo 15 \u00b7 Teal 15 \u00b7 Lime 13 \u00b7 Cyan 10 \u00b7 Blue 9."
   },
   {
     "id": "x-hits",
@@ -967,15 +976,6 @@
     "thumb_ms": 15000,
     "format": "money",
     "trial": true
-  },
-  {
-    "id": "x-league13",
-    "title": "Color League round 13: pick a color",
-    "video": "x-league13.mp4",
-    "status": "queued",
-    "format": "contest",
-    "thumb_ms": 11369,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 13: Orange 15 \u00b7 Indigo 15 \u00b7 Teal 15 \u00b7 Lime 13 \u00b7 Cyan 10 \u00b7 Blue 9."
   },
   {
     "id": "x-3body",
