@@ -894,11 +894,13 @@
     "id": "x-dial",
     "title": "Same AI, one setting changed (mutation size)",
     "video": "x-dial.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "explainer",
     "cover": "x-dial.jpg",
     "thumb_ms": 17500,
-    "comment": "The mutation slider in the lab does exactly this. Push it to the maximum and watch learning fall apart: samuelclauser54-alt.github.io/evolve-lab"
+    "comment": "The mutation slider in the lab does exactly this. Push it to the maximum and watch learning fall apart: samuelclauser54-alt.github.io/evolve-lab",
+    "media_id": "18255296626310951",
+    "posted_at": "2026-11-16T04:01:39.142296+00:00"
   },
   {
     "id": "x-gust",
