@@ -882,11 +882,13 @@
     "id": "x-tumble",
     "title": "Rockets part 3: every rocket starts tumbling",
     "video": "x-tumble.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "comment": "Part 1 (fixed pad) and part 2 (moving pad) are on my page. Details: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept.",
-    "cover": "x-tumble.jpg"
+    "cover": "x-tumble.jpg",
+    "media_id": "17939594547404580",
+    "posted_at": "2026-11-16T00:54:29.942008+00:00"
   },
   {
     "id": "x-dial",
