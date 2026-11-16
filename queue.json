@@ -918,10 +918,12 @@
     "id": "x-league11",
     "title": "Color League round 11: pick a color",
     "video": "x-league11.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "contest",
     "thumb_ms": 11669,
-    "comment": "Lock in your color before the gap comes around. Standings going into Round 11: Teal 15 · Indigo 12 · Cyan 10 · Lime 9 · Blue 9 · Green 7."
+    "comment": "Lock in your color before the gap comes around. Standings going into Round 11: Teal 15 · Indigo 12 · Cyan 10 · Lime 9 · Blue 9 · Green 7.",
+    "media_id": "18460946302130079",
+    "posted_at": "2026-11-16T16:03:57.413840+00:00"
   },
   {
     "id": "x-pad",
