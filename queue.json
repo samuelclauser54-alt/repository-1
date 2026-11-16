@@ -985,11 +985,13 @@
     "id": "x-hits",
     "title": "10 identical songs: why one becomes a hit",
     "video": "x-hits.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "insight",
     "thumb_ms": 12300,
     "comment": "Model: each listener picks a song with probability proportional to its plays so far, plus one. Nothing else differs between the songs.",
-    "trial": true
+    "trial": true,
+    "media_id": "17917789779554173",
+    "posted_at": "2026-11-16T23:11:02.177343+00:00"
   },
   {
     "id": "x-dip",
