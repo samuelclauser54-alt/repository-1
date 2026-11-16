@@ -906,11 +906,13 @@
     "id": "x-gust",
     "title": "Part 6: 100 AIs vs a gusting wind",
     "video": "x-gust.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "comment": "Parts 1 to 5 are on my page. What should Part 7 be? Train your own: samuelclauser54-alt.github.io/evolve-lab",
-    "cover": "x-gust.jpg"
+    "cover": "x-gust.jpg",
+    "media_id": "18132651955852546",
+    "posted_at": "2026-11-16T13:26:39.636860+00:00"
   },
   {
     "id": "x-league11",
