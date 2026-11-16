@@ -929,11 +929,13 @@
     "id": "x-pad",
     "title": "Rockets part 4: the pad is 3x smaller",
     "video": "x-pad.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "comment": "Parts 1 to 3 of the rocket series are on my page. Details: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept.",
-    "cover": "x-pad.jpg"
+    "cover": "x-pad.jpg",
+    "media_id": "18112403261219076",
+    "posted_at": "2026-11-16T19:20:13.206201+00:00"
   },
   {
     "id": "x-league12",
