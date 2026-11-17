@@ -39,7 +39,9 @@ CHI = ZoneInfo("America/Chicago")
 # 5 main posts a day from 2026-11-16: the 7:00 and 23:00 slots were dropped. Over Nov 8-16 the 7:00 slot had a
 # median of 3k views (1 hit in 4) and 21:00+ a median of 8k, against 20-58k for the 10:00-19:00 slots.
 WINDOWS = {"morning": (10.0, 10.25, 12.5), "midday": (13.0, 13.25, 15.5),
-           "afternoon": (16.0, 16.25, 18.0), "evening": (18.5, 18.75, 20.25), "late": (20.75, 21.0, 22.5)}
+           "afternoon": (16.0, 16.25, 18.0), "evening": (18.5, 18.75, 20.25), "late": (21.0, 21.25, 22.75)}
+# "late" opens at 21:00, not 20:45: the evening post can land as late as 18:55 and MIN_GAP is 2 h (a 20:46 run was
+# skipped for that reason on 2026-11-16). keeper.py fires at 21:01 and again at 21:40 as a retry.
 # Trial Reels lane (from 2026-11-06): entries with "trial": true go out as Instagram Trial Reels (shown to
 # non-followers first, auto-graduated to followers if they do well: graduation_strategy SS_PERFORMANCE).
 # Own windows and gaps, so they never displace a main post.
