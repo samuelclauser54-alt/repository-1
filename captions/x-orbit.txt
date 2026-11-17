@@ -1,0 +1,18 @@
+100 AIs learning to stay in orbit, starting from nothing. 🛰️
+
+Every ship starts 4 to 8 units from the planet, moving at only 30 to 85% of the speed an orbit needs there. Left alone it falls in. It has an engine and a small fuel budget, and when the fuel is gone it coasts. Too slow and it hits the planet; too fast and it flies past the red line and is lost.
+• Generation 1: 4 of 100 are still flying after 20 seconds
+• Generation 3: 33
+• Generation 8: 67
+• Generation 25: 94
+
+The orbits hold: I ran the final generation for a full minute, long after the fuel was gone, and the same 94 were still circling.
+
+Each AI is a tiny neural network (4 inputs, 8 neurons, 2 outputs). It sees its distance from the planet, its speed toward or away from it, its sideways speed and its fuel. Gravity is the real inverse-square law. Every generation, 300 networks fly 3 sets of random starts and get one number back: how long they lasted. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best.
+
+Nobody told them what an orbit is. The only feedback was how long each one lasted.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #space #simulation #coding

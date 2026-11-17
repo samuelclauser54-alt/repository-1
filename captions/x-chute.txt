@@ -1,0 +1,16 @@
+100 AIs learning to parachute onto an island, starting from nothing. 🪂
+
+The wind blows sideways and changes with height: orange streaks blow right, blue blow left, and longer means stronger. Each jumper can steer and can brake its fall. A landing only counts if it is on the island and slow enough. Everything else is a splash.
+• Generation 1: 4 of 100 land on the island
+• Generation 5: 29
+• Generation 8: 83
+• Generation 40: 100
+
+Each AI is a tiny neural network (5 inputs, 8 neurons, 2 outputs: steer and brake). It sees where it is, how fast it is drifting, the wind at its height and the wind 2 units below. Every generation, 300 networks make 4 jumps from random places in random wind and get one score: how close they came, plus a bonus for a soft landing on the island. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, all in the same wind.
+
+Nobody told them how wind works. The only feedback was the score.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
