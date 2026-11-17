@@ -1005,12 +1005,30 @@
     "thumb_ms": 9000
   },
   {
+    "id": "x-swing",
+    "title": "100 AIs learning to swing on ropes",
+    "video": "x-swing.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "cover": "x-swing.jpg",
+    "thumb_ms": 7500
+  },
+  {
     "id": "x-heavy",
     "title": "Rockets part 6: gravity 80% stronger",
     "video": "x-heavy.mp4",
     "status": "queued",
     "format": "ai-learns",
     "cover": "x-heavy.jpg",
+    "thumb_ms": 9000
+  },
+  {
+    "id": "x-push",
+    "title": "Rockets part 7: thrown sideways",
+    "video": "x-push.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "cover": "x-push.jpg",
     "thumb_ms": 9000
   },
   {

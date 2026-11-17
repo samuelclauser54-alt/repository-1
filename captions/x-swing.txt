@@ -1,0 +1,16 @@
+100 AIs learning to swing on ropes, starting from nothing. 🕹️
+
+Each one has a single button: hold the rope or let go. Holding attaches a rope to the ceiling ahead of it. The floor is lava, the towers are solid, and a wall chases them from the left, so standing still is not an option.
+• Generation 1: 0 of 100 are still swinging after 20 seconds
+• Generation 5: 19
+• Generation 10: 57
+• Generation 40: 64
+
+Each AI is a tiny neural network (6 inputs, 8 neurons, 1 output). It sees its own height and speed, whether it is holding the rope, and how far away and how tall the next tower is. Every generation, 300 networks run 3 random courses and get one number back: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, on a course they were not trained on.
+
+Nobody told them when to let go. The timing you see in generation 40 came only from keeping whatever got further.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
