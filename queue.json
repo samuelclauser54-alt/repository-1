@@ -1057,11 +1057,13 @@
     "id": "x-dip",
     "title": "Buy the dip, or just buy every month?",
     "video": "x-dip.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "money",
     "thumb_ms": 9000,
     "comment": "Model: 10,000 random markets, 7% average yearly return after inflation, ±17% swings, waiting cash earns 0%. Real crashes cluster more than this model, so treat it as a model, not a promise.",
-    "trial": true
+    "trial": true,
+    "media_id": "18026462591946393",
+    "posted_at": "2026-11-17T17:30:29.479722+00:00"
   },
   {
     "id": "x-martingale",
