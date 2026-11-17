@@ -1032,10 +1032,12 @@
     "id": "x-chute",
     "title": "100 AIs learning to parachute onto an island",
     "video": "x-chute.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "cover": "x-chute.jpg",
-    "thumb_ms": 12500
+    "thumb_ms": 12500,
+    "media_id": "18141465589635442",
+    "posted_at": "2026-11-17T22:01:58.114632+00:00"
   },
   {
     "id": "x-heavy",
