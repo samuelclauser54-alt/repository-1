@@ -1010,10 +1010,12 @@
     "id": "x-orbit",
     "title": "100 AIs learning to stay in orbit",
     "video": "x-orbit.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "cover": "x-orbit.jpg",
-    "thumb_ms": 10500
+    "thumb_ms": 10500,
+    "media_id": "18195034663409868",
+    "posted_at": "2026-11-17T16:02:04.171139+00:00"
   },
   {
     "id": "x-swing",
