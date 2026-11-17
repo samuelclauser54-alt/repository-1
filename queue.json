@@ -1021,10 +1021,12 @@
     "id": "x-swing",
     "title": "100 AIs learning to swing on ropes",
     "video": "x-swing.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "cover": "x-swing.jpg",
-    "thumb_ms": 7500
+    "thumb_ms": 7500,
+    "media_id": "18037270370852637",
+    "posted_at": "2026-11-17T19:02:12.727745+00:00"
   },
   {
     "id": "x-chute",
