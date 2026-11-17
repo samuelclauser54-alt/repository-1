@@ -1,0 +1,18 @@
+Rocket series, part 6: gravity is 80% stronger. 100 AIs learning to land. 🚀
+
+Same rocket and same engine. Gravity goes from 3.0 to 5.4, so full throttle now only just beats it (7.0 against 5.4). There is very little thrust left over for slowing down, and a rocket that tilts loses most of its lift.
+• Generation 1: 0 of 100 land
+• Generation 10: 16 of 100 land
+• Generation 20: 74 of 100 land
+• Generation 120: 96 of 100 land
+
+What changes is the style. In part 1 the engine ran at 46% on average; here it runs at 79%, and the rockets tilt about half as much.
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 300 networks fly 4 test flights and get one score (closer to the pad, slower and more upright is better). The top 30 survive and are copied with small random changes. The 100 you see are that generation's best. A landing only counts if it is soft, upright and on the pad.
+
+Parts 1 to 5 are on my page.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding

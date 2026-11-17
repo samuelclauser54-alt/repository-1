@@ -1,0 +1,18 @@
+Rocket series, part 5: dropped at full speed. 100 AIs learning to land anyway. 🚀
+
+Same rocket, same pad, same gravity. The only change: every rocket starts out already falling about 5.5 units per second instead of 0.5, so left alone it would hit the ground in about 1.7 seconds instead of 2.9.
+• Generation 1: 0 of 100 land
+• Generation 10: 42 of 100 land
+• Generation 20: 87 of 100 land
+• Generation 120: 98 of 100 land
+
+Odd result: it learns faster than part 1 did. By generation 20, 87 of 100 land here, against 61 with the gentle start.
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 300 networks fly 4 test flights and get one score (closer to the pad, slower and more upright is better). The top 30 survive and are copied with small random changes. The 100 you see are that generation's best. A landing only counts if it is soft, upright and on the pad.
+
+Parts 1 to 4 are on my page.
+
+What should they learn next?
+
+Follow for a new simulation every day.
+#ai #machinelearning #neuralnetwork #simulation #coding
