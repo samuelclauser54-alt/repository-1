@@ -36,9 +36,10 @@ CHI = ZoneInfo("America/Chicago")
 # windows run back to back so a late cron run (GitHub often drops most of them) still catches the slot
 # 4 main posts a day from 2026-11-07: 3 sims + 1 lesson at night (lessons drive follows: 15-20/day while they ran)
 # 7 main posts a day from 2026-11-10 (user asked for more volume): only proven formats go on this grid.
-WINDOWS = {"early": (7.0, 7.75, 9.5), "morning": (10.0, 10.75, 12.5), "midday": (13.0, 13.75, 15.5),
-           "afternoon": (16.0, 16.75, 18.0), "evening": (18.5, 19.25, 20.25), "late": (20.75, 21.5, 22.5),
-           "night": (23.0, 23.6, 23.95)}
+# 5 main posts a day from 2026-11-16: the 7:00 and 23:00 slots were dropped. Over Nov 8-16 the 7:00 slot had a
+# median of 3k views (1 hit in 4) and 21:00+ a median of 8k, against 20-58k for the 10:00-19:00 slots.
+WINDOWS = {"morning": (10.0, 10.25, 12.5), "midday": (13.0, 13.25, 15.5),
+           "afternoon": (16.0, 16.25, 18.0), "evening": (18.5, 18.75, 20.25), "late": (20.75, 21.0, 22.5)}
 # Trial Reels lane (from 2026-11-06): entries with "trial": true go out as Instagram Trial Reels (shown to
 # non-followers first, auto-graduated to followers if they do well: graduation_strategy SS_PERFORMANCE).
 # Own windows and gaps, so they never displace a main post.
