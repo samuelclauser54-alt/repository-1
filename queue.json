@@ -1073,10 +1073,12 @@
     "id": "x-martingale",
     "title": "Martingale: double your bet after every loss",
     "video": "x-martingale.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 15500,
     "format": "money",
-    "trial": true
+    "trial": true,
+    "media_id": "18135412849772861",
+    "posted_at": "2026-11-17T23:10:59.552247+00:00"
   },
   {
     "id": "x-ergodic",
