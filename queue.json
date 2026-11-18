@@ -1054,10 +1054,12 @@
     "id": "x-push",
     "title": "Rockets part 7: thrown sideways",
     "video": "x-push.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "cover": "x-push.jpg",
-    "thumb_ms": 9000
+    "thumb_ms": 9000,
+    "media_id": "18442897228179695",
+    "posted_at": "2026-11-18T03:01:57.184937+00:00"
   },
   {
     "id": "x-dip",
