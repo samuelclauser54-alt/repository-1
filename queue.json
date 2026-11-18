@@ -1099,9 +1099,11 @@
     "id": "x-3body",
     "title": "Three-body two universes",
     "video": "x-3body.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 11000,
-    "trial": true
+    "trial": true,
+    "media_id": "18501890995106334",
+    "posted_at": "2026-11-18T22:38:28.184721+00:00"
   },
   {
     "id": "x-boids",
