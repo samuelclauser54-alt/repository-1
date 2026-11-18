@@ -1043,10 +1043,12 @@
     "id": "x-heavy",
     "title": "Rockets part 6: gravity 80% stronger",
     "video": "x-heavy.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "cover": "x-heavy.jpg",
-    "thumb_ms": 9000
+    "thumb_ms": 9000,
+    "media_id": "18120411530042679",
+    "posted_at": "2026-11-18T00:31:09.954057+00:00"
   },
   {
     "id": "x-push",
