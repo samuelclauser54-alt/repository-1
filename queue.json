@@ -1088,10 +1088,12 @@
     "id": "x-ergodic",
     "title": "+50%/-40% coin flip: average vs typical (ergodicity)",
     "video": "x-ergodic.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 15000,
     "format": "money",
-    "trial": true
+    "trial": true,
+    "media_id": "18132908455843562",
+    "posted_at": "2026-11-18T17:42:29.797099+00:00"
   },
   {
     "id": "x-3body",
