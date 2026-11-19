@@ -1119,8 +1119,10 @@
     "id": "x-chladni",
     "title": "Chladni plate: sand finds the nodal lines",
     "video": "x-chladni.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "18151564441553369",
+    "posted_at": "2026-11-19T22:39:27.841458+00:00"
   },
   {
     "id": "x-pwave",
