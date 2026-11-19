@@ -1109,9 +1109,11 @@
     "id": "x-boids",
     "title": "Boids 1500 birds + hawk",
     "video": "x-boids.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 9000,
-    "trial": true
+    "trial": true,
+    "media_id": "17917581906491736",
+    "posted_at": "2026-11-19T17:27:44.327849+00:00"
   },
   {
     "id": "x-chladni",
