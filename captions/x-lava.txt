@@ -1,0 +1,16 @@
+100 AIs vs the floor is lava. They start out knowing nothing. 🌋
+
+The lava rises 1.3 units a second. The jumpers bounce automatically whenever they land on a ledge, and the only thing each AI controls is left or right. Fall back into the lava and you're out.
+• Generation 1: 0 of 100 survive
+• Generation 15: 12
+• Generation 25: 67
+• Generation 60: 99
+
+Each AI is a tiny neural network (8 inputs, 8 neurons, 1 output: push left or right). It sees its own position and speed, where the ledges just below and above it are, and how far away the lava is. Every generation, 300 networks climb 3 random shafts for 24 seconds and get one score: the highest point they reached. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a shaft they never trained in.
+
+Nobody told them to climb. "Higher is better" was the only rule.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+What should they escape next? Best idea in the comments gets built.
+#ai #machinelearning #neuralnetwork #simulation #coding

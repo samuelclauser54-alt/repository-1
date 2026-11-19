@@ -1,0 +1,14 @@
+The landing pad is on top of a tower now. Miss it and you fall all the way down. 100 AIs learning to land on it. 🚀
+
+Same rocket as the rest of the series. The pad is 2.6 units wide on a tower 6 units tall. Touch down soft and upright on the pad and it counts. Clip the side of the tower or miss, and it's a crash.
+• Generation 1: 0 of 100 land
+• Generation 20: 21
+• Generation 30: 83
+• Generation 50: 95
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 300 networks fly 4 test flights from random starts; the top 30 survive and are copied with small random changes. Nobody tells them where the pad is or how to fly. The only feedback is the score.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+Where should the pad go next? Best idea in the comments gets built.
+#ai #machinelearning #neuralnetwork #simulation #coding

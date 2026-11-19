@@ -1,0 +1,16 @@
+The landing pad is now 6 times smaller than in part 1. 100 AIs learning to hit it. 🚀
+
+Same rocket, same gravity. The pad is 1.3 units wide; in part 1 it was 8. A landing only counts if it is soft, upright and on the pad. A perfect soft landing next to it is a crash.
+• Generation 1: 0 of 100 land
+• Generation 20: 24
+• Generation 40: 68
+• Generation 160: 96
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 300 networks fly 4 test flights and get one score: closer to the pad, slower and more upright is better. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, starting from the same 100 spots.
+
+Honest limit: 4 of 100 still miss, and it took 160 generations, compared with 110 for the 3x smaller pad in part 4.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+What should they learn next? Best idea in the comments gets built.
+#ai #machinelearning #neuralnetwork #simulation #coding

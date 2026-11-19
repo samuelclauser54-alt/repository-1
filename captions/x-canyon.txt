@@ -1,0 +1,16 @@
+100 AIs learning to land a rocket between two skyscrapers. Touch a building and it's over. 🏙️🚀
+
+The gap between the towers is 4.8 units wide and the pad at the bottom is 3.2 units wide. Every rocket starts above the rooftops, drifting, at a random spot.
+• Generation 1: 0 of 100 land
+• Generation 30: 7
+• Generation 60: 51
+• Generation 110: 75
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). It doesn't see the buildings at all. It only knows its own position, speed and tilt, so it has to learn where the walls are from crashing into them. Every generation, 300 networks fly 4 test flights; the top 30 survive and are copied with small random changes.
+
+Honest limit: it plateaus around 70-75 of 100. Rockets that start right above the gap land 33 times out of 34. The ones that start far out over a rooftop manage only 18 of 38: they can't get back into the gap in time.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+Should I give them eyes (sensors for the walls) in the next one? Comment yes or no.
+#ai #machinelearning #neuralnetwork #simulation #coding
