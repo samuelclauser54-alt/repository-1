@@ -1,0 +1,16 @@
+100 AIs learning to fly through a cave. It gets narrower the deeper they go. 🦇
+
+Every flyer moves forward on its own. The only control is the engine: hold it to climb, let go to fall. Touch the roof or the floor and you're out. The cave starts 6.8 units tall and closes down to 3 units by the end of the 20-second run.
+• Generation 1: 0 of 100 make it through
+• Generation 2: 11
+• Generation 4: 71
+• Generation 20: 100
+
+Each AI is a tiny neural network (7 inputs, 8 neurons, 1 output: engine power). It sees how far it is from the roof and the floor, its own vertical speed, and where the cave bends 1.5, 3 and 4.5 units ahead. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+It learned fast: one look ahead was enough to go from 0 to 71 in four generations. The next one gets a harder cave.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+What should the next cave have? Best idea in the comments gets built.
+#ai #machinelearning #neuralnetwork #simulation #coding

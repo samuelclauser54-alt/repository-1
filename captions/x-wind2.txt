@@ -1,0 +1,14 @@
+100 AIs learning to land a rocket in a crosswind that never stops. 🌬️🚀
+
+Same rocket as the rest of the series, but a steady wind pushes every rocket to the right the whole flight (1.2 units/s², about 40% of gravity, sideways). To land, a rocket has to lean into the wind and keep fighting it. The pad is 4 units wide; a landing only counts if it is soft, upright and on the pad.
+• Generation 1: 0 of 100 land
+• Generation 30: 12
+• Generation 50: 61
+• Generation 140: 99
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). It can't sense the wind directly. It only knows its own position, speed, tilt and spin, so it has to learn the wind from how it drifts. Every generation, 300 networks fly 4 test flights; the top 30 survive and are copied with small random changes.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+Gusty wind next, or wind that changes direction? Vote in the comments.
+#ai #machinelearning #neuralnetwork #simulation #coding

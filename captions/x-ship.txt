@@ -1,0 +1,16 @@
+100 AIs learning to land a rocket on a ship in a storm. The deck slides side to side AND rises and falls with the waves. 🌊🚀
+
+This is the storm version of the moving-pad reel. The deck is 4.8 units wide, swings 3 units left and right, and heaves 1.3 units up and down on a different rhythm. A landing only counts if it is soft compared with the moving deck, upright, and on the ship. Miss and it's the sea.
+• Generation 1: 0 of 100 land
+• Generation 24: 22
+• Generation 40: 59
+• Generation 90: 91
+
+Each AI is a tiny neural network (11 inputs, 12 neurons, 2 outputs: engine and steering). It sees where the ship is, how fast the deck is moving, and its own position, speed and tilt. Every generation, 300 networks fly 4 test flights in random sea states; the top 30 survive and are copied with small random changes. The 100 you see are that generation's best.
+
+Nobody told them to match the deck's speed before touching down. They found it on their own, because landing on a rising deck too fast counts as a crash.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+What should the rockets face next? Best idea in the comments gets built.
+#ai #machinelearning #neuralnetwork #simulation #coding

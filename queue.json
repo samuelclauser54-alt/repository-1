@@ -1147,6 +1147,16 @@
     "cover": "x-canyon.jpg"
   },
   {
+    "id": "x-1000",
+    "title": "1,000 AIs learning to land a rocket",
+    "video": "x-1000.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "cover": "x-1000.jpg",
+    "comment": "2,000 networks per generation, best 150 kept, best 1,000 shown. Network: 7 inputs, 12 neurons, 2 outputs. The 100-rocket versions are on my page."
+  },
+  {
     "id": "x-tower",
     "title": "Rockets: the pad is on a tower",
     "video": "x-tower.mp4",
@@ -1165,6 +1175,46 @@
     "thumb_ms": 1200,
     "cover": "x-lava.jpg",
     "comment": "Rules: lava rises 1.3 units/s, bounce is automatic, the AI only steers. Network: 8 inputs, 8 neurons, 1 output; 300 networks per generation, top 30 kept. Tested in a shaft it never trained in."
+  },
+  {
+    "id": "x-ship",
+    "title": "Rockets: land on a ship in a storm",
+    "video": "x-ship.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "cover": "x-ship.jpg",
+    "comment": "Deck: 4.8 wide, sways ±3, heaves ±1.3. Network: 11 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept. The calm-water version is earlier on my page."
+  },
+  {
+    "id": "x-cave",
+    "title": "100 AIs learning to fly through a cave",
+    "video": "x-cave.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "cover": "x-cave.jpg",
+    "comment": "Network: 7 inputs, 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested in a cave never used in training."
+  },
+  {
+    "id": "x-weak",
+    "title": "Rockets: the engine is 40% weaker",
+    "video": "x-weak.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "cover": "x-weak.jpg",
+    "comment": "Thrust 4.2 vs gravity 3 (normal thrust is 7). Network: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept."
+  },
+  {
+    "id": "x-wind2",
+    "title": "Rockets: a crosswind that never stops",
+    "video": "x-wind2.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "cover": "x-wind2.jpg",
+    "comment": "Wind 1.2 units/s² sideways vs gravity 3. No wind sensor: 7 inputs (position, speed, tilt, spin), 12 neurons, 2 outputs; 300 networks per generation, top 30 kept."
   },
   {
     "id": "x-pwave",

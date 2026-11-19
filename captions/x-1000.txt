@@ -1,0 +1,16 @@
+1,000 AIs learning to land a rocket, all on screen at once. 🚀
+
+Same rocket as the rest of the series. A landing only counts if it is soft, upright and on the pad. Everything else is a crash.
+• Generation 1: 0 of 1,000 land
+• Generation 6: 160
+• Generation 10: 563
+• Generation 70: 939
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 2,000 networks fly 4 test flights and get one score: closer to the pad, slower and more upright is better. The best 150 survive and are copied with small random changes. The 1,000 you see are that generation's best 1,000, starting from the same 1,000 spots.
+
+With 10 times more of them, the jump happens fast: from 4 landings in generation 3 to 563 in generation 10.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+10,000 next? Comment yes and I'll try it.
+#ai #machinelearning #neuralnetwork #simulation #coding

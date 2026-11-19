@@ -1,0 +1,16 @@
+The engine is now 40% weaker, barely stronger than gravity. 100 AIs learning to land anyway. 🚀
+
+Same rocket, same gravity, but full throttle now only gives 1.4 times the force of gravity (normally it's 2.3). That means braking takes much longer, so the rockets have to start slowing down way earlier. The pad is 4 units wide, and a landing only counts if it is soft, upright and on the pad.
+• Generation 1: 0 of 100 land
+• Generation 20: 10
+• Generation 30: 40
+• Generation 80: 90
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 300 networks fly 4 test flights and get one score: closer to the pad, slower and more upright is better. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, from the same 100 start spots.
+
+Nobody told them "brake early". Rockets that braked late crashed and scored worse, so after enough generations only early brakers were left.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+What should I take away from them next? Best idea in the comments gets built.
+#ai #machinelearning #neuralnetwork #simulation #coding
