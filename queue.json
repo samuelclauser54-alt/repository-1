@@ -1152,11 +1152,13 @@
     "id": "x-1000",
     "title": "1,000 AIs learning to land a rocket",
     "video": "x-1000.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "cover": "x-1000.jpg",
-    "comment": "2,000 networks per generation, best 150 kept, best 1,000 shown. Network: 7 inputs, 12 neurons, 2 outputs. The 100-rocket versions are on my page."
+    "comment": "2,000 networks per generation, best 150 kept, best 1,000 shown. Network: 7 inputs, 12 neurons, 2 outputs. The 100-rocket versions are on my page.",
+    "media_id": "18116837102014703",
+    "posted_at": "2026-11-20T16:02:48.674669+00:00"
   },
   {
     "id": "x-tower",
