@@ -1164,11 +1164,13 @@
     "id": "x-tower",
     "title": "Rockets: the pad is on a tower",
     "video": "x-tower.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "comment": "Tower 6 units tall, pad 2.6 wide. Same network as every rocket reel: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept. Earlier rocket reels are on my page.",
-    "cover": "x-tower.jpg"
+    "cover": "x-tower.jpg",
+    "media_id": "18131698666930401",
+    "posted_at": "2026-11-20T19:02:02.435166+00:00"
   },
   {
     "id": "x-lava",
