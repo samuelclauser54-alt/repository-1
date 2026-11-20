@@ -1140,11 +1140,13 @@
     "id": "x-canyon",
     "title": "Rockets: land between skyscrapers",
     "video": "x-canyon.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "comment": "The networks get no wall sensors: just position, speed, tilt and spin. Start over the gap: 33/34 land. Start over a rooftop: 18/38. Next one gets sensors if enough people say yes.",
-    "cover": "x-canyon.jpg"
+    "cover": "x-canyon.jpg",
+    "media_id": "18142094221639433",
+    "posted_at": "2026-11-20T03:02:02.716665+00:00"
   },
   {
     "id": "x-1000",
