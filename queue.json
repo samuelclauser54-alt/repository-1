@@ -1237,8 +1237,10 @@
     "id": "x-drum",
     "title": "Why a drum doesn't play a note (Bessel modes)",
     "video": "x-drum.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "18210610255375041",
+    "posted_at": "2026-11-20T23:11:00.107256+00:00"
   },
   {
     "id": "x-galton",
