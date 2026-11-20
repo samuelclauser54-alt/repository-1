@@ -23,8 +23,9 @@ for q in json.load(open('$ROOT/queue.json')):
         print('videos/' + q['video'])
         if q.get('cover'): print('covers/' + q['cover'])
 " | while read -r v; do cp "$ROOT/$v" .; done
+cp "$ROOT"/site/* . 2>/dev/null || true   # TikTok pages: callback, privacy, terms, domain-verification file
 touch .nojekyll
-echo '<!doctype html><title>media</title>' > index.html
+[ -f index.html ] || echo '<!doctype html><title>media</title>' > index.html
 git checkout -q --orphan "build-$$" 2>/dev/null || git checkout -q -B "build-$$"
 git add -A
 git commit -q -m "media $(date +%F)"
