@@ -1224,8 +1224,10 @@
     "id": "x-pwave",
     "title": "Pendulum wave (15 lengths, 24 s loop)",
     "video": "x-pwave.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "18440699794194465",
+    "posted_at": "2026-11-20T17:43:33.694567+00:00"
   },
   {
     "id": "x-drum",
