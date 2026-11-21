@@ -1212,11 +1212,13 @@
     "id": "x-weak",
     "title": "Rockets: the engine is 40% weaker",
     "video": "x-weak.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "cover": "x-weak.jpg",
-    "comment": "Thrust 4.2 vs gravity 3 (normal thrust is 7). Network: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept."
+    "comment": "Thrust 4.2 vs gravity 3 (normal thrust is 7). Network: 7 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept.",
+    "media_id": "18106426577361098",
+    "posted_at": "2026-11-21T16:02:01.079562+00:00"
   },
   {
     "id": "x-wind2",
