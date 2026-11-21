@@ -1224,11 +1224,13 @@
     "id": "x-wind2",
     "title": "Rockets: a crosswind that never stops",
     "video": "x-wind2.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "cover": "x-wind2.jpg",
-    "comment": "Wind 1.2 units/s² sideways vs gravity 3. No wind sensor: 7 inputs (position, speed, tilt, spin), 12 neurons, 2 outputs; 300 networks per generation, top 30 kept."
+    "comment": "Wind 1.2 units/s² sideways vs gravity 3. No wind sensor: 7 inputs (position, speed, tilt, spin), 12 neurons, 2 outputs; 300 networks per generation, top 30 kept.",
+    "media_id": "18222360412350174",
+    "posted_at": "2026-11-21T19:02:02.171135+00:00"
   },
   {
     "id": "x-pwave",
