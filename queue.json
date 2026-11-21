@@ -1263,9 +1263,11 @@
     "id": "x-ant",
     "title": "Langton's ant",
     "video": "x-ant.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 12500,
-    "trial": true
+    "trial": true,
+    "media_id": "18123343598062510",
+    "posted_at": "2026-11-21T22:42:58.550660+00:00"
   },
   {
     "id": "x-sand",
