@@ -1252,8 +1252,10 @@
     "id": "x-galton",
     "title": "Galton board: 1500 balls make a bell curve",
     "video": "x-galton.mp4",
-    "status": "queued",
-    "trial": true
+    "status": "posted",
+    "trial": true,
+    "media_id": "17888862927503758",
+    "posted_at": "2026-11-21T17:32:16.380902+00:00"
   },
   {
     "id": "x-ant",
