@@ -1188,11 +1188,13 @@
     "id": "x-ship",
     "title": "Rockets: land on a ship in a storm",
     "video": "x-ship.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "cover": "x-ship.jpg",
-    "comment": "Deck: 4.8 wide, sways ±3, heaves ±1.3. Network: 11 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept. The calm-water version is earlier on my page."
+    "comment": "Deck: 4.8 wide, sways ±3, heaves ±1.3. Network: 11 inputs, 12 neurons, 2 outputs; 300 networks per generation, top 30 kept. The calm-water version is earlier on my page.",
+    "media_id": "17968478406229814",
+    "posted_at": "2026-11-21T00:31:30.684780+00:00"
   },
   {
     "id": "x-cave",
