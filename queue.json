@@ -1200,11 +1200,13 @@
     "id": "x-cave",
     "title": "100 AIs learning to fly through a cave",
     "video": "x-cave.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "cover": "x-cave.jpg",
-    "comment": "Network: 7 inputs, 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested in a cave never used in training."
+    "comment": "Network: 7 inputs, 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested in a cave never used in training.",
+    "media_id": "17979915780178856",
+    "posted_at": "2026-11-21T03:02:09.928420+00:00"
   },
   {
     "id": "x-weak",
