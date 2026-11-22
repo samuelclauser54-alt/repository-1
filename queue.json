@@ -1273,9 +1273,11 @@
     "id": "x-sand",
     "title": "Sandpile 200k grains",
     "video": "x-sand.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 12000,
-    "trial": true
+    "trial": true,
+    "media_id": "18078114863772041",
+    "posted_at": "2026-11-22T17:40:17.738738+00:00"
   },
   {
     "id": "x-turing",
