@@ -1283,9 +1283,11 @@
     "id": "x-turing",
     "title": "Turing patterns spots vs stripes",
     "video": "x-turing.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 14000,
-    "trial": true
+    "trial": true,
+    "media_id": "18037246163853261",
+    "posted_at": "2026-11-22T22:33:22.429530+00:00"
   },
   {
     "id": "x-3pend",
