@@ -1303,8 +1303,10 @@
     "id": "x-billiard",
     "title": "1,000 balls: circle vs stadium (chaos)",
     "video": "x-billiard.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 12000,
-    "trial": true
+    "trial": true,
+    "media_id": "18159109831521859",
+    "posted_at": "2026-11-23T22:22:09.532111+00:00"
   }
 ]
