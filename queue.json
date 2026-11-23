@@ -1293,9 +1293,11 @@
     "id": "x-3pend",
     "title": "500 triple pendulums (chaos, part 2)",
     "video": "x-3pend.mp4",
-    "status": "queued",
+    "status": "posted",
     "thumb_ms": 12000,
-    "trial": true
+    "trial": true,
+    "media_id": "17919258603537887",
+    "posted_at": "2026-11-23T17:38:48.083749+00:00"
   },
   {
     "id": "x-billiard",
