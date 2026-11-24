@@ -1349,11 +1349,13 @@
     "id": "x-stal",
     "title": "Cave part 3: now the cave has spikes",
     "video": "x-stal.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-stal.jpg",
-    "comment": "Spikes every ~8 units, each reaching halfway across. Network: 9 inputs, 8 neurons, 1 output (engine). Parts 1 and 2 are on my page."
+    "comment": "Spikes every ~8 units, each reaching halfway across. Network: 9 inputs, 8 neurons, 1 output (engine). Parts 1 and 2 are on my page.",
+    "media_id": "17987043437905760",
+    "posted_at": "2026-11-24T19:02:04.948432+00:00"
   },
   {
     "id": "x-city2",
