@@ -1390,5 +1390,25 @@
     "thumb_ms": 1400,
     "cover": "x-blind.jpg",
     "comment": "They only feel the walls where they are and half a unit ahead. Network: 5 inputs, 8 neurons, 1 output. Parts 1 to 6 are on my page."
+  },
+  {
+    "id": "x-caveflip",
+    "title": "Cave part 8: gravity flips every 3 s",
+    "video": "x-caveflip.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-caveflip.jpg",
+    "comment": "Gravity switches direction every 3 seconds; the engine always pushes against it. Network: 10 inputs (incl. which way gravity points), 8 neurons, 1 output. Parts 1 to 7 are on my page."
+  },
+  {
+    "id": "x-cavesaw",
+    "title": "Cave part 9: saw blades inside the cave",
+    "video": "x-cavesaw.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-cavesaw.jpg",
+    "comment": "A blade about every 10 units, sliding up and down. Network: 18 inputs (walls + the 3 nearest blades), 8 neurons, 1 output; 500 networks per generation, top 40 kept. Parts 1 to 8 are on my page."
   }
 ]

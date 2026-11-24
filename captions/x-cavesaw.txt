@@ -1,0 +1,17 @@
+Cave series part 9: saw blades inside the cave. 🪚🦇
+
+The cave from part 1, plus a saw blade about every 10 units, sliding up and down. Touch a blade or a wall and you're out.
+• Generation 1: 0 of 100
+• Generation 13: 11 of 100
+• Generation 44: 21 of 100
+• Generation 107: 30 of 100
+
+Each AI is a tiny neural network (18 inputs, 8 neurons, 1 output: engine power). It feels the walls right where it is and 1.5, 3 and 4.5 units ahead, its vertical speed, and for the 3 nearest blades ahead: how far away, how big, and where the bigger gap beside it is. Every generation, 500 networks fly 5 random caves and get one score: how far they got. The top 40 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+The hardest one so far. Even the best generation loses most of its flyers in the last stretch, where the cave is narrowest.
+
+Parts 1 to 8 are on my page. What should part 10 be?
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
