@@ -1361,11 +1361,13 @@
     "id": "x-city2",
     "title": "100 AIs: fly through a city under the radar",
     "video": "x-city2.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-city2.jpg",
-    "comment": "Radar line = rooftops + 3 units, smoothed so it never climbs or drops faster than 0.9 per unit. Network: 9 inputs, 8 neurons, 1 output (engine). The cave series is on my page."
+    "comment": "Radar line = rooftops + 3 units, smoothed so it never climbs or drops faster than 0.9 per unit. Network: 9 inputs, 8 neurons, 1 output (engine). The cave series is on my page.",
+    "media_id": "17893941699653556",
+    "posted_at": "2026-11-24T22:01:59.192475+00:00"
   },
   {
     "id": "x-breathe",
