@@ -1,0 +1,17 @@
+100 AIs learning to fly over a lava lake. 🌋
+
+Every flyer moves forward on its own; the only control is the engine (hold to climb, let go to fall). Lava surges up to 5.6 units high in fast, irregular waves under a low rock ceiling. Touch the lava or the rock and you're out.
+• Generation 1: 0 of 100
+• Generation 9: 22 of 100
+• Generation 18: 69 of 100
+• Generation 93: 87 of 100
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It feels how far the rock and the lava are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. It cannot see the lava move, only where it is right now. Every generation, 300 networks fly 3 random lakes and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a lake they never trained in.
+
+22 of 100 by generation 9, 69 by generation 18, and the best was 87 of 100.
+
+The cave and ocean series (same flyers) are on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

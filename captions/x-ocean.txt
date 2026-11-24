@@ -1,0 +1,17 @@
+100 AIs learning to fly over a stormy ocean. 🌊
+
+Every flyer moves forward on its own; the only control is the engine (hold to climb, let go to fall). Waves up to 5.2 units tall roll under a low storm ceiling. Touch the water or the clouds and you're out.
+• Generation 1: 0 of 100
+• Generation 3: 45 of 100
+• Generation 4: 83 of 100
+• Generation 28: 99 of 100
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It feels how far the clouds and the water are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. It cannot see the waves move, only where the water is right now. Every generation, 300 networks fly 3 random oceans and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a ocean they never trained in.
+
+They learned fast: 45 of 100 by generation 3, 99 by generation 28.
+
+Part 2: the storm gets worse.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

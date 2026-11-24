@@ -1,0 +1,17 @@
+100 AIs learning to fly through a city under the radar. 🌃
+
+Every flyer moves forward on its own; the only control is the engine (hold to climb, let go to fall). The red radar line sits 3 units above the rooftops and never climbs or drops faster than the flyers can. Touch a building or rise into the red and you're out, so they have to dive between towers and climb over the tall ones.
+• Generation 1: 0 of 100
+• Generation 5: 15 of 100
+• Generation 29: 65 of 100
+• Generation 91: 73 of 100
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It feels how far the radar line and the rooftops are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Nobody told it what a building is. Every generation, 300 networks fly 3 random citys and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a city they never trained in.
+
+Diving into a gap and climbing out in time was the hard part: the best run gets 73 of 100 across.
+
+The cave series (same flyers) is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

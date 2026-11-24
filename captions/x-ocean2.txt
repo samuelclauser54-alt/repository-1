@@ -1,0 +1,17 @@
+Stormy ocean part 2: bigger waves, moving faster. 🌊
+
+Waves now reach 6.4 units (part 1: 5.2) and travel 40% faster, under the same low storm ceiling. Touch the water or the clouds and you're out.
+• Generation 1: 0 of 100
+• Generation 21: 19 of 100
+• Generation 51: 66 of 100
+• Generation 97: 75 of 100
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It feels how far the clouds and the water are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Every generation, 300 networks fly 3 random oceans and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a ocean they never trained in.
+
+Part 1 was solved by generation 28. This one took 51 generations to reach 66, and the best was 75 of 100.
+
+Part 1 is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
