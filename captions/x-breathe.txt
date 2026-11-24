@@ -1,0 +1,17 @@
+Cave series part 4: the walls move. 🦇
+
+The cave keeps closing and opening: its height shrinks to 40% and back about every 2 seconds, as a wave that travels along the cave. Every flyer moves forward on its own; the only control is the engine. Touch a wall and you're out.
+• Generation 1: 1 of 100
+• Generation 5: 21 of 100
+• Generation 18: 69 of 100
+• Generation 60: 91 of 100
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It feels how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. It does not see time, so it has to read the squeeze from the walls themselves. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+The best generation got 91 of 100 through.
+
+Parts 1 to 3 are on my page. Part 5: twice as fast.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

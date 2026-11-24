@@ -1308,5 +1308,75 @@
     "trial": true,
     "media_id": "18159109831521859",
     "posted_at": "2026-11-23T22:22:09.532111+00:00"
+  },
+  {
+    "id": "x-asteroids",
+    "title": "100 AIs vs an asteroid field",
+    "video": "x-asteroids.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-asteroids.jpg",
+    "comment": "Network: 18 inputs (walls + the 3 nearest rocks), 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested on a field never used in training. The cave series is on my page."
+  },
+  {
+    "id": "x-stal",
+    "title": "Cave part 3: now the cave has spikes",
+    "video": "x-stal.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-stal.jpg",
+    "comment": "Spikes every ~8 units, each reaching halfway across. Network: 9 inputs, 8 neurons, 1 output (engine). Parts 1 and 2 are on my page."
+  },
+  {
+    "id": "x-saws",
+    "title": "100 AIs vs spinning saw blades",
+    "video": "x-saws.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-saws.jpg",
+    "comment": "Network: 18 inputs (walls + the 3 nearest blades), 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested on a course never used in training."
+  },
+  {
+    "id": "x-breathe",
+    "title": "Cave part 4: the walls move",
+    "video": "x-breathe.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-breathe.jpg",
+    "comment": "The cave shrinks to 40% of its height and back every ~2 s. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 3 are on my page."
+  },
+  {
+    "id": "x-cavefast",
+    "title": "Cave part 5: twice as fast",
+    "video": "x-cavefast.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-cavefast.jpg",
+    "comment": "16 units/s instead of 8. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 4 are on my page."
+  },
+  {
+    "id": "x-zig",
+    "title": "Cave part 6: a zigzag cave",
+    "video": "x-zig.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-zig.jpg",
+    "comment": "A sharp corner every 5 units. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 5 are on my page."
+  },
+  {
+    "id": "x-blind",
+    "title": "Cave part 7: they can't see ahead",
+    "video": "x-blind.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-blind.jpg",
+    "comment": "They only feel the walls where they are and half a unit ahead. Network: 5 inputs, 8 neurons, 1 output. Parts 1 to 6 are on my page."
   }
 ]

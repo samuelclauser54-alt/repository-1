@@ -1,0 +1,17 @@
+100 AIs vs spinning saw blades. 🪚
+
+Every flyer moves forward on its own; the only control is the engine (hold to climb, let go to fall). A saw blade about every 7.5 units, sliding up and down. Touch a blade or a wall and you're out.
+• Generation 1: 0 of 100
+• Generation 12: 11 of 100
+• Generation 136: 32 of 100
+• Generation 140: 43 of 100
+
+Each AI is a tiny neural network (18 inputs, 8 neurons, 1 output: engine power). It feels the walls right where it is and 1.5, 3 and 4.5 units ahead, its vertical speed, and for the 3 nearest blades ahead: how far away, how big, and where the bigger gap beside it is. Every generation, 300 networks fly 3 random courses and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a course they never trained in.
+
+Moving blades are brutal: 140 generations and the best only gets 43 of 100 through.
+
+More of these on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

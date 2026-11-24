@@ -1,0 +1,17 @@
+Cave series part 5: twice as fast. 🦇
+
+Same kind of cave as part 1, but every flyer now moves at 16 units per second instead of 8. Engine and gravity were scaled up so they can still turn. Touch a wall and you're out.
+• Generation 1: 0 of 100
+• Generation 8: 20 of 100
+• Generation 11: 70 of 100
+• Generation 77: 89 of 100
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It feels how far the roof and floor are right where it is and 3, 6 and 9 units ahead, plus its own vertical speed. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+Speed cost a lot: 20 of 100 at generation 8, 70 at generation 11, and the best was 89 of 100 by generation 77.
+
+Parts 1 to 4 are on my page. Part 6: a zigzag cave.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
