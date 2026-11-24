@@ -1337,11 +1337,13 @@
     "id": "x-lavalake",
     "title": "100 AIs learning to fly over a lava lake",
     "video": "x-lavalake.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-lavalake.jpg",
-    "comment": "Lava waves up to 5.6 units. Network: 9 inputs, 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested on a lake never used in training."
+    "comment": "Lava waves up to 5.6 units. Network: 9 inputs, 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested on a lake never used in training.",
+    "media_id": "18001913157111202",
+    "posted_at": "2026-11-24T16:02:01.771902+00:00"
   },
   {
     "id": "x-stal",
