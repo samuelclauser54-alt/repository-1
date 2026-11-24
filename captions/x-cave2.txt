@@ -1,0 +1,17 @@
+Part 2 of the cave series: same cave, half as tall. 🦇
+
+Every flyer moves forward on its own. The only control is the engine: hold it to climb, let go to fall. Touch the roof or the floor and you're out. Part 1's cave went from 6.8 units tall down to 3. This one goes from 3.4 down to 1.5.
+• Generation 1: 0 of 100
+• Generation 6: 21 of 100
+• Generation 13: 67 of 100
+• Generation 60: 98 of 100
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It sees how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+Half the room took longer: part 1 hit 71 of 100 by generation 4, this one needed 13 generations to reach 67.
+
+Part 1 is on my page. Part 3 adds spikes.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
