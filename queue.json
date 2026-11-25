@@ -1506,6 +1506,16 @@
     "comment": "The bends come 2.5x as often by the end. Network: 9 inputs, 8 neurons, 1 output."
   },
   {
+    "id": "x-hardest",
+    "title": "100 AIs vs the hardest cave I could make",
+    "video": "x-hardest.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-hardest.jpg",
+    "comment": "Spikes, breathing walls and 1.5x speed at once. Network: 9 inputs, 12 neurons, 1 output. 500 networks per generation."
+  },
+  {
     "id": "x-caveflip",
     "title": "Cave part 8: gravity flips every 3 s",
     "video": "x-caveflip.mp4",
@@ -1554,6 +1564,16 @@
     "thumb_ms": 1200,
     "cover": "x-dark1000.jpg",
     "comment": "They feel the walls with distance sensors; the light is for you. Network: 9 inputs, 8 neurons, 1 output."
+  },
+  {
+    "id": "x-movespike",
+    "title": "100 AIs vs a cave of moving spikes",
+    "video": "x-movespike.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-movespike.jpg",
+    "comment": "Every spike slides in and out on its own timer. Network: 9 inputs, 12 neurons, 1 output."
   },
   {
     "id": "x-forest",
