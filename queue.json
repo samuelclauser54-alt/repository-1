@@ -1397,11 +1397,13 @@
     "id": "x-ocean",
     "title": "100 AIs learning to fly over a stormy ocean",
     "video": "x-ocean.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-ocean.jpg",
-    "comment": "Waves up to 5.2 units. Network: 9 inputs, 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept. Part 2 is coming."
+    "comment": "Waves up to 5.2 units. Network: 9 inputs, 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept. Part 2 is coming.",
+    "media_id": "18135676183689588",
+    "posted_at": "2026-11-25T16:02:10.225337+00:00"
   },
   {
     "id": "x-cavefast",
