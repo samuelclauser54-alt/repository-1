@@ -1421,11 +1421,13 @@
     "id": "x-dark",
     "title": "100 AIs in a pitch-black cave",
     "video": "x-dark.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-dark.jpg",
-    "comment": "They don't need light: they feel the walls with distance sensors. The light is for you. Network: 9 inputs, 8 neurons, 1 output."
+    "comment": "They don't need light: they feel the walls with distance sensors. The light is for you. Network: 9 inputs, 8 neurons, 1 output.",
+    "media_id": "17880735375576695",
+    "posted_at": "2026-11-25T22:02:03.467354+00:00"
   },
   {
     "id": "x-cavefast",
