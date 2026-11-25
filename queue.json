@@ -1385,11 +1385,13 @@
     "id": "x-saws",
     "title": "100 AIs vs spinning saw blades",
     "video": "x-saws.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-saws.jpg",
-    "comment": "Network: 18 inputs (walls + the 3 nearest blades), 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested on a course never used in training."
+    "comment": "Network: 18 inputs (walls + the 3 nearest blades), 8 neurons, 1 output (engine). 300 networks per generation, top 30 kept, tested on a course never used in training.",
+    "media_id": "17883350373553838",
+    "posted_at": "2026-11-25T03:02:01.342697+00:00"
   },
   {
     "id": "x-ocean",
