@@ -19,6 +19,8 @@ queued = [x for x in merged if x["status"] == "queued"]
 json.dump(posted + queued, open("queue.json.merged", "w"), indent=2)
 print("queued:", [x["id"] for x in queued])
 PY
+git add -A captions covers 2>/dev/null || true      # commit new captions/covers first so the rebase pull can't refuse
+git commit -qm "queue assets $(date +%F)" -- captions covers 2>/dev/null || true
 git checkout -q queue.json            # local changes are saved in the merged file
 git pull -q --rebase origin main
 mv queue.json.merged queue.json
