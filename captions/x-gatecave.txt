@@ -1,0 +1,17 @@
+100 AIs vs a cave where every wall has one gap. 🚪
+
+Every flyer moves forward on its own; the only control is the engine. About every 8 units a wall crosses the cave with a single gap in it, and the gap is never in the same place twice. Touch a wall and you're out.
+• Generation 1: 0 of 100 made it
+• Generation 15: 15 of 100 made it
+• Generation 23: 66 of 100 made it
+• Generation 70: 92 of 100 made it
+
+Each AI is a tiny neural network (13 inputs, 8 neurons, 1 output: engine power). It feels how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, its vertical speed, and how far away the next two gaps are and how high they sit. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+The first version of this got 0 through in 80 generations: the walls are so thin that the wall sensors stepped right over them. Adding a sensor for where the next two gaps are fixed it. 15 of 100 at generation 15, 92 by generation 70.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

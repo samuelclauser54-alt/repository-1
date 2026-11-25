@@ -1,0 +1,17 @@
+100 AIs learning to fly through a cave that gets twistier. 🦇
+
+Every flyer moves forward on its own. The only control is the engine: hold it to climb, let go to fall. Touch the roof or the floor and you're out. The bends get closer together the deeper they go: by the end they come 2.5 times as often.
+• Generation 1: 2 of 100 made it
+• Generation 2: 29 of 100 made it
+• Generation 3: 92 of 100 made it
+• Generation 5: 100 of 100 made it
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It sees how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+Easier than I expected: 100 of 100 by generation 5.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

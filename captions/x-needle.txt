@@ -1,0 +1,17 @@
+100 AIs learning to fly through a crack. 🦇
+
+Every flyer moves forward on its own. The only control is the engine: hold it to climb, let go to fall. Touch the roof or the floor and you're out. The cave starts 6.8 units tall and closes to 1 unit, about 4 flyers wide.
+• Generation 1: 0 of 100 made it
+• Generation 16: 18 of 100 made it
+• Generation 44: 85 of 100 made it
+• Generation 104: 95 of 100 made it
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It sees how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Every generation, 500 networks fly 5 random caves and get one score: how far they got. The top 40 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+This took far longer than any normal cave: 16 generations to get 18 through, 104 to get 95.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

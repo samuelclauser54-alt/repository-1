@@ -1,0 +1,15 @@
+Generation 1 vs generation 10, same cave, same start. 🦇
+
+Both groups fly at the same time. Red is generation 1 (random networks), blue is generation 10. Every flyer moves forward on its own; the only control is the engine. Touch the roof or the floor and you're out.
+• Generation 1: 1 of 100 made it
+• Generation 10: 100 of 100 made it
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It sees how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+Nine rounds of keep-the-best-and-copy-with-small-changes is all it took.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

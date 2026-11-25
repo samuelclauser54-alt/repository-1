@@ -1,14 +1,14 @@
 100 AIs vs a cave full of icicles. 🧊
 
 Every flyer moves forward on its own; the only control is the engine (hold to climb, let go to fall). An icicle hangs from the roof about every 4 units, each 40 to 80% as long as the cave is tall. Touch an icicle, the roof or the floor and you're out.
-• Generation 1: 0 of 100
-• Generation 17: 18 of 100
-• Generation 34: 38 of 100
-• Generation 94: 56 of 100
+• Generation 1: 0 of 100 made it
+• Generation 6: 16 of 100 made it
+• Generation 28: 71 of 100 made it
+• Generation 62: 75 of 100 made it
 
 Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). It feels how far the roof (icicles included) and the floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Nobody told it what an icicle is. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
 
-Hard one: they learned to hug the floor under the icicles, but the best generation still only gets 56 of 100 through.
+Hard one: they learned to hug the floor under the icicles, but the best generation still only gets 75 of 100 through.
 
 The cave series (same flyers) is on my page.
 

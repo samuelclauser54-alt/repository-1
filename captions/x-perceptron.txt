@@ -1,0 +1,17 @@
+This AI's whole brain is one neuron. Can it fly a cave? 🧠
+
+Every flyer moves forward on its own. The only control is the engine: hold it to climb, let go to fall. Touch the roof or the floor and you're out. Same cave rules as the original cave video.
+• Generation 1: 2 of 100 made it
+• Generation 2: 12 of 100 made it
+• Generation 3: 67 of 100 made it
+• Generation 10: 100 of 100 made it
+
+Each AI is a single neuron: 9 inputs, each with its own weight, plus one bias. That's 10 numbers, and its output is the engine power. It feels how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+I expected this to fail. A single neuron can only add up its inputs with fixed weights and squash the result, but that turned out to be enough: 67 of 100 by generation 3 and all 100 by generation 10.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
