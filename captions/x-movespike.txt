@@ -1,0 +1,17 @@
+100 AIs vs a cave of moving spikes. 🦇
+
+Every flyer moves forward on its own; the only control is the engine. A spike sticks out of the roof or floor about every 8 units, and each one keeps sliding in and out. Touch a spike or a wall and you're out.
+• Generation 1: 0 of 100 made it
+• Generation 6: 16 of 100 made it
+• Generation 43: 48 of 100 made it
+• Generation 130: 61 of 100 made it
+
+Each AI is a tiny neural network (9 inputs, 12 neurons, 1 output: engine power). It feels how far the roof and floor are (spikes included, wherever they are right now) right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. Every generation, 500 networks fly 5 random caves and get one score: how far they got. The top 40 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+Much harder than still spikes: 16 of 100 at generation 6, 48 at generation 43, and the best was 61 of 100 after 130 generations. A spike that is short when you see it can be long when you get there.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

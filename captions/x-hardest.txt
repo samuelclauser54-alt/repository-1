@@ -1,0 +1,17 @@
+100 AIs vs the hardest cave I could make. 🦇
+
+Everything at once: a spike about every 10 units, walls that keep closing in and opening up, and 1.5x the normal speed. Every flyer moves forward on its own; the only control is the engine. Touch a spike or a wall and you're out.
+• Generation 1: 0 of 100 made it
+• Generation 58: 12 of 100 made it
+• Generation 110: 30 of 100 made it
+• Generation 111: 43 of 100 made it
+
+Each AI is a tiny neural network (9 inputs, 12 neurons, 1 output: engine power). It feels how far the roof and floor are (spikes included) right where it is and 2.25, 4.5 and 6.75 units ahead, plus its own vertical speed. Every generation, 500 networks fly 5 random caves and get one score: how far they got. The top 40 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+For the first 44 generations, never more than 2 of 100 got through. The best generation was 111, with 43 of 100 reaching the end; the ones after it did worse.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
