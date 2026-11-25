@@ -1406,6 +1406,16 @@
     "posted_at": "2026-11-25T16:02:10.225337+00:00"
   },
   {
+    "id": "x-cave1000",
+    "title": "1,000 AIs learning to fly through a cave",
+    "video": "x-cave1000.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "cover": "x-cave1000.jpg",
+    "comment": "Same cave rules as the original, 10x the flyers. Network: 9 inputs, 8 neurons, 1 output."
+  },
+  {
     "id": "x-cavefast",
     "title": "Cave part 5: twice as fast",
     "video": "x-cavefast.mp4",
@@ -1414,6 +1424,16 @@
     "thumb_ms": 1400,
     "cover": "x-cavefast.jpg",
     "comment": "16 units/s instead of 8. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 4 are on my page."
+  },
+  {
+    "id": "x-dark",
+    "title": "100 AIs in a pitch-black cave",
+    "video": "x-dark.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1400,
+    "cover": "x-dark.jpg",
+    "comment": "They don't need light: they feel the walls with distance sensors. The light is for you. Network: 9 inputs, 8 neurons, 1 output."
   },
   {
     "id": "x-zig",

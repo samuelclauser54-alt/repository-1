@@ -1,0 +1,17 @@
+100 AIs fly through a pitch-black cave. The only light is their own. 🔦
+
+Every flyer moves forward on its own. The only control is the engine: hold it to climb, let go to fall. Touch the roof or the floor and you're out. Each flyer lights up the rock around it, so when one crashes, its light goes out.
+• Generation 1: 2 of 100 made it
+• Generation 2: 15 of 100 made it
+• Generation 4: 96 of 100 made it
+• Generation 5: 100 of 100 made it
+
+Each AI is a tiny neural network (9 inputs, 8 neurons, 1 output: engine power). They don't actually need light: each one feels how far the roof and floor are right where it is and 1.5, 3 and 4.5 units ahead, plus its own vertical speed. The darkness is for you, not them. Every generation, 300 networks fly 3 random caves and get one score: how far they got. The top 30 survive and are copied with small random changes. The 100 you see are that generation's best, in a cave they never trained in.
+
+Same cave rules as the original cave video. Generation 1 was a fireworks show; by generation 5 all 100 got through.
+
+The rest of the cave series is on my page.
+
+Want to run it yourself? Live demo: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
