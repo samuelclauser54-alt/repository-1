@@ -1373,11 +1373,13 @@
     "id": "x-breathe",
     "title": "Cave part 4: the walls move",
     "video": "x-breathe.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-breathe.jpg",
-    "comment": "The cave shrinks to 40% of its height and back every ~2 s. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 3 are on my page."
+    "comment": "The cave shrinks to 40% of its height and back every ~2 s. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 3 are on my page.",
+    "media_id": "18084728894345545",
+    "posted_at": "2026-11-25T00:30:49.678277+00:00"
   },
   {
     "id": "x-saws",
