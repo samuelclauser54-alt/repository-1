@@ -1588,6 +1588,16 @@
     "comment": "An icicle every ~4 units, 40-80% of the cave height. Network: 9 inputs, 8 neurons, 1 output (engine). The cave series is on my page."
   },
   {
+    "id": "x-cave10k",
+    "title": "10,000 AIs learning to fly through a cave",
+    "video": "x-cave10k.mp4",
+    "status": "queued",
+    "format": "ai-learns",
+    "thumb_ms": 1200,
+    "cover": "x-cave10k.jpg",
+    "comment": "Same cave rules as the original, 100x the flyers. Network: 9 inputs, 8 neurons, 1 output."
+  },
+  {
     "id": "x-cavesaw",
     "title": "Cave part 9: saw blades inside the cave",
     "video": "x-cavesaw.mp4",
