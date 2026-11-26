@@ -1445,11 +1445,13 @@
     "id": "x-perceptron",
     "title": "This AI's brain is a single neuron",
     "video": "x-perceptron.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-perceptron.jpg",
-    "comment": "9 inputs, 9 weights, 1 bias, output = engine power. 10 numbers total, and it still learned the cave."
+    "comment": "9 inputs, 9 weights, 1 bias, output = engine power. 10 numbers total, and it still learned the cave.",
+    "media_id": "18647181520004704",
+    "posted_at": "2026-11-26T03:00:50.450629+00:00"
   },
   {
     "id": "x-duel",
