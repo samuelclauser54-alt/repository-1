@@ -1,0 +1,22 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Authorization code</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;background:#fff;color:#111}
+code{display:block;word-break:break-all;background:#f2f2f2;padding:12px;border-radius:8px;font-size:14px}
+button{margin-top:12px;padding:10px 16px;font-size:16px}</style>
+<h1>atc5.builds posting tool</h1>
+<p id="msg">Reading the response from TikTok…</p>
+<code id="code"></code>
+<button id="copy" hidden>Copy code</button>
+<script>
+const p = new URLSearchParams(location.search);
+const code = p.get("code"), err = p.get("error");
+const msg = document.getElementById("msg"), box = document.getElementById("code"), btn = document.getElementById("copy");
+if (code) {
+  msg.textContent = "Authorized. Copy this code and paste it into: python3 scripts/tiktok.py code <CODE>";
+  box.textContent = code; btn.hidden = false;
+  btn.onclick = () => navigator.clipboard.writeText(code).then(() => btn.textContent = "Copied");
+} else {
+  msg.textContent = err ? "TikTok returned an error: " + err + " " + (p.get("error_description") || "") : "No code in this link.";
+  box.hidden = true;
+}
+</script>
