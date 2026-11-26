@@ -1,0 +1,19 @@
+1,000 AIs learning to fly through gates. They start out knowing nothing. 🕹️
+
+Each AI is a tiny neural network (4 inputs, 6 neurons, 1 output: flap or don't). It sees how far the next gap is above or below it, its own speed, and the distance to the gate.
+• Generation 1: 84 of 1,000 get through the first gate
+• Generation 3: 266
+• Generation 5: 824
+• Generation 40: 997 pass the first gate and 945 clear all 14 gates in the video
+
+How it learns: every generation, 3,000 networks fly 3 random courses and get one number back: how far they got. The top 300 survive and are copied with small random changes. No examples, no instructions. The 1,000 you see are that generation's best, flying a course they never trained on.
+
+The original video had 100. With 10x the crowd, evolution found good flyers faster: by generation 7, 993 of 1,000 got through the first gate.
+
+It's not perfect: on a 100-gate version of this course, 828 of the final 1,000 make it to the end.
+
+What should 1,000 AIs learn next? 👇
+
+Live demo you can run yourself: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding

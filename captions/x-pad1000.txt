@@ -1,0 +1,17 @@
+1,000 AIs learning to land a rocket on a pad 3x smaller than normal. Nobody shows them how. 🚀
+
+Same rocket, same gravity. The pad is 2.6 units wide, and a landing only counts if it is soft, upright and on the pad. Landing softly next to it is a crash.
+• Generation 1: 0 of 1,000 land
+• Generation 10: 297
+• Generation 20: 664
+• Generation 110: 914
+
+Each AI is a tiny neural network (7 inputs, 12 neurons, 2 outputs: engine and steering). Every generation, 2,000 networks fly 4 test flights and get one score (closer to the pad, slower and more upright is better). The top 150 survive and are copied with small random changes. The 1,000 you see are that generation's best.
+
+The 100-rocket version of this got 99 of 100 down. With 1,000 on screen you see every way to miss: drifting wide, coming in too fast, tipping over on the edge.
+
+What should 1,000 AIs learn next? 👇
+
+Live demo you can run yourself: samuelclauser54-alt.github.io/evolve-lab
+
+#ai #machinelearning #neuralnetwork #simulation #coding
