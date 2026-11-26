@@ -1457,11 +1457,13 @@
     "id": "x-duel",
     "title": "Generation 1 vs generation 10",
     "video": "x-duel.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1000,
     "cover": "x-duel.jpg",
-    "comment": "Red = generation 1 (random networks). Blue = generation 10. Network: 9 inputs, 8 neurons, 1 output."
+    "comment": "Red = generation 1 (random networks). Blue = generation 10. Network: 9 inputs, 8 neurons, 1 output.",
+    "media_id": "17962325145014054",
+    "posted_at": "2026-11-26T16:02:03.858827+00:00"
   },
   {
     "id": "x-zig",
