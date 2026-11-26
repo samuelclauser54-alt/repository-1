@@ -1469,11 +1469,13 @@
     "id": "x-zig",
     "title": "Cave part 6: a zigzag cave",
     "video": "x-zig.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-zig.jpg",
-    "comment": "A sharp corner every 5 units. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 5 are on my page."
+    "comment": "A sharp corner every 5 units. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 5 are on my page.",
+    "media_id": "18099756041447330",
+    "posted_at": "2026-11-26T19:01:58.055178+00:00"
   },
   {
     "id": "x-needle",
