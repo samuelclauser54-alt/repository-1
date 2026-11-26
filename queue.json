@@ -1433,11 +1433,13 @@
     "id": "x-cavefast",
     "title": "Cave part 5: twice as fast",
     "video": "x-cavefast.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-cavefast.jpg",
-    "comment": "16 units/s instead of 8. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 4 are on my page."
+    "comment": "16 units/s instead of 8. Network: 9 inputs, 8 neurons, 1 output. Parts 1 to 4 are on my page.",
+    "media_id": "18135809543493010",
+    "posted_at": "2026-11-26T00:30:51.276091+00:00"
   },
   {
     "id": "x-perceptron",
