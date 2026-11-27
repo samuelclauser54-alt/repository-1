@@ -1513,11 +1513,13 @@
     "id": "x-needle",
     "title": "100 AIs learning to fly through a crack",
     "video": "x-needle.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-needle.jpg",
-    "comment": "The cave closes from 6.8 units tall to 1 unit, about 4 flyers wide. Network: 9 inputs, 8 neurons, 1 output."
+    "comment": "The cave closes from 6.8 units tall to 1 unit, about 4 flyers wide. Network: 9 inputs, 8 neurons, 1 output.",
+    "media_id": "18132002626880155",
+    "posted_at": "2026-11-27T00:31:39.655366+00:00"
   },
   {
     "id": "x-gatecave",
