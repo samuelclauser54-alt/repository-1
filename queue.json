@@ -1525,11 +1525,13 @@
     "id": "x-gatecave",
     "title": "100 AIs. Every wall has one gap.",
     "video": "x-gatecave.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-gatecave.jpg",
-    "comment": "A wall every 8 units with one gap at a random height. Network: 13 inputs (incl. where the next 2 gaps are), 12 neurons, 1 output."
+    "comment": "A wall every 8 units with one gap at a random height. Network: 13 inputs (incl. where the next 2 gaps are), 12 neurons, 1 output.",
+    "media_id": "18116816060583868",
+    "posted_at": "2026-11-27T03:02:06.079337+00:00"
   },
   {
     "id": "x-blind",
