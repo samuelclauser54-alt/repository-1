@@ -1561,11 +1561,13 @@
     "id": "x-twisty",
     "title": "100 AIs in a cave that gets twistier",
     "video": "x-twisty.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-twisty.jpg",
-    "comment": "The bends come 2.5x as often by the end. Network: 9 inputs, 8 neurons, 1 output."
+    "comment": "The bends come 2.5x as often by the end. Network: 9 inputs, 8 neurons, 1 output.",
+    "media_id": "18086434598727781",
+    "posted_at": "2026-11-27T22:01:58.038714+00:00"
   },
   {
     "id": "x-hardest",
