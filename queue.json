@@ -1537,11 +1537,13 @@
     "id": "x-blind",
     "title": "Cave part 7: they can't see ahead",
     "video": "x-blind.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-blind.jpg",
-    "comment": "They only feel the walls where they are and half a unit ahead. Network: 5 inputs, 8 neurons, 1 output. Parts 1 to 6 are on my page."
+    "comment": "They only feel the walls where they are and half a unit ahead. Network: 5 inputs, 8 neurons, 1 output. Parts 1 to 6 are on my page.",
+    "media_id": "18138861754641096",
+    "posted_at": "2026-11-27T16:02:00.528404+00:00"
   },
   {
     "id": "x-pad1000",
