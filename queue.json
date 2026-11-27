@@ -1549,11 +1549,13 @@
     "id": "x-pad1000",
     "title": "1,000 AIs. The landing pad is 3x smaller.",
     "video": "x-pad1000.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1500,
     "cover": "x-pad1000.jpg",
-    "comment": "Network: 7 inputs, 12 neurons, 2 outputs (engine and steering). 2,000 networks per generation, top 150 kept."
+    "comment": "Network: 7 inputs, 12 neurons, 2 outputs (engine and steering). 2,000 networks per generation, top 150 kept.",
+    "media_id": "18138680752670955",
+    "posted_at": "2026-11-27T19:02:04.802946+00:00"
   },
   {
     "id": "x-twisty",
