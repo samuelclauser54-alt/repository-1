@@ -1597,11 +1597,13 @@
     "id": "x-ice",
     "title": "100 AIs vs a cave full of icicles",
     "video": "x-ice.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "cover": "x-ice.jpg",
-    "comment": "An icicle every ~4 units, 40-80% of the cave height. Network: 9 inputs, 8 neurons, 1 output (engine). The cave series is on my page."
+    "comment": "An icicle every ~4 units, 40-80% of the cave height. Network: 9 inputs, 8 neurons, 1 output (engine). The cave series is on my page.",
+    "media_id": "17918501388473613",
+    "posted_at": "2026-11-28T16:02:06.354860+00:00"
   },
   {
     "id": "x-cave10k",
