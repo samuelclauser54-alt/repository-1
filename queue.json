@@ -1573,11 +1573,13 @@
     "id": "x-hardest",
     "title": "100 AIs vs the hardest cave I could make",
     "video": "x-hardest.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-hardest.jpg",
-    "comment": "Spikes, breathing walls and 1.5x speed at once. Network: 9 inputs, 12 neurons, 1 output. 500 networks per generation."
+    "comment": "Spikes, breathing walls and 1.5x speed at once. Network: 9 inputs, 12 neurons, 1 output. 500 networks per generation.",
+    "media_id": "18132836749954301",
+    "posted_at": "2026-11-28T00:30:48.873700+00:00"
   },
   {
     "id": "x-caveflip",
