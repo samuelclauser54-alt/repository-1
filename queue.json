@@ -1609,11 +1609,13 @@
     "id": "x-cave10k",
     "title": "10,000 AIs learning to fly through a cave",
     "video": "x-cave10k.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1200,
     "cover": "x-cave10k.jpg",
-    "comment": "Same cave rules as the original, 100x the flyers. Network: 9 inputs, 8 neurons, 1 output."
+    "comment": "Same cave rules as the original, 100x the flyers. Network: 9 inputs, 8 neurons, 1 output.",
+    "media_id": "18321800602303612",
+    "posted_at": "2026-11-28T19:02:00.217759+00:00"
   },
   {
     "id": "x-cavesaw",
