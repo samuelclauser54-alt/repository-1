@@ -1585,11 +1585,13 @@
     "id": "x-caveflip",
     "title": "Cave part 8: gravity flips every 3 s",
     "video": "x-caveflip.mp4",
-    "status": "queued",
+    "status": "posted",
     "format": "ai-learns",
     "thumb_ms": 1400,
     "cover": "x-caveflip.jpg",
-    "comment": "Gravity switches direction every 3 seconds; the engine always pushes against it. Network: 10 inputs (incl. which way gravity points), 8 neurons, 1 output. Parts 1 to 7 are on my page."
+    "comment": "Gravity switches direction every 3 seconds; the engine always pushes against it. Network: 10 inputs (incl. which way gravity points), 8 neurons, 1 output. Parts 1 to 7 are on my page.",
+    "media_id": "17921087220500429",
+    "posted_at": "2026-11-28T03:02:09.374515+00:00"
   },
   {
     "id": "x-ice",
